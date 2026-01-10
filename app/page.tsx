@@ -1,6 +1,9 @@
+import EscortCollage from "@/components/EscortCollage";
+
 export default function HomePage() {
   return (
     <>
+ <EscortCollage />
       {/* HERO */}
 <section
   className="relative py-28 bg-cover bg-center"
