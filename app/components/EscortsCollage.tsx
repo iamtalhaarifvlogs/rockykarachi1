@@ -4,12 +4,12 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 
 const models = [
-  { id: 1, src: "/models/model1.jpg", style: "top-24 left-6" },
-  { id: 2, src: "/models/model2.jpg", style: "top-1/3 right-8" },
-  { id: 3, src: "/models/model3.jpg", style: "bottom-28 left-10" },
-  { id: 4, src: "/models/model4.jpg", style: "top-20 right-1/4" },
-  { id: 5, src: "/models/model5.jpg", style: "bottom-32 right-12" },
-  { id: 6, src: "/models/model6.jpg", style: "top-1/2 left-1/4" },
+  { id: 1, src: "/model1.jpg", style: "top-24 left-6" },
+  { id: 2, src: "/model2.jpg", style: "top-1/3 right-8" },
+  { id: 3, src: "/model3.jpg", style: "bottom-28 left-10" },
+  { id: 4, src: "/model4.jpg", style: "top-20 right-1/4" },
+  { id: 5, src: "/model5.jpg", style: "bottom-32 right-12" },
+  { id: 6, src: "/model6.jpg", style: "top-1/2 left-1/4" },
 ];
 
 export default function EscortCollage() {
