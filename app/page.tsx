@@ -1,5 +1,5 @@
 import EscortCollage from "@/app/components/EscortCollage";
-import WhatsAppButton from "@/components/WhatsAppButton";
+import WhatsAppButton from "@/app/components/WhatsAppButton";
 
 
 export default function HomePage() {
