@@ -12,7 +12,7 @@ const models = [
   { id: 6, src: "/model6.jpg", style: "top-1/2 left-1/4" },
 ];
 
-export default function EscortCollage() {
+export default function EscortsCollage() {
   const [visible, setVisible] = useState<number[]>([]);
   const [showMessage, setShowMessage] = useState(false);
 
