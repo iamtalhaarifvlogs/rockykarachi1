@@ -5,7 +5,6 @@ import WhatsAppButton from "@/app/components/WhatsAppButton";
 export default function HomePage() {
   return (
     <>
- <EscortsCollage />
 <WhatsAppButton />
       {/* HERO */}
 <section
