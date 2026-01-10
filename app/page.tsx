@@ -11,7 +11,7 @@ export default function HomePage() {
 
   <div className="relative container mx-auto px-4 text-center">
     <h1 className="text-4xl md:text-5xl font-light text-white mb-6 tracking-wide">
-      Top-Rated Karachi Escorts | VIP Call Girls 24/7 Available – Book Now
+      Top-Rated Karachi Escorts | VIP Call Girls 24/7 Available – Call Now 03708540579
     </h1>
 
     <h2 className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed mb-6">
