@@ -4,59 +4,63 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 
 const models = [
-  { id: 1, src: "/models/model1.jpg", className: "top-24 left-6" },
-  { id: 2, src: "/models/model2.jpg", className: "top-1/3 right-8" },
-  { id: 3, src: "/models/model3.jpg", className: "bottom-24 left-10" },
-  { id: 4, src: "/models/model4.jpg", className: "top-20 right-1/4" },
-  { id: 5, src: "/models/model5.jpg", className: "bottom-32 right-12" },
-  { id: 6, src: "/models/model6.jpg", className: "top-1/2 left-1/4" },
+  { id: 1, src: "/models/model1.jpg", style: "top-24 left-6" },
+  { id: 2, src: "/models/model2.jpg", style: "top-1/3 right-8" },
+  { id: 3, src: "/models/model3.jpg", style: "bottom-28 left-10" },
+  { id: 4, src: "/models/model4.jpg", style: "top-20 right-1/4" },
+  { id: 5, src: "/models/model5.jpg", style: "bottom-32 right-12" },
+  { id: 6, src: "/models/model6.jpg", style: "top-1/2 left-1/4" },
 ];
 
 export default function EscortCollage() {
-  const [visibleCount, setVisibleCount] = useState(0);
+  const [visible, setVisible] = useState<number[]>([]);
   const [showMessage, setShowMessage] = useState(false);
 
   useEffect(() => {
+    let index = 0;
+
     const interval = setInterval(() => {
-      setVisibleCount((prev) => {
-        if (prev < models.length) return prev + 1;
+      setVisible((prev) => [...prev, index]);
+      index++;
+
+      if (index === models.length) {
         clearInterval(interval);
         setTimeout(() => setShowMessage(true), 1200);
-        return prev;
-      });
-    }, 700);
+      }
+    }, 600);
 
     return () => clearInterval(interval);
   }, []);
 
   return (
     <>
-      {/* Floating Models */}
-      <div className="pointer-events-none fixed inset-0 z-30 hidden md:block">
-        {models.map((model, index) => (
+      {/* Floating Images */}
+      <div className="fixed inset-0 z-40 pointer-events-none">
+        {models.map((model, i) => (
           <div
             key={model.id}
-            className={`absolute ${model.className} transition-all duration-700 ${
-              index < visibleCount
+            className={`absolute ${model.style} transition-all duration-700 ease-out ${
+              visible.includes(i)
                 ? "opacity-80 scale-100"
                 : "opacity-0 scale-90"
             }`}
           >
             <Image
               src={model.src}
-              alt="Escort model"
+              alt="Model"
               width={140}
               height={200}
-              className="rounded-xl shadow-xl"
+              priority
+              className="rounded-xl shadow-2xl"
             />
           </div>
         ))}
       </div>
 
-      {/* Soft Message */}
+      {/* Message Bubble */}
       {showMessage && (
-        <div className="fixed bottom-10 right-10 z-40 animate-fadeIn">
-          <div className="bg-black border border-yellow-500/40 px-6 py-4 rounded-xl shadow-lg">
+        <div className="fixed bottom-10 right-10 z-50 transition-opacity duration-700 opacity-100">
+          <div className="bg-black border border-yellow-500/60 px-6 py-4 rounded-xl shadow-xl">
             <p className="text-yellow-500 text-sm tracking-wide">
               I’m ready for you ✨
             </p>
