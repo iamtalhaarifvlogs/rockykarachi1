@@ -33,6 +33,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-black text-gray-200">
         <Header />
+<WhatsAppButton />
         <main className="min-h-screen">{children}</main>
         <Footer />
       </body>
