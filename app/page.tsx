@@ -1,59 +1,85 @@
 export default function HomePage() {
   return (
-    <section className="container mx-auto px-4 py-10">
-      {/* H1 with Phone Number */}
-      <h1 className="text-center text-3xl md:text-4xl font-bold text-yellow-500 mb-6">
-        Call / WhatsApp: 03708540579
-      </h1>
+    <>
+      {/* HERO SECTION */}
+      <section className="relative bg-gradient-to-b from-black via-gray-900 to-black py-20">
+        <div className="container mx-auto px-4 text-center">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-yellow-500 mb-4 tracking-wide">
+            Call / WhatsApp: 03708540579
+          </h1>
 
-      <h2 className="text-center text-2xl font-semibold text-yellow-400 mb-4">
-        Rocky Escorts Karachi – Premium Escort Services
-      </h2>
+          <h2 className="text-2xl md:text-3xl font-semibold text-gray-200 mb-6">
+            Rocky Escorts Karachi – Elite & Discreet Escort Services
+          </h2>
 
-      <p className="max-w-4xl mx-auto text-center text-gray-300 mb-10 leading-relaxed">
-        Rocky Escorts Karachi provides high-class escort services in Karachi.
-        Our agency connects you with elegant, verified, and professional
-        companions for private meetings, tours, and exclusive experiences.
-        Discretion and satisfaction are guaranteed.
-      </p>
+          <p className="max-w-3xl mx-auto text-gray-400 text-lg leading-relaxed">
+            Experience luxury companionship with verified, elegant, and
+            professional escorts in Karachi. We offer 24/7 availability,
+            complete discretion, and premium service.
+          </p>
 
-      {/* Grid Section */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {[
-          "VIP Escorts Karachi",
-          "Luxury Call Girls",
-          "24/7 Escort Service",
-          "Elite Companions",
-          "Discreet Meetings",
-          "Premium Karachi Escorts",
-        ].map((title, index) => (
-          <div
-            key={index}
-            className="border border-yellow-500 rounded-xl p-6 bg-gradient-to-b from-black to-gray-900 hover:shadow-lg hover:shadow-yellow-500/20 transition"
-          >
-            <h3 className="text-xl font-semibold text-yellow-400 mb-2">
-              {title}
-            </h3>
-            <p className="text-gray-400 text-sm">
-              Experience premium escort services in Karachi with trusted and
-              professional companions available for private and social meetings.
-            </p>
+          <div className="mt-8">
+            <a
+              href="https://wa.me/923708540579"
+              className="inline-block bg-yellow-500 text-black font-semibold px-8 py-3 rounded-full hover:bg-yellow-400 transition"
+            >
+              Book on WhatsApp
+            </a>
           </div>
-        ))}
-      </div>
+        </div>
+      </section>
 
-      {/* SEO Content Section */}
-      <div className="max-w-5xl mx-auto mt-14 text-gray-300 leading-relaxed">
-        <h2 className="text-2xl font-semibold text-yellow-400 mb-4">
-          Why Choose Rocky Escorts Karachi?
+      {/* SERVICES GRID */}
+      <section className="container mx-auto px-4 py-20">
+        <h2 className="text-center text-3xl font-bold text-yellow-400 mb-12">
+          Our Premium Escort Services in Karachi
         </h2>
-        <p>
-          We are one of the most trusted escort agencies in Karachi, offering
-          luxury services with complete privacy. Whether you are looking for
-          companionship, dinner dates, or private time, Rocky Escorts Karachi
-          ensures top-tier service and satisfaction.
-        </p>
-      </div>
-    </section>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {[
+            "VIP Escorts Karachi",
+            "Luxury Call Girls",
+            "Elite Companions",
+            "Discreet Private Meetings",
+            "24/7 Escort Services",
+            "High-Class Karachi Escorts",
+          ].map((title, index) => (
+            <div
+              key={index}
+              className="group relative bg-gradient-to-br from-gray-900 to-black border border-yellow-500/30 rounded-2xl p-8 hover:border-yellow-500 hover:shadow-2xl hover:shadow-yellow-500/10 transition"
+            >
+              <h3 className="text-xl font-semibold text-yellow-400 mb-3">
+                {title}
+              </h3>
+              <p className="text-gray-400 leading-relaxed">
+                Enjoy premium escort services in Karachi with verified models,
+                complete privacy, and unmatched satisfaction.
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* SEO CONTENT */}
+      <section className="bg-black border-t border-yellow-500/20 py-16">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <h2 className="text-3xl font-bold text-yellow-400 mb-6">
+            Why Choose Rocky Escorts Karachi?
+          </h2>
+
+          <p className="text-gray-300 leading-relaxed mb-4">
+            Rocky Escorts Karachi is a trusted name in luxury escort services.
+            Our companions are selected for beauty, elegance, and professionalism.
+            We guarantee discreet arrangements and unforgettable experiences.
+          </p>
+
+          <p className="text-gray-300 leading-relaxed">
+            Whether you’re a local resident or visiting Karachi, our escort
+            services offer privacy, comfort, and premium companionship tailored
+            to your desires.
+          </p>
+        </div>
+      </section>
+    </>
   );
 }
