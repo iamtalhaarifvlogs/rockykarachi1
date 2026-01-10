@@ -5,7 +5,8 @@ export default function HomePage() {
       <section className="relative bg-gradient-to-b from-black via-gray-900 to-black py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold text-yellow-500 mb-4 tracking-wide">
-            Call / WhatsApp: 03708540579
+           Top-Rated Karachi Escorts | VIP Call Girls 24/7 Available – Book Now
+Discover the most trusted Karachi escorts service at m2.dhakarachiescorts.com. Book VIP call girls, models, and college escorts in Clifton, DHA, Bahria Town & top hotels. 100% real photos, full privacy, fast outcall – Call Now: 03708540579
           </h1>
 
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-200 mb-6">
