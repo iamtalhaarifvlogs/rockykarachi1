@@ -76,27 +76,139 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* AREAS */}
-      <section className="bg-gradient-to-br from-black to-gray-900 py-20">
-        <div className="container mx-auto px-4 max-w-6xl text-gray-300">
-          <h3 className="text-2xl font-semibold text-yellow-400 mb-8">
-            Escort Services by Area in Karachi
-          </h3>
+    {/* SERVICES & AREAS – SEO POWER SECTION */}
+<section className="relative bg-gradient-to-b from-black via-gray-900 to-black py-24">
+  <div className="container mx-auto px-4 max-w-6xl text-gray-300">
 
-          {[
-            ["DHA Karachi Escorts", "Premium, elegant companions for upscale living."],
-            ["Clifton Karachi Escorts", "Stylish escorts near Seaview and Boat Basin."],
-            ["Malir Karachi Escorts", "Private, discreet outcall services."],
-            ["Nazimabad Karachi Escorts", "Local girls with traditional charm."],
-            ["Bahria Town Karachi Escorts", "VIP companions in modern luxury settings."],
-          ].map(([title, desc], i) => (
-            <div key={i} className="mb-6">
-              <h4 className="text-xl text-yellow-300 font-medium">{title}</h4>
-              <p className="text-gray-400">{desc}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+    {/* H2 */}
+    <h2 className="text-3xl md:text-4xl font-light text-white mb-8 tracking-wide">
+      Escort Services in Karachi – Customized for Your Desires
+    </h2>
+
+    <p className="mb-6 leading-relaxed text-gray-300">
+      Our escort services in Karachi are designed to suit all situations — whether
+      you want a passionate girlfriend experience (GFE), a relaxing massage, or
+      an unforgettable night filled with intimacy and fun. At rockyescortskarchi,
+      discretion, comfort, and satisfaction always come first.
+    </p>
+
+    {/* H3 */}
+    <h3 className="text-2xl font-semibold text-yellow-400 mb-4">
+      We Offer
+    </h3>
+
+    <ul className="list-disc pl-6 space-y-2 mb-12 text-gray-300">
+      <li>One-hour encounters to full-night stays</li>
+      <li>Outcall services to hotels, homes, and guest houses</li>
+      <li>Romantic dinner dates</li>
+      <li>Body massage with happy endings</li>
+      <li>Couple-friendly escort services</li>
+      <li>Travel companion escorts</li>
+    </ul>
+
+    {/* H3 */}
+    <h3 className="text-2xl font-semibold text-yellow-400 mb-10">
+      Escort Services by Area in Karachi
+    </h3>
+
+    {/* DHA */}
+    <h4 className="text-xl font-semibold text-yellow-300 mb-3">
+      Escorts in DHA Karachi – Premium Girls in a Classy Location
+    </h4>
+    <p className="mb-8 text-gray-400 leading-relaxed">
+      If you’re in Defense, you deserve nothing less than luxury. Our DHA Karachi
+      escorts represent elegance, class, and confidence. Many are models, students,
+      and working professionals who know how to entertain with charm and
+      sophistication. Ideal for upscale dates, private parties, or relaxing
+      evenings in Phase 2 or Phase 6.
+    </p>
+
+    {/* Clifton */}
+    <h4 className="text-xl font-semibold text-yellow-300 mb-3">
+      Escorts in Clifton Karachi – Sensual Experiences Near Seaview
+    </h4>
+    <p className="mb-8 text-gray-400 leading-relaxed">
+      The beaches of Clifton deserve a companion as beautiful as the view. Our
+      Clifton Karachi escorts are bold, stunning, and experienced, perfect for
+      clients staying near Dolmen Mall, Seaview, or Boat Basin. Popular among both
+      locals and foreigners seeking premium sensual companionship.
+    </p>
+
+    {/* Malir */}
+    <h4 className="text-xl font-semibold text-yellow-300 mb-3">
+      Escorts in Malir Karachi – Enjoy True Passion with Full Privacy
+    </h4>
+    <p className="mb-8 text-gray-400 leading-relaxed">
+      Discretion and convenience define our Malir Karachi escort services. Whether
+      you’re in Model Colony, Malir Cantt, or Saudabad, our escorts deliver intimate
+      experiences directly to your door with professionalism and care.
+    </p>
+
+    {/* Nazimabad */}
+    <h4 className="text-xl font-semibold text-yellow-300 mb-3">
+      Escorts in Nazimabad Karachi – Real Local Girls with Desi Charm
+    </h4>
+    <p className="mb-8 text-gray-400 leading-relaxed">
+      Nazimabad escorts offer traditional beauty, emotional warmth, and genuine
+      companionship. Ideal for clients seeking a romantic, pressure-free
+      experience with fast and secure outcall service across North Nazimabad.
+    </p>
+
+    {/* Bahria Town */}
+    <h4 className="text-xl font-semibold text-yellow-300 mb-10">
+      Escorts in Bahria Town Karachi – VIP Girls in a Modern Luxury Setting
+    </h4>
+    <p className="mb-12 text-gray-400 leading-relaxed">
+      Bahria Town Karachi escorts reflect modern luxury and sophistication. From
+      tall models and influencers to classy professionals, these companions are
+      perfect for elite clients who want meaningful conversation, sensual moments,
+      and passionate connection.
+    </p>
+
+    {/* H3 Hotels */}
+    <h3 className="text-2xl font-semibold text-yellow-400 mb-8">
+      Escort Services in Top Karachi Hotels – Book Where You Stay
+    </h3>
+
+    <p className="mb-6 text-gray-300 leading-relaxed">
+      We specialize in providing hotel escorts in Karachi. Whether you’re staying
+      in a 5-star hotel or a private guest house, our escorts are familiar with
+      hotel protocols and ensure discreet, professional service.
+    </p>
+
+    {/* Hotel List */}
+    <ul className="list-disc pl-6 space-y-2 mb-12 text-gray-400">
+      <li>Escorts in PC Hotel Karachi (Pearl Continental)</li>
+      <li>Escorts in Mövenpick Hotel Karachi</li>
+      <li>Escorts in Marriott Hotel Karachi</li>
+      <li>Escorts in Avari Towers Karachi</li>
+      <li>Escorts in Ramada Plaza Karachi</li>
+      <li>Escorts in Dreamworld Resort Karachi</li>
+      <li>Escorts in Beach Luxury Hotel Karachi</li>
+      <li>Escorts in Regent Plaza Karachi</li>
+    </ul>
+
+    {/* VIP */}
+    <h3 className="text-2xl font-semibold text-yellow-400 mb-4">
+      VIP & Model Escorts in Karachi – For Those Who Want the Best
+    </h3>
+
+    <p className="mb-6 text-gray-300 leading-relaxed">
+      Our VIP Karachi escorts include models, influencers, air hostesses, and
+      elite companions handpicked for clients who demand excellence in beauty,
+      behavior, and service quality.
+    </p>
+
+    <ul className="list-disc pl-6 space-y-2 text-gray-400">
+      <li>Housewife escorts for mature men</li>
+      <li>Punjabi & Sindhi girls for local taste</li>
+      <li>Russian and Afghan escorts (on demand)</li>
+      <li>Slim, tall, and curvy escorts</li>
+      <li>Girls fluent in English & Urdu</li>
+    </ul>
+
+  </div>
+</section>
 
       {/* PRICING TABLE */}
       <section className="bg-black py-20">
