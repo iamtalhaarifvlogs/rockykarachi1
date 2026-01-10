@@ -1,11 +1,11 @@
-import EscortCollage from "@/app/components/EscortCollage";
+import EscortsCollage from "@/app/components/EscortsCollage";
 import WhatsAppButton from "@/app/components/WhatsAppButton";
 
 
 export default function HomePage() {
   return (
     <>
- <EscortCollage />
+ <EscortsCollage />
 <WhatsAppButton />
       {/* HERO */}
 <section
