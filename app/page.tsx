@@ -1,4 +1,4 @@
-import EscortCollage from "@/components/EscortCollage";
+import EscortCollage from "@/app/components/EscortCollage";
 
 export default function HomePage() {
   return (
