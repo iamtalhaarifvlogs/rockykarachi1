@@ -2,23 +2,30 @@ export default function HomePage() {
   return (
     <>
       {/* HERO */}
-      <section className="relative bg-gradient-to-br from-black via-gray-900 to-black py-24">
-        <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-light text-white mb-6 tracking-wide">
-            Top-Rated Karachi Escorts | VIP Call Girls 24/7 Available – Book Now
-          </h1>
+<section
+  className="relative py-28 bg-cover bg-center"
+  style={{ backgroundImage: "url('/herobg.jpg')" }}
+>
+  {/* Overlay */}
+  <div className="absolute inset-0 bg-black/70" />
 
-          <h2 className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed mb-6">
-            Welcome to rockyescortskarchi — your trusted source for verified
-            Karachi escorts, VIP call girls, and elite companions available
-            across DHA, Clifton, Bahria Town, and top hotels.
-          </h2>
+  <div className="relative container mx-auto px-4 text-center">
+    <h1 className="text-4xl md:text-5xl font-light text-white mb-6 tracking-wide">
+      Top-Rated Karachi Escorts | VIP Call Girls 24/7 Available – Book Now
+    </h1>
 
-          <p className="text-lg text-yellow-400">
-            📞 Call / WhatsApp: <span className="text-white">03708540579</span>
-          </p>
-        </div>
-      </section>
+    <h2 className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed mb-6">
+      Welcome to rockyescortskarchi — your trusted source for verified
+      Karachi escorts, VIP call girls, and elite companions available
+      across DHA, Clifton, Bahria Town, and top hotels.
+    </h2>
+
+    <p className="text-lg text-yellow-400">
+      📞 Call / WhatsApp: <span className="text-white">03708540579</span>
+    </p>
+  </div>
+</section>
+
 
       {/* INTRO */}
       <section className="bg-black py-20">
