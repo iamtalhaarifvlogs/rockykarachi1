@@ -1,9 +1,12 @@
 import EscortCollage from "@/app/components/EscortCollage";
+import WhatsAppButton from "@/components/WhatsAppButton";
+
 
 export default function HomePage() {
   return (
     <>
  <EscortCollage />
+<WhatsAppButton />
       {/* HERO */}
 <section
   className="relative py-28 bg-cover bg-center"
