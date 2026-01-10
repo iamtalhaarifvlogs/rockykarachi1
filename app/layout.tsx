@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/app/components/header";
 import Footer from "@/app/components/footer";
+import WhatsAppButton from "@/app/components/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: "Rocky Escorts Karachi | Premium Escort Services in Karachi",
