@@ -8,7 +8,7 @@ export default function Header() {
   const [servicesOpen, setServicesOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-black/90 backdrop-blur border-b border-yellow-500/30">
+    <header className="sticky top-0 z-50 bg-black border-b border-yellow-500/40">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <Link
@@ -19,7 +19,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center space-x-8 text-gray-300">
+        <nav className="hidden md:flex items-center space-x-8 text-yellow-500">
           <Link href="/" className="hover:text-yellow-400">
             Home
           </Link>
@@ -30,22 +30,22 @@ export default function Header() {
               Services
             </span>
 
-            <div className="absolute left-0 mt-3 w-56 bg-black border border-yellow-500/30 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+            <div className="absolute left-0 mt-3 w-56 bg-black border border-yellow-500/40 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
               <Link
                 href="/how-to-book"
-                className="block px-4 py-3 hover:bg-yellow-500/10 hover:text-yellow-400"
+                className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10"
               >
                 How do I book?
               </Link>
               <Link
                 href="/how-to-connect"
-                className="block px-4 py-3 hover:bg-yellow-500/10 hover:text-yellow-400"
+                className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10"
               >
                 How do I connect?
               </Link>
               <Link
                 href="/models"
-                className="block px-4 py-3 hover:bg-yellow-500/10 hover:text-yellow-400"
+                className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10"
               >
                 Models
               </Link>
@@ -79,11 +79,11 @@ export default function Header() {
 
       {/* Mobile Slide Menu */}
       <div
-        className={`fixed top-0 right-0 h-full w-[80%] max-w-sm bg-black border-l border-yellow-500/30 z-50 transform transition-transform duration-300 ${
+        className={`fixed top-0 right-0 h-full w-[80%] max-w-sm bg-black border-l border-yellow-500/40 z-50 transform transition-transform duration-300 ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="p-6 flex flex-col space-y-6 text-gray-300">
+        <div className="p-6 flex flex-col space-y-6 text-yellow-500">
           {/* Close */}
           <button
             className="self-end text-yellow-500"
@@ -141,7 +141,7 @@ export default function Header() {
       {/* Overlay */}
       {menuOpen && (
         <div
-          className="fixed inset-0 bg-black/60 z-40"
+          className="fixed inset-0 bg-black/80 z-40"
           onClick={() => setMenuOpen(false)}
         />
       )}
