@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/app/components/header";
 import Footer from "@/app/components/footer";
 import WhatsAppButton from "@/app/components/WhatsAppButton";
+import FacebookButton from "@/app/components/FacebookButton";
 
 export const metadata: Metadata = {
   title: "Rocky Escorts Karachi | Premium Escort Services in Karachi",
@@ -34,6 +35,7 @@ export default function RootLayout({
       <body className="bg-black text-gray-200">
         <Header />
 <WhatsAppButton />
+<FacebookButton />
         <main className="min-h-screen">{children}</main>
         <Footer />
       </body>
