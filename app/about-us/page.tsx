@@ -59,12 +59,12 @@ export default function AboutUsPage() {
         {/* IMAGE GRID */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-14">
           {[
-            "/models/model1.jpg",
-            "/models/model2.jpg",
-            "/models/model3.jpg",
-            "/models/model4.jpg",
-            "/models/model5.jpg",
-            "/models/model6.jpg",
+            "/model1.jpg",
+            "/model2.jpg",
+            "/model3.jpg",
+            "/model4.jpg",
+            "/model5.jpg",
+            "/model6.jpg",
           ].map((src, index) => (
             <div
               key={index}
