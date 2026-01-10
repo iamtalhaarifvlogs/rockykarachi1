@@ -300,6 +300,71 @@ export default function HomePage() {
           </p>
         </div>
       </section>
+      {/* SEO KEYWORDS SECTION */}
+<section className="bg-black border-t border-yellow-500/20 py-16">
+  <div className="container mx-auto px-4 max-w-6xl">
+    <h2 className="text-2xl md:text-3xl font-light text-white mb-8 tracking-wide">
+      Popular Searches & Related Keywords
+    </h2>
+
+    <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 list-disc pl-6 text-gray-400">
+      {[
+        "Karachi Escorts",
+        "Escorts in Karachi",
+        "VIP Karachi Escorts",
+        "Karachi Call Girls",
+        "Call Girls in Karachi",
+        "Independent Escorts Karachi",
+        "Model Escorts in Karachi",
+        "Karachi Female Escorts",
+        "Karachi Escort Service",
+        "Hot Karachi Escorts",
+        "DHA Karachi Escorts",
+        "Clifton Karachi Escorts",
+        "Bahria Town Karachi Escorts",
+        "Malir Karachi Escorts",
+        "Nazimabad Karachi Escorts",
+        "Gulshan Karachi Escorts",
+        "Saddar Karachi Escorts",
+        "Gulistan-e-Johar Karachi Escorts",
+        "North Karachi Escorts",
+        "Korangi Karachi Escorts",
+        "Escorts in PC Hotel Karachi",
+        "Escorts in Marriott Hotel Karachi",
+        "Escorts in Mövenpick Karachi",
+        "Escorts in Avari Towers Karachi",
+        "Escorts in Ramada Karachi",
+        "Escorts in Regent Plaza Karachi",
+        "Escorts in Dreamworld Karachi",
+        "Beach Luxury Hotel Escorts Karachi",
+        "Escorts for Hotel Service in Karachi",
+        "Outcall Escorts in Karachi Hotels",
+        "VIP Escorts Karachi",
+        "Cheap Escorts in Karachi",
+        "High Profile Escorts in Karachi",
+        "Call Girls for Night in Karachi",
+        "Massage with Happy Ending Karachi",
+        "GFE Escorts Karachi",
+        "Full Service Escorts Karachi",
+        "Call Girls for Couple Service Karachi",
+        "Outcall Escorts Karachi",
+        "Incall Escort Services Karachi",
+        "The Essentials of Blogging: Tips and Strategies for Success",
+        "Maximizing Your Blog’s Reach: SEO Tips for Bloggers",
+        "Crafting the Perfect Blog Structure: A Guide for Effective Blogging",
+        "Never Run Out of Ideas: Top Tips for Generating Fresh Blog Topics",
+        "Building a Loyal Blog Audience: Strategies for Engagement and Growth",
+      ].map((keyword, i) => (
+        <li key={i}>
+          <h3 className="text-base md:text-lg font-light text-gray-400">
+            {keyword}
+          </h3>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>
+
     </>
   );
 }
