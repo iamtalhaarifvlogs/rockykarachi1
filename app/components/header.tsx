@@ -55,7 +55,7 @@ export default function Header() {
           <Link href="/about-us" className="hover:text-yellow-400">
             About Us
           </Link>
-          <Link href="/contact-us" className="hover:text-yellow-400">
+          <Link href="/contact" className="hover:text-yellow-400">
             Contact Us
           </Link>
         </nav>
@@ -132,7 +132,7 @@ export default function Header() {
           <Link href="/about-us" onClick={() => setMenuOpen(false)}>
             About Us
           </Link>
-          <Link href="/contact-us" onClick={() => setMenuOpen(false)}>
+          <Link href="/contact" onClick={() => setMenuOpen(false)}>
             Contact Us
           </Link>
         </div>
