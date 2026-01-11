@@ -1,3 +1,4 @@
+import LocalBusinessSchema from "@/components/LocalBusinessSchema";
 import SeoSchema from "@/components/SeoSchema";
 import type { Metadata } from "next";
 import "./globals.css";
@@ -34,6 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-black text-gray-200">
+<LocalBusinessSchema />
 <SeoSchema />
         <Header />
 <WhatsAppButton />
