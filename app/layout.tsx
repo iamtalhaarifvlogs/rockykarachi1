@@ -1,3 +1,4 @@
+import SeoSchema from "@/components/SeoSchema";
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/app/components/header";
