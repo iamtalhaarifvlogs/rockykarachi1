@@ -34,6 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-black text-gray-200">
+<SeoSchema />
         <Header />
 <WhatsAppButton />
 <FacebookButton />
