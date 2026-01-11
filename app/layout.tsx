@@ -1,5 +1,5 @@
-import LocalBusinessSchema from "@/components/LocalBusinessSchema";
-import SeoSchema from "@/components/SeoSchema";
+import LocalBusinessSchema from "@/app/components/LocalBusinessSchema";
+import SeoSchema from "@/app/components/SeoSchema";
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/app/components/header";
