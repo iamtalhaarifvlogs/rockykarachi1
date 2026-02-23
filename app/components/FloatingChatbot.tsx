@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 interface Message { role: "user" | "bot"; text: string; }
 
-const intents = [ { keywords: ["price", "rate"], response: "Tell me what kind of evening you want… I’ll guide you softly." }, { keywords: ["location"], response: "I travel to premium locations. Where should I come to you?" }, { keywords: ["booking"], response: "I’d love to see you… tell me when you want me." }, { keywords: ["hi", "hello"], response: "Hey… I’ve been waiting for you." }, { keywords: ["kesi ho Tum?", "kesi hain ap?", "kesi hai tu?",], response: "main thek hu, aur aap?" }, ];
+const intents = [ { keywords: ["price", "rate"], response: "Tell me what kind of evening you want… I’ll guide you softly." }, { keywords: ["location"], response: "I travel to premium locations. Where should I come to you?" }, { keywords: ["booking"], response: "I’d love to see you… tell me when you want me." }, { keywords: ["hi", "hello"], response: "Hey… I’ve been waiting for you." }, { keywords: ["kesi ho Tum?", "kesi hain ap?", "kesi hai tu?",], response: "main thek hu, aur aap?" }, { keywords: ["Kahan se ho?", "aap ki location Kya hai?", "Kahan ho?",], response: "WhatsApp pe message Karen sab bta dungi aap ko 😉" }, { keywords: ["boht lonely hun main", "sex chahie", "sex Karna hai",], response: "Aww to baby WhatsApp pe message kro na mujhe" }, ];
 
 const getBotResponse = (text: string) => {
   const lower = text.toLowerCase().replace(/[?!.]/g, "").trim(); // remove punctuation
