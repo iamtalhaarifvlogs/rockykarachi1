@@ -71,7 +71,7 @@ return ( <> <motion.button drag dragMomentum={false} onDragStart={() => setDragg
           <button onClick={() => setOpen(false)} className="text-white">✕</button>
         </div>
 
-        <div className="flex-1 overflow-y-hidden p-3 space-y-3">
+        <div className="flex-1 overflow-y-auto p-3 space-y-3 chatcontainer">
           {messages.map((m, i) => (
             <motion.div
               key={i}
