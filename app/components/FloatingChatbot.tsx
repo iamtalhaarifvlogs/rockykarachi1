@@ -4,19 +4,23 @@ import { useEffect, useRef, useState } from "react"; import { motion, AnimatePre
 
 interface Message { role: "user" | "bot"; text: string; }
 
-const intents = [ { keywords: ["price", "rate", "cost"], response: "Tell me your fantasy and I’ll softly guide you with the perfect experience and pricing." }, { keywords: ["location", "where"], response: "I travel across premium locations. Tell me where you'd like me to meet you." }, { keywords: ["booking", "reserve"], response: "I’d love to spend time with you. Share your preferred timing so we can make it special." }, { keywords: ["time", "available"], response: "I’m available whenever you desire. Just tell me the moment you want me." }, { keywords: ["hello", "hi"], response: "Hey handsome… I’ve been waiting for you. What are you thinking about tonight?" }, ];
+const intents = [ { keywords: ["price", "rate"], response: "Tell me what kind of evening you want… I’ll guide you softly." }, { keywords: ["location"], response: "I travel to premium locations. Where should I come to you?" }, { keywords: ["booking"], response: "I’d love to see you… tell me when you want me." }, { keywords: ["hi", "hello"], response: "Hey… I’ve been waiting for you." }, ];
 
-function getBotResponse(input: string) { const lower = input.toLowerCase(); const match = intents.find((i) => i.keywords.some((k) => lower.includes(k))); return match ? match.response : "Mmm… tell me a little more. I want to understand exactly what you desire."; }
+const getBotResponse = (text: string) => { const lower = text.toLowerCase(); const match = intents.find((i) => i.keywords.some((k) => lower.includes(k))); return match ? match.response : "Mmm… tell me more. I want to understand you better."; };
 
-export default function FloatingChatbot() { const [open, setOpen] = useState(false); const [messages, setMessages] = useState<Message[]>([]); const [input, setInput] = useState(""); const [typing, setTyping] = useState(false); const [position, setPosition] = useState({ x: 0, y: 0 }); const [dragging, setDragging] = useState(false); const [leadTriggered, setLeadTriggered] = useState(false);
+export default function FloatingChatbot() { const [open, setOpen] = useState(false); const [messages, setMessages] = useState<Message[]>([]); const [input, setInput] = useState(""); const [typing, setTyping] = useState(false); const [lead, setLead] = useState(false); const [inactivePing, setInactivePing] = useState(false); const [position, setPosition] = useState({ x: 0, y: 0 }); const [dragging, setDragging] = useState(false);
 
-const bottomRef = useRef<HTMLDivElement>(null);
+const bottomRef = useRef<HTMLDivElement>(null); const inactivityTimer = useRef<any>(null);
 
-useEffect(() => { if (open && messages.length === 0) { setTimeout(() => { setMessages([ { role: "bot", text: "Hey… I’m right here with you. Don’t be shy — tell me what you’re craving tonight.", }, ]); }, 400); } }, [open]);
+useEffect(() => { if (open && messages.length === 0) { setTimeout(() => { setMessages([ { role: "bot", text: "Hey… don’t be shy. Tell me what you’re craving tonight." }, ]); }, 500); } }, [open]);
 
 useEffect(() => { bottomRef.current?.scrollIntoView({ behavior: "smooth" }); }, [messages, typing]);
 
+const resetInactivity = () => { clearTimeout(inactivityTimer.current); inactivityTimer.current = setTimeout(() => { if (!inactivePing) { setInactivePing(true); setMessages((m) => [ ...m, { role: "bot", text: "Did I make you blush… or are you thinking about me? 💕" }, ]); } }, 15000); };
+
 const sendMessage = () => { if (!input.trim()) return;
+
+resetInactivity();
 
 const userMsg: Message = { role: "user", text: input };
 setMessages((m) => [...m, userMsg]);
@@ -27,29 +31,29 @@ setTyping(true);
 setTimeout(() => {
   const reply = getBotResponse(userMsg.text);
   setTyping(false);
-
   setMessages((m) => [...m, { role: "bot", text: reply }]);
 
-  if (!leadTriggered && messages.length >= 3) {
-    setLeadTriggered(true);
+  if (!lead && messages.length >= 3) {
+    setLead(true);
     setTimeout(() => {
       setMessages((m) => [
         ...m,
         {
           role: "bot",
-          text:
-            "I’d love to talk somewhere a little more private… message me on WhatsApp and let’s make tonight unforgettable 💕",
+          text: "Let’s talk somewhere more private… message me on WhatsApp and I’ll be all yours 💋",
         },
       ]);
     }, 1800);
   }
-}, 1400);
+}, 1300);
+
+if (navigator.vibrate) navigator.vibrate(20);
 
 };
 
-const handleDrag = (e: any, info: any) => { setPosition({ x: info.point.x - 80, y: info.point.y - 80 }); };
+const whatsappLink = () => { const lastUser = messages.filter((m) => m.role === "user").pop(); const text = encodeURIComponent(lastUser?.text || "Hey"); window.open(https://wa.me/?text=${text}, "_blank"); };
 
-return ( <> <motion.button drag dragMomentum={false} onDragStart={() => setDragging(true)} onDragEnd={() => setDragging(false)} onDrag={handleDrag} animate={{ x: position.x, y: position.y }} onClick={() => !dragging && setOpen(true)} className="fixed bottom-6 right-6 z-50 bg-pink-600 text-white px-5 py-3 rounded-full shadow-lg" > Talk to me </motion.button>
+return ( <> <motion.button drag dragMomentum={false} onDragStart={() => setDragging(true)} onDragEnd={() => setDragging(false)} onDrag={(e, info) => setPosition({ x: info.point.x - 80, y: info.point.y - 80 })} animate={{ x: position.x, y: position.y }} onClick={() => !dragging && setOpen(true)} className="fixed bottom-6 right-6 z-50 bg-pink-600 text-white px-5 py-3 rounded-full shadow-lg" > Talk to me </motion.button>
 
 <AnimatePresence>
     {open && (
@@ -60,10 +64,10 @@ return ( <> <motion.button drag dragMomentum={false} onDragStart={() => setDragg
         className="fixed bottom-6 right-6 w-[340px] h-[520px] bg-black border border-pink-500 rounded-2xl shadow-2xl z-50 flex flex-col overflow-hidden"
       >
         <div className="flex justify-between items-center px-4 py-3 border-b border-pink-500">
-          <p className="text-white font-semibold">Private Chat</p>
-          <button onClick={() => setOpen(false)} className="text-white">
-            ✕
-          </button>
+          <div className="flex items-center gap-2 text-white">
+            <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" /> online now
+          </div>
+          <button onClick={() => setOpen(false)} className="text-white">✕</button>
         </div>
 
         <div className="flex-1 overflow-y-auto p-3 space-y-3">
@@ -72,11 +76,7 @@ return ( <> <motion.button drag dragMomentum={false} onDragStart={() => setDragg
               key={i}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              className={`max-w-[80%] px-3 py-2 rounded-xl text-sm ${
-                m.role === "user"
-                  ? "ml-auto bg-pink-600 text-white"
-                  : "bg-gray-800 text-white"
-              }`}
+              className={`max-w-[80%] px-3 py-2 rounded-xl text-sm ${m.role === "user" ? "ml-auto bg-pink-600 text-white" : "bg-gray-800 text-white"}`}
             >
               {m.text}
             </motion.div>
@@ -84,21 +84,14 @@ return ( <> <motion.button drag dragMomentum={false} onDragStart={() => setDragg
 
           {typing && (
             <div className="flex gap-1 px-2">
-              <motion.span
-                animate={{ opacity: [0.2, 1, 0.2] }}
-                transition={{ repeat: Infinity, duration: 1 }}
-                className="w-2 h-2 bg-gray-400 rounded-full"
-              />
-              <motion.span
-                animate={{ opacity: [0.2, 1, 0.2] }}
-                transition={{ repeat: Infinity, duration: 1, delay: 0.2 }}
-                className="w-2 h-2 bg-gray-400 rounded-full"
-              />
-              <motion.span
-                animate={{ opacity: [0.2, 1, 0.2] }}
-                transition={{ repeat: Infinity, duration: 1, delay: 0.4 }}
-                className="w-2 h-2 bg-gray-400 rounded-full"
-              />
+              {[0, 0.2, 0.4].map((d, i) => (
+                <motion.span
+                  key={i}
+                  animate={{ opacity: [0.2, 1, 0.2] }}
+                  transition={{ repeat: Infinity, duration: 1, delay: d }}
+                  className="w-2 h-2 bg-gray-400 rounded-full"
+                />
+              ))}
             </div>
           )}
           <div ref={bottomRef} />
@@ -112,12 +105,8 @@ return ( <> <motion.button drag dragMomentum={false} onDragStart={() => setDragg
             placeholder="Type your message..."
             className="flex-1 bg-gray-900 text-white px-3 py-2 rounded-lg outline-none"
           />
-          <button
-            onClick={sendMessage}
-            className="bg-pink-600 text-white px-4 rounded-lg"
-          >
-            Send
-          </button>
+          <button onClick={sendMessage} className="bg-pink-600 text-white px-4 rounded-lg">Send</button>
+          <button onClick={whatsappLink} className="bg-green-500 text-white px-3 rounded-lg">WA</button>
         </div>
       </motion.div>
     )}
