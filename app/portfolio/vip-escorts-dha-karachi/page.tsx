@@ -4,10 +4,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 
-// If you have shared components (adjust names/paths as per your repo)
-import Header from '@/components/Header';     // example – change to your actual path
-import Footer from '@/components/Footer';     // example
-// import ContactButton from '@/components/ContactButton'; // if you have a WhatsApp CTA component
 
 export const metadata: Metadata = {
   title: 'VIP Escorts in DHA Karachi – Exclusive & Verified Companions | Rocky Escorts',
