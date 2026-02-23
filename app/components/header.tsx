@@ -31,17 +31,35 @@ export default function Header() {
             </span>
 
             <div className="absolute left-0 mt-3 w-56 bg-black border border-yellow-500/40 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-              <Link
-                href="/how-to-book"
+  <Link
+                href="/portfolio/vip-escorts-dha-karachi"
                 className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10"
               >
-                How do I book?
+                Escorts in DHA
               </Link>
               <Link
-                href="/how-to-connect"
+                href="/portfolio/escorts-clifton-karachi"
                 className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10"
               >
-                How do I connect?
+                VIP Escorts in Clifton 
+              </Link>
+              <Link
+                href="/portfolio/escorts-bahria-town-karachi"
+                className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10"
+              >
+                VIP Escorts in Bahria town Karachi
+              </Link>
+  <Link
+                href="/portfolio/escorts-pechs-karachi"
+                className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10"
+              >
+                VIP Escorts in PECHS Karachi
+              </Link>
+  <Link
+                href="/portfolio"
+                className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10"
+              >
+                View More
               </Link>
               <Link
                 href="/models"
@@ -116,12 +134,25 @@ export default function Header() {
 
             {servicesOpen && (
               <div className="mt-3 ml-4 flex flex-col space-y-3 text-sm">
-                <Link href="/how-to-book" onClick={() => setMenuOpen(false)}>
-                  How do I book?
-                </Link>
-                <Link href="/how-to-connect" onClick={() => setMenuOpen(false)}>
-                  How do I connect?
-                </Link>
+               <Link href="/portfolio/vip-escorts-dha-karachi" onClick={() => setMenuOpen(false)} className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10">
+  Escorts in DHA
+</Link>
+
+<Link href="/portfolio/escorts-clifton-karachi" onClick={() => setMenuOpen(false)} className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10">
+  VIP Escorts in Clifton
+</Link>
+
+<Link href="/portfolio/escorts-bahria-town-karachi" onClick={() => setMenuOpen(false)} className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10">
+  VIP Escorts in Bahria Town Karachi
+</Link>
+
+<Link href="/portfolio/escorts-pechs-karachi" onClick={() => setMenuOpen(false)} className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10">
+  VIP Escorts in PECHS Karachi
+</Link>
+
+<Link href="/portfolio" onClick={() => setMenuOpen(false)} className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10">
+  View More
+</Link>
                 <Link href="/models" onClick={() => setMenuOpen(false)}>
                   Models
                 </Link>
