@@ -96,7 +96,7 @@ export default function ModelsPage() {
                 "Malir Karachi escort services deliver intimate experiences with discretion, professionalism, and comfort directly to your location.",
             },
             {
-              img: "/model5.jpg",
+              img: "/nm5.jpg",
               title: "Escorts in Nazimabad Karachi – Desi Charm",
               text:
                 "Nazimabad escorts offer traditional beauty, emotional warmth, and genuine companionship with fast outcall service.",
