@@ -107,7 +107,6 @@ return ( <> <motion.button drag dragMomentum={false} onDragStart={() => setDragg
             className="flex-1 bg-gray-900 text-white px-3 py-2 rounded-lg outline-none"
           />
           <button onClick={sendMessage} className="bg-pink-600 text-white px-4 rounded-lg">Send</button>
-          <button onClick={whatsappLink} className="bg-green-500 text-white px-3 rounded-lg">WA</button>
         </div>
       </motion.div>
     )}
