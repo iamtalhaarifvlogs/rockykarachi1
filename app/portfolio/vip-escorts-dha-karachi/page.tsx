@@ -60,7 +60,7 @@ export default function VipEscortsDhaKarachiPage() {
               <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
                 <div className="relative h-80">
                   <Image
-                    src="/dha-escort1.jpg"
+                    src="/nm1.jpg"
                     alt="VIP escort in DHA Karachi – elegant companion"
                     fill
                     className="object-cover"
