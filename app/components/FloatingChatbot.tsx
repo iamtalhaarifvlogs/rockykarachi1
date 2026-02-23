@@ -52,7 +52,12 @@ if (navigator.vibrate) navigator.vibrate(20);
 
 };
 
-const whatsappLink = () => { const lastUser = messages.filter((m) => m.role === "user").pop(); const text = encodeURIComponent(lastUser?.text || "Hey"); window.open("https://wa.me/'?text=${text}, "_blank"); };
+const whatsappLink = () => {
+  const lastUser = messages.filter((m) => m.role === "user").pop();
+  const text = encodeURIComponent(lastUser?.text || "Hey");
+
+  window.open(`https://wa.me/92370 8540579?text=${text}`, "_blank");
+};
 
 return ( <> <motion.button drag dragMomentum={false} onDragStart={() => setDragging(true)} onDragEnd={() => setDragging(false)} onDrag={(_e: any, info: { point: { x: number; y: number; }; }) => setPosition({ x: info.point.x - 80, y: info.point.y - 80 })} animate={{ x: position.x, y: position.y }} onClick={() => !dragging && setOpen(true)} className="fixed bottom-6 left-6 z-50 bg-pink-600 text-white px-5 py-3 rounded-full shadow-lg" > Talk to me </motion.button>
 
