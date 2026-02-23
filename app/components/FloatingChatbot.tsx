@@ -7,8 +7,17 @@ interface Message { role: "user" | "bot"; text: string; }
 
 const intents = [ { keywords: ["price", "rate"], response: "Tell me what kind of evening you want… I’ll guide you softly." }, { keywords: ["location"], response: "I travel to premium locations. Where should I come to you?" }, { keywords: ["booking"], response: "I’d love to see you… tell me when you want me." }, { keywords: ["hi", "hello"], response: "Hey… I’ve been waiting for you." }, { keywords: ["kesi ho Tum?", "kesi hain ap?", "kesi hai tu?",], response: "main thek hu, aur aap?" }, ];
 
-const getBotResponse = (text: string) => { const lower = text.toLowerCase(); const match = intents.find((i) => i.keywords.some((k) => lower.includes(k))); return match ? match.response : "Mmm… tell me more. I want to understand you better."; };
-
+const getBotResponse = (text: string) => {
+  const lower = text.toLowerCase().replace(/[?!.]/g, "").trim(); // remove punctuation
+  const match = intents.find((i) =>
+    i.keywords.some((k) =>
+      lower.includes(k.toLowerCase().replace(/[?!.]/g, "").trim())
+    )
+  );
+  return match
+    ? match.response
+    : "Mmm… tell me more. I want to understand you better.";
+};
 export default function FloatingChatbot() { const [open, setOpen] = useState(false); const [messages, setMessages] = useState<Message[]>([]); const [input, setInput] = useState(""); const [typing, setTyping] = useState(false); const [lead, setLead] = useState(false); const [inactivePing, setInactivePing] = useState(false); const [position, setPosition] = useState({ x: 0, y: 0 }); const [dragging, setDragging] = useState(false);
 
 const bottomRef = useRef<HTMLDivElement>(null); const inactivityTimer = useRef<any>(null);
