@@ -64,7 +64,7 @@ return ( <> <motion.button drag dragMomentum={false} onDragStart={() => setDragg
         exit={{ opacity: 0, y: 40 }}
         className="fixed bottom-6 right-6 w-[340px] h-[520px] bg-black border border-pink-500 rounded-2xl shadow-2xl z-50 flex flex-col overflow-hidden"
       >
-        <div className="flex justify-between items-center px-4 py-3 border-b border-pink-500">
+        <div className="flex justify-start items-center px-4 py-3 border-b border-pink-500">
           <div className="flex items-center gap-2 text-white">
             <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" /> online now
           </div>
