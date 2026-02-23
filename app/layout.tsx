@@ -6,6 +6,7 @@ import Header from "@/app/components/header";
 import Footer from "@/app/components/footer";
 import WhatsAppButton from "@/app/components/WhatsAppButton";
 import FacebookButton from "@/app/components/FacebookButton";
+import FloatingChatbot from "./components/FloatingChatbot";
 
 export const metadata: Metadata = {
   title: "Rocky Escorts Karachi | Premium Escort Services in Karachi",
@@ -39,7 +40,7 @@ export default function RootLayout({
 <SeoSchema />
         <Header />
 <WhatsAppButton />
-<FacebookButton />
+<FloatingChatbot />
         <main className="min-h-screen">{children}</main>
         <Footer />
       </body>
