@@ -21,7 +21,8 @@ export default function Page() {
         />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center px-4">
           <h1 className="text-white text-4xl sm:text-5xl lg:text-6xl font-bold text-center leading-tight">
-            Premium Escorts in Clifton Karachi – Elite Companionship
+            Premium Escorts in Clifton Karachi – Call Now For The Best Experience 03708540579
+           
           </h1>
         </div>
       </section>
