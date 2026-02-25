@@ -33,7 +33,7 @@ export default function Page() {
           Welcome to the most trusted <strong>escort agency in Clifton Karachi</strong>. We
           offer <strong>premium VIP female escorts</strong>, <strong>high-class companionship</strong> for elite clients, 
           and <strong>discreet professional escort services</strong>. Our portfolio includes 
-          <strong>top-rated Clifton escorts</strong>, <strong>luxury escorts for events in Karachi</strong>, 
+          <strong>&nbsp; top-rated Clifton escorts</strong>, <strong>luxury escorts for events in Karachi</strong>, 
           and <strong>exclusive female companions near me</strong>.
         </p>
         <p className="text-lg leading-relaxed text-[#333333] mb-6">
