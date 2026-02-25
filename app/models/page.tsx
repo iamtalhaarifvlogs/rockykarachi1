@@ -30,12 +30,12 @@ export default function ModelsPage() {
             Top-Rated Karachi Escorts | VIP Call Girls 24/7 Available – Call Now
             03708540579
           </h1>
-          <p className="text-sm md:text-base text-yellow-400 max-w-4xl mx-auto">
+          <p className="text-sm md:text-base text-white-400 max-w-4xl mx-auto">
             Welcome to rockyescortskarchi — your trusted source for verified
             Karachi escorts, VIP call girls, and elite companions available
             across DHA, Clifton, Bahria Town, and top hotels.
           </p>
-          <p className="font-semibold">
+          <p className="font-semibold text-green-400">
             📞 Call / WhatsApp: <span className="underline">03708540579</span>
           </p>
         </section>
@@ -45,7 +45,7 @@ export default function ModelsPage() {
           <h2 className="text-2xl font-semibold text-center">
             Call Girls in Karachi – Verified, Sensual & Elite Companions
           </h2>
-          <p className="text-yellow-400 max-w-5xl mx-auto text-center">
+          <p className="text-white-400 max-w-5xl mx-auto text-center">
             At rockyescortskarchi, we offer professional, discreet, and verified
             escort services in Karachi. Whether you’re visiting for business,
             staying in a hotel, or relaxing at home, we provide companions
@@ -58,7 +58,7 @@ export default function ModelsPage() {
           <h3 className="text-xl font-semibold text-center">
             Why Choose rockyescortskarchi?
           </h3>
-          <ul className="list-disc list-inside text-yellow-400 space-y-1">
+          <ul className="list-disc list-inside text-white-400 space-y-1">
             <li>100% real and verified escorts</li>
             <li>Fast outcall service anywhere in Karachi</li>
             <li>VIP and affordable models available</li>
@@ -73,7 +73,7 @@ export default function ModelsPage() {
           {[
             {
               img: "/model1.jpg",
-              title: "Escorts in DHA Karachi – Premium Girls",
+              title: "VIP escorts in DHA Karachi – Premium Girls",
               text:
                 "Our DHA Karachi escorts represent elegance, class, and confidence. Ideal for upscale dates, private parties, or relaxing evenings in Phase 2 or Phase 6.",
             },
@@ -96,7 +96,7 @@ export default function ModelsPage() {
                 "Malir Karachi escort services deliver intimate experiences with discretion, professionalism, and comfort directly to your location.",
             },
             {
-              img: "/model5.jpg",
+              img: "/nm5.jpg",
               title: "Escorts in Nazimabad Karachi – Desi Charm",
               text:
                 "Nazimabad escorts offer traditional beauty, emotional warmth, and genuine companionship with fast outcall service.",
