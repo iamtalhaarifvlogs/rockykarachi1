@@ -3,16 +3,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Premium Escorts in Bahria Town Karachi | Elite VIP Female Companions",
+    "Premium Escorts in Karachi | VIP Female Companions | Rockyescortskarachi",
   description:
-    "Discover professional and discreet premium escorts in Bahria Town Karachi. Explore our elite VIP escort gallery and book the top-rated female companions in Karachi.",
-  keywords: [
-    "Escorts in Bahria Town Karachi",
-    "VIP female escorts Karachi",
-    "Luxury escort services Karachi",
-    "Bahria Town escort agency",
-    "Premium escorts Karachi",
-  ],
+    "Rockyescortskarachi provides premium, discreet and VIP escort services across Karachi including Bahria Town, DHA, Clifton and more. Explore elite female companionship experiences with complete privacy.",
 };
 
 export default function Page() {
@@ -21,25 +14,25 @@ export default function Page() {
   return (
     <main className="bg-[#FFECE8] text-[#222222]">
 
-      {/* ================= HERO SECTION ================= */}
+      {/* ================= HERO ================= */}
       <section
-        className="relative w-full h-[550px] bg-cover bg-center flex items-center justify-center"
+        className="relative w-full h-[600px] bg-cover bg-center flex items-center justify-center"
         style={{ backgroundImage: "url('/herobg.jpg')" }}
       >
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-black/50" />
 
         <div className="relative z-10 text-center px-6 max-w-4xl">
           <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-            Premium Escorts in Bahria Town Karachi – Call Now 03708540579
+            Premium Escorts in Karachi – VIP Female Companions
           </h1>
 
           <h2 className="mt-6 text-xl md:text-2xl text-white font-medium">
-            Discreet • Luxury • Verified VIP Female Companions
+            Discreet. Elegant. Private Experiences Across Karachi.
           </h2>
 
           <p className="mt-6 text-white text-lg max-w-2xl mx-auto">
-            Explore elite companionship experiences designed for privacy,
-            sophistication, and premium service standards in Bahria Town Karachi.
+            Rockyescortskarachi delivers professional and confidential VIP escort
+            services designed for clients seeking refined companionship in Karachi.
           </p>
 
           <div className="mt-8">
@@ -53,60 +46,99 @@ export default function Page() {
         </div>
       </section>
 
-      {/* ================= INTRODUCTION ================= */}
+      {/* ================= AUTHORITY INTRO ================= */}
       <section className="max-w-5xl mx-auto px-6 py-16 text-center">
         <h2 className="text-4xl font-semibold mb-6 text-[#D6336C]">
-          Elite Escorts in Bahria Town Karachi – VIP Female Companions
+          About Rockyescortskarachi
         </h2>
 
         <div className="space-y-6 text-lg leading-relaxed text-[#333]">
           <p>
-            Welcome to the most trusted escort agency in Bahria Town Karachi.
-            We specialize in premium VIP female escorts, exclusive companionship,
-            and high-class professional escort services tailored for discerning clients.
+            Rockyescortskarachi is a premium escort agency offering elite female
+            companionship services throughout Karachi. Our focus is on privacy,
+            professionalism, safety, and exceptional client experience.
           </p>
 
           <p>
-            Our portfolio includes top-rated Bahria Town escorts, luxury companions
-            for events in Karachi, and elite female escorts near you who provide
-            sophisticated, personalized experiences.
+            We provide VIP companions for private meetings, exclusive events,
+            luxury dinners, and personalized social engagements.
           </p>
 
           <p>
-            Clients frequently search for Bahria Town Karachi top escorts,
-            luxury VIP escorts, professional female companions for hire,
-            and high-end VIP escorts in Karachi — all delivered with discretion,
-            privacy, and safety.
+            Every experience is tailored discreetly to meet individual expectations
+            while maintaining the highest standards of confidentiality.
           </p>
         </div>
       </section>
 
-      {/* ================= SERVICES OVERVIEW ================= */}
+      {/* ================= SERVICES ================= */}
       <section className="bg-white py-16 px-6">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-semibold mb-8 text-center">
-            Why Choose Our Escorts in Bahria Town Karachi
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl font-semibold mb-10 text-center">
+            Our Premium Escort Services in Karachi
           </h2>
 
-          <ul className="grid md:grid-cols-2 gap-6 text-lg list-disc list-inside text-[#333]">
-            <li>Professional and highly-rated female escorts</li>
-            <li>Luxury VIP escorts for dinners and private events</li>
-            <li>Discreet and safe companionship</li>
-            <li>Personalized experiences tailored to your preferences</li>
-            <li>Easy and confidential booking process</li>
-            <li>Elite companions for VIP clients</li>
-            <li>High-class and sophisticated companionship</li>
-            <li>Services for parties and corporate gatherings</li>
-            <li>Trusted Bahria Town escorts with proven satisfaction</li>
-            <li>Luxury and elegance with every booking</li>
-          </ul>
+          <div className="grid md:grid-cols-2 gap-10 text-lg text-[#333]">
+            <div>
+              <h3 className="font-semibold text-xl mb-3">VIP Escort Services</h3>
+              <p>
+                High-end companionship tailored for discerning clients seeking
+                elegance, refinement, and discretion.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-xl mb-3">Private Event Companions</h3>
+              <p>
+                Professional female companions for corporate gatherings,
+                exclusive parties, and social functions.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-xl mb-3">Luxury Dinner Dates</h3>
+              <p>
+                Sophisticated companionship for upscale dining and
+                personalized engagements.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-xl mb-3">Discreet Private Bookings</h3>
+              <p>
+                Confidential arrangements ensuring safety, comfort, and privacy
+                for every client.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ================= SERVICE AREAS ================= */}
+      <section className="py-16 px-6 bg-[#FFF0F2] text-center">
+        <h2 className="text-3xl font-semibold mb-6 text-[#D6336C]">
+          Areas We Cover in Karachi
+        </h2>
+
+        <p className="text-lg max-w-3xl mx-auto leading-relaxed text-[#333]">
+          Our services extend across major residential and commercial zones
+          including Bahria Town, DHA, Clifton, Gulshan, PECHS and surrounding
+          premium locations within Karachi.
+        </p>
+
+        <div className="mt-8 flex flex-wrap justify-center gap-6 text-[#D6336C] font-medium">
+          <Link href="/bahria-town" className="hover:underline">Bahria Town</Link>
+          <Link href="/dha" className="hover:underline">DHA</Link>
+          <Link href="/clifton" className="hover:underline">Clifton</Link>
+          <Link href="/gulshan" className="hover:underline">Gulshan</Link>
+          <Link href="/pechs" className="hover:underline">PECHS</Link>
         </div>
       </section>
 
       {/* ================= GALLERY ================= */}
-      <section className="py-16 px-6 bg-[#FFF0F2]">
-        <h2 className="text-3xl font-semibold text-center mb-10 text-[#D6336C]">
-          Bahria Town Escorts Gallery – Luxury Visual Portfolio
+      <section className="py-16 px-6">
+        <h2 className="text-3xl font-semibold text-center mb-10">
+          Exclusive Escort Gallery
         </h2>
 
         <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
@@ -114,7 +146,7 @@ export default function Page() {
             <div key={idx} className="overflow-hidden rounded-lg shadow-lg">
               <img
                 src={img}
-                alt={`Premium VIP Female Escort ${idx + 1} in Bahria Town Karachi`}
+                alt={`VIP Female Companion Karachi ${idx + 1}`}
                 className="object-cover w-full h-[320px] hover:scale-105 transition duration-300"
               />
             </div>
@@ -122,42 +154,15 @@ export default function Page() {
         </div>
       </section>
 
-      {/* ================= EXPERIENCE SECTION ================= */}
-      <section className="max-w-4xl mx-auto px-6 py-16 text-center">
-        <h2 className="text-3xl font-semibold mb-6 text-[#D6336C]">
-          Experience Premium Escort Services in Bahria Town Karachi
-        </h2>
-
-        <div className="space-y-6 text-lg leading-relaxed text-[#333]">
-          <p>
-            Booking a premium escort in Bahria Town Karachi ensures a luxurious,
-            safe, and unforgettable experience. Our companions specialize in
-            elite female companionship and VIP escort services designed for
-            high-end clientele.
-          </p>
-
-          <p>
-            We cover popular search queries including VIP female escorts Karachi,
-            exclusive companionship for high-end clients, luxury female escorts
-            for events, discreet private escort services, and premium companions near you.
-          </p>
-
-          <p>
-            Every service prioritizes professionalism, confidentiality, safety,
-            and client satisfaction.
-          </p>
-        </div>
-      </section>
-
       {/* ================= CTA ================= */}
       <section className="bg-[#D6336C] text-white py-16 text-center">
         <h2 className="text-3xl font-bold mb-6">
-          Book Your Elite Escort in Bahria Town Karachi Today
+          Book a Premium Escort in Karachi Today
         </h2>
 
         <p className="text-lg mb-8 max-w-2xl mx-auto">
-          Contact us now to reserve your VIP escort and experience discreet,
-          luxurious companionship tailored to your expectations.
+          Contact Rockyescortskarachi for confidential VIP escort services
+          designed around discretion and elegance.
         </p>
 
         <Link
@@ -168,10 +173,6 @@ export default function Page() {
         </Link>
       </section>
 
-      {/* ================= FOOTER ================= */}
-      <footer className="text-center py-6 text-[#555] bg-[#FFECE8]">
-        © {new Date().getFullYear()} Bahria Town Escorts Karachi. All Rights Reserved.
-      </footer>
     </main>
   );
 }
