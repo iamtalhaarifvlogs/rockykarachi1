@@ -52,5 +52,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.8,
     },
+{
+      url: `${baseUrl}/portfolio/escorts-gulshan-e-iqbal-karachi`,
+      lastModified: new Date("2026-02-24"),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
   ];
 }
