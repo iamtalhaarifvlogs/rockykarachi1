@@ -43,6 +43,12 @@ export default function Header() {
               >
                 VIP Escorts in Clifton 
               </Link>
+               <Link
+                href="/portfolio/escorts-gulshan-e-iqbal-karachi"
+                className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10"
+              >
+                VIP Escorts in Gulshan E Iqbal 
+              </Link>
               <Link
                 href="/portfolio/escorts-bahria-town-karachi"
                 className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10"
@@ -148,6 +154,9 @@ export default function Header() {
 
 <Link href="/portfolio/escorts-pechs-karachi" onClick={() => setMenuOpen(false)} className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10">
   VIP Escorts in PECHS Karachi
+</Link>
+<Link href="/portfolio/escorts-gulshan-e-iqbal-karachi" onClick={() => setMenuOpen(false)} className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10">
+  VIP Escorts in Gulshan E Iqbal Karachi
 </Link>
 
 <Link href="/portfolio" onClick={() => setMenuOpen(false)} className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10">
