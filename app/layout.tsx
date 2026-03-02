@@ -35,6 +35,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+<head>  <link rel="canonical" href="https://rockyescortskarachi.com" />
+</head>
       <body className="bg-black text-gray-200">
 <LocalBusinessSchema />
 <SeoSchema />
