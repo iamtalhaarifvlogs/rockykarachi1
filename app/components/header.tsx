@@ -139,7 +139,7 @@ export default function Header() {
         </div>
 
         {/* Floating Socials Mobile */}
-        <div className="md:hidden fixed top-20 right-4 flex flex-col space-y-3 z-40">
+        <div className="md:hidden fixed top-20 left-4 flex flex-col space-y-3 z-40">
           {socialLinks.map((social) => (
             <a
               key={social.name}
