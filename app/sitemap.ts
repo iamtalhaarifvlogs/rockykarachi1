@@ -1,4 +1,7 @@
+
+export const dynamic = "force-dynamic";
 import { MetadataRoute } from "next";
+
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://rockyescortskarachi.com";
