@@ -18,6 +18,15 @@ export default function Header() {
       ),
     },
     {
+      name: "Facebook",
+      href: "https://www.facebook.com/share/18Dimw5KKP/",
+      icon: (
+        <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
+          <path d="M22 12a10 10 0 10-11.63 9.87v-6.99H7.9V12h2.47V9.8c0-2.44 1.45-3.8 3.67-3.8 1.06 0 2.17.19 2.17.19v2.39h-1.22c-1.21 0-1.58.75-1.58 1.52V12h2.69l-.43 2.88h-2.26v6.99A10 10 0 0022 12z" />
+        </svg>
+      ),
+    },
+    {
       name: "X",
       href: "https://x.com/rmassagekhi",
       icon: (
@@ -42,7 +51,6 @@ export default function Header() {
       <header className="sticky top-0 z-50 bg-black border-b border-yellow-500/40">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
 
-          {/* Logo + Desktop Socials */}
           <div className="flex items-center space-x-6">
             <Link
               href="/"
@@ -51,7 +59,6 @@ export default function Header() {
               Rocky Escorts
             </Link>
 
-            {/* Desktop Social Icons (Beside Logo) */}
             <div className="hidden md:flex items-center space-x-3">
               {socialLinks.map((social) => (
                 <a
@@ -67,13 +74,11 @@ export default function Header() {
             </div>
           </div>
 
-          {/* Desktop Nav */}
           <nav className="hidden md:flex items-center space-x-8 text-yellow-500">
             <Link href="/" className="hover:text-yellow-400">
               Home
             </Link>
 
-            {/* Services Dropdown */}
             <div className="relative group">
               <span className="cursor-pointer hover:text-yellow-400">
                 Services
@@ -112,7 +117,6 @@ export default function Header() {
             </Link>
           </nav>
 
-          {/* Hamburger */}
           <button
             className="md:hidden text-yellow-500"
             onClick={() => setMenuOpen(true)}
@@ -123,7 +127,6 @@ export default function Header() {
           </button>
         </div>
 
-        {/* Floating Socials Desktop */}
         <div className="hidden md:flex fixed top-1/3 right-6 flex-col space-y-4 z-40">
           {socialLinks.map((social) => (
             <a
@@ -138,7 +141,6 @@ export default function Header() {
           ))}
         </div>
 
-        {/* Floating Socials Mobile */}
         <div className="md:hidden fixed top-20 left-4 flex flex-col space-y-3 z-40">
           {socialLinks.map((social) => (
             <a
@@ -154,7 +156,6 @@ export default function Header() {
         </div>
       </header>
 
-      {/* Mobile Slide Menu */}
       <div
         className={`fixed top-0 right-0 h-full w-[80%] max-w-sm bg-black border-l border-yellow-500/40 z-50 transform transition-transform duration-300 ${
           menuOpen ? "translate-x-0" : "translate-x-full"
