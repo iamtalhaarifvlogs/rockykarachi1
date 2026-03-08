@@ -349,23 +349,7 @@ export default function HomePage() {
         "Escorts in Regent Plaza Karachi",
         "Escorts in Dreamworld Karachi",
         "Beach Luxury Hotel Escorts Karachi",
-        "Escorts for Hotel Service in Karachi",
-        "Outcall Escorts in Karachi Hotels",
-        "VIP Escorts Karachi",
-        "Cheap Escorts in Karachi",
-        "High Profile Escorts in Karachi",
-        "Call Girls for Night in Karachi",
-        "Massage with Happy Ending Karachi",
-        "GFE Escorts Karachi",
-        "Full Service Escorts Karachi",
-        "Call Girls for Couple Service Karachi",
-        "Outcall Escorts Karachi",
-        "Incall Escort Services Karachi",
-        "The Essentials of Blogging: Tips and Strategies for Success",
-        "Maximizing Your Blog’s Reach: SEO Tips for Bloggers",
-        "Crafting the Perfect Blog Structure: A Guide for Effective Blogging",
-        "Never Run Out of Ideas: Top Tips for Generating Fresh Blog Topics",
-        "Building a Loyal Blog Audience: Strategies for Engagement and Growth",
+        "Escorts for Hotel Service in Karachi"
       ].map((keyword, i) => (
         <li key={i}>
           <h3 className="text-base md:text-lg font-light text-gray-400">
