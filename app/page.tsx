@@ -1,14 +1,6 @@
 import EscortsCollage from "@/app/components/EscortsCollage";
 import WhatsAppButton from "@/app/components/WhatsAppButton";
 
-export const metadata = {
-  title: "Top-Rated Karachi Escorts | VIP Call Girls 24/7 Available – Call Now 03708540579",
-  description:
-    "Welcome to rockyescortskarchi — your trusted source for verified Karachi escorts, VIP call girls, and elite companions available across DHA, Clifton, Bahria Town, and top hotels.",
-  alternates: {
-    canonical: "https://rockyescortskarchi.com/",
-  },
-};
 
 export default function HomePage() {
   return (
