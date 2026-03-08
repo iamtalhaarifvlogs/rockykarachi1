@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     "Luxury Escorts Karachi",
   ],
   robots: "index, follow",
+alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "Rocky Escorts Karachi",
     description:
