@@ -5,10 +5,17 @@ import Link from "next/link";
 export default function WhatsAppButton() {
   const phoneNumber = "923708540579"; // Pakistan format (no +)
 
+  const message =
+    "Hi, I'm reaching out from your website. Can I get more details about the models?";
+
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+    message
+  )}`;
+
   return (
     <div className="fixed bottom-6 right-6 z-50">
       <Link
-        href={`https://wa.me/${phoneNumber}`}
+        href={whatsappUrl}
         target="_blank"
         className="
           group
