@@ -12,7 +12,7 @@ export default function HomePage() {
   style={{ backgroundImage: "url('/herobg.jpg')" }}
 >
   {/* Overlay */}
-  <div className="absolute inset-0 bg-black/70" />
+  <div className="absolute inset-0 bg-black/20" />
 
   <div className="relative container mx-auto px-4 text-center">
     <h1 className="text-4xl md:text-5xl font-light text-white mb-6 tracking-wide">
