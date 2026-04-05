@@ -11,7 +11,6 @@ export default function HomePage() {
         className="relative py-48 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('/herobg.jpg')" }}
       >
-        {/* Better overlay for readability + natural image look */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70" />
 
         <div className="relative container mx-auto px-4 text-center">
@@ -38,7 +37,6 @@ export default function HomePage() {
             Call Girls in Karachi – Verified, Sensual & Elite Companions
           </h2>
 
-          {/* IMAGE BELOW H2 */}
           <div className="w-full h-72 md:h-96 rounded-2xl overflow-hidden mb-8 border border-yellow-500/20 shadow-lg">
             <img
               src="/model4.jpg"
@@ -56,21 +54,116 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* WHY CHOOSE */}
+      {/* WHY CHOOSE - UPDATED WITH IMAGES AFTER EACH POINT */}
       <section className="bg-gradient-to-b from-gray-950 to-black py-20">
         <div className="container mx-auto px-4 max-w-6xl text-gray-300">
-          <h3 className="text-2xl font-semibold text-yellow-400 mb-6">
+          <h3 className="text-3xl font-semibold text-yellow-400 mb-12 text-center">
             Why Choose rockyescortskarchi?
           </h3>
 
-          <ul className="grid md:grid-cols-2 gap-4 list-disc pl-6">
-            <li>100% real and verified escorts</li>
-            <li>Fast outcall service anywhere in Karachi</li>
-            <li>VIP and affordable models available</li>
-            <li>24/7 availability – day & night</li>
-            <li>Complete discretion and privacy</li>
-            <li>Client-focused satisfaction</li>
-          </ul>
+          <div className="grid md:grid-cols-2 gap-10">
+            {/* Point 1 */}
+            <div>
+              <h4 className="text-xl font-medium text-white mb-4">
+                100% real and verified escorts
+              </h4>
+              <div className="w-full h-64 md:h-80 rounded-2xl overflow-hidden border border-yellow-500/20 shadow-lg mb-6">
+                <img
+                  src="/model2.jpg"
+                  alt="Verified Escorts in Karachi"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Every escort is personally verified for authenticity and quality.
+              </p>
+            </div>
+
+            {/* Point 2 */}
+            <div>
+              <h4 className="text-xl font-medium text-white mb-4">
+                Fast outcall service anywhere in Karachi
+              </h4>
+              <div className="w-full h-64 md:h-80 rounded-2xl overflow-hidden border border-yellow-500/20 shadow-lg mb-6">
+                <img
+                  src="/model3.jpg"
+                  alt="Fast Outcall Service Karachi"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                We reach your location (hotel, home, or guest house) within 30-60 minutes.
+              </p>
+            </div>
+
+            {/* Point 3 */}
+            <div>
+              <h4 className="text-xl font-medium text-white mb-4">
+                VIP and affordable models available
+              </h4>
+              <div className="w-full h-64 md:h-80 rounded-2xl overflow-hidden border border-yellow-500/20 shadow-lg mb-6">
+                <img
+                  src="/model4.jpg"
+                  alt="VIP and Affordable Escorts Karachi"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Choose from premium VIP models to budget-friendly beautiful companions.
+              </p>
+            </div>
+
+            {/* Point 4 */}
+            <div>
+              <h4 className="text-xl font-medium text-white mb-4">
+                24/7 availability – day & night
+              </h4>
+              <div className="w-full h-64 md:h-80 rounded-2xl overflow-hidden border border-yellow-500/20 shadow-lg mb-6">
+                <img
+                  src="/model5.jpg"
+                  alt="24/7 Escort Service Karachi"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                No matter what time you need companionship, we are always ready.
+              </p>
+            </div>
+
+            {/* Point 5 */}
+            <div>
+              <h4 className="text-xl font-medium text-white mb-4">
+                Complete discretion and privacy
+              </h4>
+              <div className="w-full h-64 md:h-80 rounded-2xl overflow-hidden border border-yellow-500/20 shadow-lg mb-6">
+                <img
+                  src="/model6.jpg"
+                  alt="Discreet Escort Services Karachi"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Your privacy and safety are our top priority at every step.
+              </p>
+            </div>
+
+            {/* Point 6 */}
+            <div>
+              <h4 className="text-xl font-medium text-white mb-4">
+                Client-focused satisfaction
+              </h4>
+              <div className="w-full h-64 md:h-80 rounded-2xl overflow-hidden border border-yellow-500/20 shadow-lg mb-6">
+                <img
+                  src="/model7.jpg"
+                  alt="Satisfaction Guaranteed Karachi Escorts"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                We ensure every client leaves fully satisfied with our service.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -128,6 +221,7 @@ export default function HomePage() {
             Escort Services by Area in Karachi
           </h3>
 
+          {/* Area sections remain the same as your original code */}
           <h4 className="text-xl font-semibold text-yellow-300 mb-3">
             Escorts in DHA Karachi – Premium Girls in a Classy Location
           </h4>
@@ -176,7 +270,7 @@ export default function HomePage() {
             conversation and sensual connection.
           </p>
 
-          <h3 className="text-2xl font-semibold text-yellow-400 mb-8">
+          <h3 className="text-2xl font-semibold text-yellow-400 mb-4">
             Escort Services in Top Karachi Hotels – Book Where You Stay
           </h3>
 
@@ -310,7 +404,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* SEO KEYWORDS SECTION */}
+      {/* POPULAR SEARCHES */}
       <section className="bg-black border-t border-yellow-500/20 py-16">
         <div className="container mx-auto px-4 max-w-6xl">
           <h2 className="text-2xl md:text-3xl font-light text-white mb-8 tracking-wide">
