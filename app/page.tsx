@@ -8,7 +8,7 @@ export default function HomePage() {
 <WhatsAppButton />
       {/* HERO */}
 <section
-  className="relative py-78 bg-cover bg-center"
+  className="relative py-48 bg-cover bg-center"
   style={{ backgroundImage: "url('/herobg.jpg')" }}
 >
   {/* Overlay */}
