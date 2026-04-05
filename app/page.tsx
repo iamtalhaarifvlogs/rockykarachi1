@@ -120,7 +120,7 @@ export default function HomePage() {
               </h4>
               <div className="w-full h-64 md:h-80 rounded-2xl overflow-hidden border border-yellow-500/20 shadow-lg mb-6">
                 <img
-                  src="/model5.jpg"
+                  src="/nm3.jpg"
                   alt="24/7 Escort Service Karachi"
                   className="w-full h-full object-cover object-center"
                 />
@@ -137,7 +137,7 @@ export default function HomePage() {
               </h4>
               <div className="w-full h-64 md:h-80 rounded-2xl overflow-hidden border border-yellow-500/20 shadow-lg mb-6">
                 <img
-                  src="/model6.jpg"
+                  src="/nm2.jpg"
                   alt="Discreet Escort Services Karachi"
                   className="w-full h-full object-cover object-center"
                 />
