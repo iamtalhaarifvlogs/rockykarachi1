@@ -39,7 +39,7 @@ export default function HomePage() {
 
           <div className="w-full h-72 md:h-96 rounded-2xl overflow-hidden mb-8 border border-yellow-500/20 shadow-lg">
             <img
-              src="/model4.jpg"
+              src="/nm8.jpg"
               alt="Call Girls in Karachi"
               className="w-full h-full object-cover object-center"
             />
