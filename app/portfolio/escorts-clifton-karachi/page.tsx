@@ -8,14 +8,14 @@ export const metadata = {
 };
 
 export default function Page() {
-  const images = ["/nm1.jpg", "/nm2.jpg", "/nm3.jpg", "/nm4.jpg"];
+  const images = ["/hm2.jpg", "/hm3.jpg", "/hm4.jpg", "/hm5.jpg"];
 
   return (
     <main className="bg-[#FFECE8] text-[#222222]">
       {/* Hero Section */}
       <section
         className="w-full h-[500px] relative bg-cover bg-center"
-        style={{ backgroundImage: "url('/herobg.jpg')" }}
+        style={{ backgroundImage: "url('/hm1.jpg')" }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/10 to-black/20 flex items-center justify-center px-4">
           <h1 className="text-white text-4xl sm:text-5xl lg:text-6xl font-bold text-center leading-tight">
