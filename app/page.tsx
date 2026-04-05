@@ -16,13 +16,12 @@ export default function HomePage() {
 
   <div className="relative container mx-auto px-4 text-center">
     <h1 className="text-4xl md:text-5xl font-light text-white mb-6 tracking-wide">
-      Top-Rated Karachi Escorts | VIP Call Girls 24/7 Available – Call Now 03708540579
+      VIP escorts in Karachi 24/7 Available – Call Now 03708540579
     </h1>
 
     <h2 className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed mb-6">
-      Welcome to rockyescortskarchi — your trusted source for verified
-      Karachi escorts, VIP call girls, and elite companions available
-      across DHA, Clifton, Bahria Town, and top hotels.
+      Welcome to rockyescortskarchi we have Karachi escorts, VIP call girls, and elite companions available
+      across DHA, Clifton, Bahria Town,Gulshan,Nazimabad and top hotels.
     </h2>
 
     <p className="text-lg text-yellow-400">
