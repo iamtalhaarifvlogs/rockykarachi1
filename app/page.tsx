@@ -8,7 +8,7 @@ export default function HomePage() {
 <WhatsAppButton />
       {/* HERO */}
 <section
-  className="relative py-28 bg-cover bg-center"
+  className="relative py-78 bg-cover bg-center"
   style={{ backgroundImage: "url('/herobg.jpg')" }}
 >
   {/* Overlay */}
@@ -19,8 +19,8 @@ export default function HomePage() {
       VIP escorts in Karachi 24/7 Available – Call Now 03708540579
     </h1>
 
-    <h2 className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed mb-6">
-      Welcome to rockyescortskarchi we have Karachi escorts, VIP call girls, and elite companions available
+    <h2 className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto leading-relaxed mb-6">
+      Premium Karachi escorts, VIP call girls, and elite companions available
       across DHA, Clifton, Bahria Town,Gulshan,Nazimabad and top hotels.
     </h2>
 
