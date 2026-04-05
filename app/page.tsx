@@ -154,7 +154,7 @@ export default function HomePage() {
               </h4>
               <div className="w-full h-64 md:h-80 rounded-2xl overflow-hidden border border-yellow-500/20 shadow-lg mb-6">
                 <img
-                  src="/model7.jpg"
+                  src="/nm9.jpg"
                   alt="Satisfaction Guaranteed Karachi Escorts"
                   className="w-full h-full object-cover object-center"
                 />
