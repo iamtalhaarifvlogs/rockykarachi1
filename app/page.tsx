@@ -9,7 +9,7 @@ export default function HomePage() {
       {/* HERO */}
       <section
         className="relative py-48 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/herobg.jpg')" }}
+        style={{ backgroundImage: "url('/hm1.jpg')" }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70" />
 
@@ -39,7 +39,7 @@ export default function HomePage() {
 
           <div className="w-full h-72 md:h-96 rounded-2xl overflow-hidden mb-8 border border-yellow-500/20 shadow-lg">
             <img
-              src="/nm8.jpg"
+              src="/hm2.jpg"
               alt="Call Girls in Karachi"
               className="w-full h-full object-cover object-center"
             />
@@ -69,7 +69,7 @@ export default function HomePage() {
               </h4>
               <div className="w-full h-64 md:h-80 rounded-2xl overflow-hidden border border-yellow-500/20 shadow-lg mb-6">
                 <img
-                  src="/model2.jpg"
+                  src="/hm3.jpg"
                   alt="Verified Escorts in Karachi"
                   className="w-full h-full object-cover object-center"
                 />
@@ -86,7 +86,7 @@ export default function HomePage() {
               </h4>
               <div className="w-full h-64 md:h-80 rounded-2xl overflow-hidden border border-yellow-500/20 shadow-lg mb-6">
                 <img
-                  src="/model3.jpg"
+                  src="/hm4.jpg"
                   alt="Fast Outcall Service Karachi"
                   className="w-full h-full object-cover object-center"
                 />
@@ -103,7 +103,7 @@ export default function HomePage() {
               </h4>
               <div className="w-full h-64 md:h-80 rounded-2xl overflow-hidden border border-yellow-500/20 shadow-lg mb-6">
                 <img
-                  src="/model4.jpg"
+                  src="/hm5.jpg"
                   alt="VIP and Affordable Escorts Karachi"
                   className="w-full h-full object-cover object-center"
                 />
@@ -120,7 +120,7 @@ export default function HomePage() {
               </h4>
               <div className="w-full h-64 md:h-80 rounded-2xl overflow-hidden border border-yellow-500/20 shadow-lg mb-6">
                 <img
-                  src="/nm3.jpg"
+                  src="/hm6.jpg"
                   alt="24/7 Escort Service Karachi"
                   className="w-full h-full object-cover object-center"
                 />
@@ -137,7 +137,7 @@ export default function HomePage() {
               </h4>
               <div className="w-full h-64 md:h-80 rounded-2xl overflow-hidden border border-yellow-500/20 shadow-lg mb-6">
                 <img
-                  src="/nm2.jpg"
+                  src="/hm7.jpg"
                   alt="Discreet Escort Services Karachi"
                   className="w-full h-full object-cover object-center"
                 />
@@ -154,7 +154,7 @@ export default function HomePage() {
               </h4>
               <div className="w-full h-64 md:h-80 rounded-2xl overflow-hidden border border-yellow-500/20 shadow-lg mb-6">
                 <img
-                  src="/nm9.jpg"
+                  src="/hm8.jpg"
                   alt="Satisfaction Guaranteed Karachi Escorts"
                   className="w-full h-full object-cover object-center"
                 />
