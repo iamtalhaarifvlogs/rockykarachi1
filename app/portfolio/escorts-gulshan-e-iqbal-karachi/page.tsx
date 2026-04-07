@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Premium Escorts in Gulshan-e-Iqbal Karachi | Elite VIP Female Companions",
     description:
       "Book elite VIP female companions and premium escorts in Gulshan-e-Iqbal Karachi. Discreet, high-class luxury services. Call Now 03708540579",
-    images: ,
+    images: "",
     type: "website",
   },
   alternates: {
