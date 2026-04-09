@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import { MetadataRoute } from "next";
 
-const baseUrl = "https://www.rockyescortskarachi.com/";
+const baseUrl = "https://www.rockyescortskarachi.com";
 
 // 🚫 Never index these
 const EXCLUDED = ["api", "admin", "dashboard", "_components", "private"];
