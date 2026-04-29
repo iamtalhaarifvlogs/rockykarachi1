@@ -6,161 +6,135 @@ export default function HomePage() {
     <>
       <WhatsAppButton />
 
-      {/* HERO */}
+      {/* HERO SECTION - Updated & Cleaner */}
       <section
         className="relative py-48 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('/hm1.jpg')" }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/80" />
 
         <div className="relative container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-light text-white mb-6 tracking-wide drop-shadow-2xl">
-            VIP escorts in Karachi 24/7 Available – Call Now 03708540579
+            Karachi Escorts 24/7 Available – Call Now 03708540579
           </h1>
 
-          <h2 className="text-xl md:text-2xl text-gray-200 max-w-2xl mx-auto leading-relaxed mb-6 drop-shadow-xl">
-            Premium Karachi escorts, VIP call girls, and elite companions
-            available across DHA, Clifton, Bahria Town, Gulshan, Nazimabad and
-            top hotels.
+          <h2 className="text-xl md:text-2xl text-gray-200 max-w-2xl mx-auto leading-relaxed mb-8 drop-shadow-xl">
+            Premium Karachi escorts, VIP call girls &amp; elite companions available 
+            in DHA, Clifton, Bahria Town, Gulshan, Nazimabad and top hotels.
           </h2>
 
           <p className="text-lg text-yellow-400 font-medium drop-shadow-xl">
-            📞 Call / WhatsApp: <span className="text-white">03708540579</span>
+            📞 Call / WhatsApp: <span className="text-white font-semibold">03708540579</span>
           </p>
         </div>
       </section>
 
-      {/* INTRO */}
+      {/* INTRO SECTION */}
       <section className="bg-black py-20">
         <div className="container mx-auto px-4 max-w-5xl text-gray-300">
           <h2 className="text-3xl font-semibold text-yellow-400 mb-6">
-            Call Girls in Karachi – Verified, Sensual & Elite Companions
+            Karachi Escorts – Verified, Sensual &amp; Elite Companions
           </h2>
 
           <div className="w-full h-72 md:h-96 rounded-2xl overflow-hidden mb-8 border border-yellow-500/20 shadow-lg">
             <img
               src="/hm2.jpg"
-              alt="Call Girls in Karachi"
+              alt="Karachi Escorts - Premium Call Girls in Karachi"
               className="w-full h-full object-cover object-center"
             />
           </div>
 
-          <p className="leading-relaxed">
-            At rockyescortskarchi, we offer professional, discreet, and verified
-            escort services in Karachi. Whether you’re visiting for business,
-            staying in a hotel, or relaxing at home, we provide companions
-            tailored to your preferences with complete privacy and fast outcall.
+          <p className="leading-relaxed text-lg">
+            Looking for reliable <strong>escorts in Karachi</strong>? At rockyescortskarchi, we provide premium, discreet, and verified 
+            <strong>Karachi escorts</strong> for incall and outcall services. Whether you're in a hotel, home, or guest house, our beautiful 
+            and professional companions are ready to offer you an unforgettable experience with complete privacy.
           </p>
         </div>
       </section>
 
-      {/* WHY CHOOSE - UPDATED WITH IMAGES AFTER EACH POINT */}
+      {/* WHY CHOOSE US - Enhanced with SEO */}
       <section className="bg-gradient-to-b from-gray-950 to-black py-20">
         <div className="container mx-auto px-4 max-w-6xl text-gray-300">
           <h3 className="text-3xl font-semibold text-yellow-400 mb-12 text-center">
-            Why Choose rockyescortskarchi?
+            Why Choose Us for Karachi Escorts Service?
           </h3>
 
           <div className="grid md:grid-cols-2 gap-10">
             {/* Point 1 */}
             <div>
               <h4 className="text-xl font-medium text-white mb-4">
-                100% real and verified escorts
+                100% Verified Karachi Escorts
               </h4>
               <div className="w-full h-64 md:h-80 rounded-2xl overflow-hidden border border-yellow-500/20 shadow-lg mb-6">
-                <img
-                  src="/hm3.jpg"
-                  alt="Verified Escorts in Karachi"
-                  className="w-full h-full object-cover object-center"
-                />
+                <img src="/hm3.jpg" alt="Verified Karachi Escorts" className="w-full h-full object-cover" />
               </div>
-              <p className="text-gray-400 text-sm leading-relaxed">
-                Every escort is personally verified for authenticity and quality.
+              <p className="text-gray-400 leading-relaxed">
+                Every escort is personally verified. We only work with real, beautiful, and professional <strong>Karachi escorts</strong>.
               </p>
             </div>
 
             {/* Point 2 */}
             <div>
               <h4 className="text-xl font-medium text-white mb-4">
-                Fast outcall service anywhere in Karachi
+                Fast Outcall Service Across Karachi
               </h4>
               <div className="w-full h-64 md:h-80 rounded-2xl overflow-hidden border border-yellow-500/20 shadow-lg mb-6">
-                <img
-                  src="/hm4.jpg"
-                  alt="Fast Outcall Service Karachi"
-                  className="w-full h-full object-cover object-center"
-                />
+                <img src="/hm4.jpg" alt="Fast Outcall Escorts in Karachi" className="w-full h-full object-cover" />
               </div>
-              <p className="text-gray-400 text-sm leading-relaxed">
-                We reach your location (hotel, home, or guest house) within 30-60 minutes.
+              <p className="text-gray-400 leading-relaxed">
+                We provide quick outcall service to all major areas including DHA, Clifton, PECHS, Nazimabad, Gulshan, and top hotels.
               </p>
             </div>
 
             {/* Point 3 */}
             <div>
               <h4 className="text-xl font-medium text-white mb-4">
-                VIP and affordable models available
+                Escorts in Marriott Hotel Karachi
               </h4>
               <div className="w-full h-64 md:h-80 rounded-2xl overflow-hidden border border-yellow-500/20 shadow-lg mb-6">
-                <img
-                  src="/hm5.jpg"
-                  alt="VIP and Affordable Escorts Karachi"
-                  className="w-full h-full object-cover object-center"
-                />
+                <img src="/hm5.jpg" alt="Escorts in Marriott Hotel Karachi" className="w-full h-full object-cover" />
               </div>
-              <p className="text-gray-400 text-sm leading-relaxed">
-                Choose from premium VIP models to budget-friendly beautiful companions.
+              <p className="text-gray-400 leading-relaxed">
+                Special service for guests staying at <strong>Marriott Hotel Karachi</strong> and other 5-star hotels with full discretion.
               </p>
             </div>
 
             {/* Point 4 */}
             <div>
               <h4 className="text-xl font-medium text-white mb-4">
-                24/7 availability – day & night
+                24/7 Availability – Day or Night
               </h4>
               <div className="w-full h-64 md:h-80 rounded-2xl overflow-hidden border border-yellow-500/20 shadow-lg mb-6">
-                <img
-                  src="/hm6.jpg"
-                  alt="24/7 Escort Service Karachi"
-                  className="w-full h-full object-cover object-center"
-                />
+                <img src="/hm6.jpg" alt="24/7 Karachi Escorts Service" className="w-full h-full object-cover" />
               </div>
-              <p className="text-gray-400 text-sm leading-relaxed">
-                No matter what time you need companionship, we are always ready.
+              <p className="text-gray-400 leading-relaxed">
+                Need <strong>escorts in Karachi</strong> at midnight or early morning? We are available 24 hours a day, 7 days a week.
               </p>
             </div>
 
             {/* Point 5 */}
             <div>
               <h4 className="text-xl font-medium text-white mb-4">
-                Complete discretion and privacy
+                Complete Privacy &amp; Discretion
               </h4>
               <div className="w-full h-64 md:h-80 rounded-2xl overflow-hidden border border-yellow-500/20 shadow-lg mb-6">
-                <img
-                  src="/hm7.jpg"
-                  alt="Discreet Escort Services Karachi"
-                  className="w-full h-full object-cover object-center"
-                />
+                <img src="/hm7.jpg" alt="Discreet Escorts in Karachi" className="w-full h-full object-cover" />
               </div>
-              <p className="text-gray-400 text-sm leading-relaxed">
-                Your privacy and safety are our top priority at every step.
+              <p className="text-gray-400 leading-relaxed">
+                Your safety and privacy are our top priority when you book <strong>Karachi escorts</strong> with us.
               </p>
             </div>
 
             {/* Point 6 */}
             <div>
               <h4 className="text-xl font-medium text-white mb-4">
-                Client-focused satisfaction
+                Satisfaction Guaranteed
               </h4>
               <div className="w-full h-64 md:h-80 rounded-2xl overflow-hidden border border-yellow-500/20 shadow-lg mb-6">
-                <img
-                  src="/hm8.jpg"
-                  alt="Satisfaction Guaranteed Karachi Escorts"
-                  className="w-full h-full object-cover object-center"
-                />
+                <img src="/hm8.jpg" alt="Satisfaction Guaranteed Karachi Escorts" className="w-full h-full object-cover" />
               </div>
-              <p className="text-gray-400 text-sm leading-relaxed">
-                We ensure every client leaves fully satisfied with our service.
+              <p className="text-gray-400 leading-relaxed">
+                We ensure every client is 100% satisfied with our <strong>escorts in Karachi</strong>.
               </p>
             </div>
           </div>
@@ -170,286 +144,110 @@ export default function HomePage() {
       {/* SERVICES */}
       <section className="bg-black py-20">
         <div className="container mx-auto px-4 max-w-6xl text-gray-300">
-          <h3 className="text-2xl font-semibold text-yellow-400 mb-6">
-            Escort Services in Karachi – Customized for Your Desires
+          <h3 className="text-3xl font-semibold text-yellow-400 mb-6 text-center">
+            Our Escort Services in Karachi
           </h3>
 
-          <h4 className="text-xl font-medium text-yellow-300 mb-4">
-            Services We Offer
-          </h4>
-
-          <ul className="list-disc pl-6 space-y-2">
-            <li>One-hour encounters to full-night stays</li>
-            <li>Outcall services to hotels, homes, and guest houses</li>
-            <li>Romantic dinner dates</li>
-            <li>Massage with happy ending</li>
-            <li>Couple-friendly escort services</li>
-            <li>Travel companion escorts</li>
+          <ul className="list-disc pl-6 space-y-3 text-lg max-w-3xl mx-auto">
+            <li>Short time &amp; full night escorts in Karachi</li>
+            <li>Outcall services to hotels, homes &amp; guest houses</li>
+            <li>Romantic dinner dates with <strong>Karachi escorts</strong></li>
+            <li>Body massage with happy ending</li>
+            <li>Girlfriend Experience (GFE)</li>
+            <li>VIP and model escorts in Karachi</li>
           </ul>
         </div>
       </section>
 
-      {/* SERVICES & AREAS – SEO POWER SECTION */}
-      <section className="relative bg-gradient-to-b from-black via-gray-900 to-black py-24">
+      {/* AREAS & HOTELS - SEO Heavy Section */}
+      <section className="bg-gradient-to-b from-black via-gray-900 to-black py-24">
         <div className="container mx-auto px-4 max-w-6xl text-gray-300">
-          <h2 className="text-3xl md:text-4xl font-light text-white mb-8 tracking-wide">
-            Escort Services in Karachi – Customized for Your Desires
+          <h2 className="text-4xl font-light text-white mb-10 text-center">
+            Escorts in Karachi – Available Across All Major Areas
           </h2>
 
-          <p className="mb-6 leading-relaxed text-gray-300">
-            Our escort services in Karachi are designed to suit all situations -
-            whether you want a passionate girlfriend experience (GFE), a relaxing
-            massage, or an unforgettable night filled with intimacy and fun. At
-            rockyescortskarchi, discretion, comfort, and satisfaction always come
-            first.
-          </p>
+          <div className="space-y-16">
+            <div>
+              <h3 className="text-2xl font-semibold text-yellow-400 mb-4">Escorts in DHA Karachi</h3>
+              <p className="leading-relaxed">
+                Looking for <strong>escorts in DHA Karachi</strong>? Our premium DHA escorts are elegant, sophisticated, and perfect for discerning gentlemen.
+              </p>
+            </div>
 
-          <h3 className="text-2xl font-semibold text-yellow-400 mb-4">
-            We Offer
-          </h3>
+            <div>
+              <h3 className="text-2xl font-semibold text-yellow-400 mb-4">Escorts in Clifton Karachi</h3>
+              <p className="leading-relaxed">
+                Experience the best <strong>Clifton Karachi escorts</strong> near Seaview, Boat Basin, and Dolmen Mall.
+              </p>
+            </div>
 
-          <ul className="list-disc pl-6 space-y-2 mb-12 text-gray-300">
-            <li>One-hour encounters to full-night stays</li>
-            <li>Outcall services to hotels, homes, and guest houses</li>
-            <li>Romantic dinner dates</li>
-            <li>Body massage with happy endings</li>
-            <li>Couple-friendly escort services</li>
-            <li>Travel companion escorts</li>
-          </ul>
+            <div>
+              <h3 className="text-2xl font-semibold text-yellow-400 mb-4">Escorts in Marriott Hotel Karachi</h3>
+              <p className="leading-relaxed">
+                We provide discreet <strong>escorts in Marriott Hotel Karachi</strong> with fast hotel service and complete privacy.
+              </p>
+            </div>
 
-          <h3 className="text-2xl font-semibold text-yellow-400 mb-10">
-            Escort Services by Area in Karachi
-          </h3>
-
-          {/* Area sections remain the same as your original code */}
-          <h4 className="text-xl font-semibold text-yellow-300 mb-3">
-            Escorts in DHA Karachi – Premium Girls in a Classy Location
-          </h4>
-          <p className="mb-8 text-gray-400 leading-relaxed">
-            If you’re in Defense, you deserve nothing less than luxury. Our DHA
-            Karachi escorts represent elegance, class, and confidence. Many are
-            models, students, and working professionals who know how to entertain
-            with charm and sophistication.
-          </p>
-
-          <h4 className="text-xl font-semibold text-yellow-300 mb-3">
-            Escorts in Clifton Karachi – Sensual Experiences Near Seaview
-          </h4>
-          <p className="mb-8 text-gray-400 leading-relaxed">
-            The beaches of Clifton deserve a companion as beautiful as the view.
-            Our Clifton Karachi escorts are bold, stunning, and experienced,
-            perfect for clients staying near Dolmen Mall, Seaview, or Boat Basin.
-          </p>
-
-          <h4 className="text-xl font-semibold text-yellow-300 mb-3">
-            Escorts in Malir Karachi – Enjoy True Passion with Full Privacy
-          </h4>
-          <p className="mb-8 text-gray-400 leading-relaxed">
-            Discretion and convenience define our Malir Karachi escort services.
-            Whether you’re in Model Colony, Malir Cantt, or Saudabad, our escorts
-            deliver intimate experiences directly to your door.
-          </p>
-
-          <h4 className="text-xl font-semibold text-yellow-300 mb-3">
-            Escorts in Nazimabad Karachi – Real Local Girls with Desi Charm
-          </h4>
-          <p className="mb-8 text-gray-400 leading-relaxed">
-            Nazimabad escorts offer traditional beauty, emotional warmth, and
-            genuine companionship. Ideal for clients seeking a romantic,
-            pressure-free experience with fast outcall service across North
-            Nazimabad.
-          </p>
-
-          <h4 className="text-xl font-semibold text-yellow-300 mb-10">
-            Escorts in Bahria Town Karachi – VIP Girls in a Modern Luxury Setting
-          </h4>
-          <p className="mb-12 text-gray-400 leading-relaxed">
-            Bahria Town Karachi escorts reflect modern luxury and sophistication.
-            From tall models and influencers to classy professionals, these
-            companions are perfect for elite clients who want meaningful
-            conversation and sensual connection.
-          </p>
-
-          <h3 className="text-2xl font-semibold text-yellow-400 mb-4">
-            Escort Services in Top Karachi Hotels – Book Where You Stay
-          </h3>
-
-          <p className="mb-6 text-gray-300 leading-relaxed">
-            We specialize in providing hotel escorts in Karachi. Whether you’re
-            staying in a 5-star hotel or a private guest house, our escorts are
-            familiar with hotel protocols and ensure discreet service.
-          </p>
-
-          <ul className="list-disc pl-6 space-y-2 mb-12 text-gray-400">
-            <li>Escorts in PC Hotel Karachi (Pearl Continental)</li>
-            <li>Escorts in Mövenpick Hotel Karachi</li>
-            <li>Escorts in Marriott Hotel Karachi</li>
-            <li>Escorts in Avari Towers Karachi</li>
-            <li>Escorts in Ramada Plaza Karachi</li>
-            <li>Escorts in Dreamworld Resort Karachi</li>
-            <li>Escorts in Beach Luxury Hotel Karachi</li>
-            <li>Escorts in Regent Plaza Karachi</li>
-          </ul>
-
-          <h3 className="text-2xl font-semibold text-yellow-400 mb-4">
-            VIP & Model Escorts in Karachi – For Those Who Want the Best
-          </h3>
-
-          <p className="mb-6 text-gray-300 leading-relaxed">
-            Our VIP Karachi escorts include models, influencers, air hostesses,
-            and elite companions handpicked for clients who demand excellence in
-            beauty, behavior, and service quality.
-          </p>
-
-          <ul className="list-disc pl-6 space-y-2 text-gray-400">
-            <li>Housewife escorts for mature men</li>
-            <li>Punjabi & Sindhi girls for local taste</li>
-            <li>Russian and Afghan escorts (on demand)</li>
-            <li>Slim, tall, and curvy escorts</li>
-            <li>Girls fluent in English & Urdu</li>
-          </ul>
+            <div>
+              <h3 className="text-2xl font-semibold text-yellow-400 mb-4">Escorts in Nazimabad &amp; PECHS Karachi</h3>
+              <p className="leading-relaxed">
+                Affordable and beautiful escorts available in Nazimabad, North Nazimabad, and PECHS Karachi with quick response.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* PRICING TABLE */}
       <section className="bg-black py-20">
         <div className="container mx-auto px-4 max-w-6xl">
-          <h3 className="text-2xl font-semibold text-yellow-400 mb-6 text-center">
-            Prices of Karachi Escort Services
+          <h3 className="text-3xl font-semibold text-yellow-400 mb-6 text-center">
+            Karachi Escorts Price List
           </h3>
-
-          <p className="text-gray-400 text-center mb-8">
-            Transparent pricing with no hidden charges.
-          </p>
 
           <div className="overflow-x-auto">
             <table className="w-full border border-yellow-500/30 text-gray-300">
               <thead className="bg-gray-900">
                 <tr>
-                  <th className="p-4 border border-yellow-500/30">Service Type</th>
-                  <th className="p-4 border border-yellow-500/30">Time</th>
-                  <th className="p-4 border border-yellow-500/30">
-                    Price Range (PKR)
-                  </th>
+                  <th className="p-4 border border-yellow-500/30">Service</th>
+                  <th className="p-4 border border-yellow-500/30">Duration</th>
+                  <th className="p-4 border border-yellow-500/30">Price (PKR)</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  ["Short-Time Fun", "1 Hour", "30,000 – 65,000"],
-                  ["Full Night (Incall / Outcall)", "8 Hours", "35,000 – 80,000"],
-                  ["VIP Escort", "Custom", "50,000+"],
-                  ["Massage with Ending", "1 Hour", "22,000 – 32,000"],
+                  ["Short Time", "1 Hour", "30,000 – 65,000"],
+                  ["Full Night", "8 Hours", "40,000 – 90,000"],
+                  ["VIP Escort", "Custom", "60,000+"],
+                  ["Massage + Happy Ending", "1 Hour", "25,000 – 40,000"],
                 ].map((row, i) => (
-                  <tr key={i} className="text-center">
+                  <tr key={i} className="text-center border-t border-yellow-500/20">
                     {row.map((cell, j) => (
-                      <td key={j} className="p-4 border border-yellow-500/20">
-                        {cell}
-                      </td>
+                      <td key={j} className="p-4 border border-yellow-500/20">{cell}</td>
                     ))}
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-
-          <p className="text-center text-yellow-400 mt-6">
-            📞 Book Now: <span className="text-white">03708540579</span>
-          </p>
         </div>
       </section>
 
-      {/* BOOKING PROCESS */}
-      <section className="bg-gradient-to-b from-gray-950 to-black py-20">
-        <div className="container mx-auto px-4 max-w-6xl text-gray-300">
-          <h3 className="text-2xl font-semibold text-yellow-400 mb-6">
-            Booking Process – Easy, Discreet & Fast
-          </h3>
-
-          <ol className="list-decimal pl-6 space-y-2">
-            <li>Call or WhatsApp us at 03708540579</li>
-            <li>Tell us your location and preference</li>
-            <li>Select from our verified girls</li>
-            <li>Confirm time and rate</li>
-            <li>Your escort arrives within 30–60 minutes</li>
-          </ol>
-        </div>
-      </section>
-
-      {/* SAFETY */}
-      <section className="bg-black py-20">
-        <div className="container mx-auto px-4 max-w-6xl text-gray-300">
-          <h3 className="text-2xl font-semibold text-yellow-400 mb-6">
-            Safety, Hygiene & Discretion
-          </h3>
-
-          <ul className="list-disc pl-6 space-y-2">
-            <li>Cleanliness and health standards</li>
-            <li>Strict age verification (18+ only)</li>
-            <li>Complete privacy and confidentiality</li>
-            <li>Legal and ethical compliance</li>
-          </ul>
-        </div>
-      </section>
-
-      {/* SEO KEYWORDS */}
-      <section className="bg-gradient-to-br from-black to-gray-900 py-16">
-        <div className="container mx-auto px-4 max-w-6xl text-gray-500 text-sm leading-relaxed">
-          <p>
-            Karachi Escorts, Escorts in Karachi, VIP Karachi Escorts, Karachi Call
-            Girls, Independent Escorts Karachi, Model Escorts in Karachi, DHA
-            Karachi Escorts, Clifton Karachi Escorts, Bahria Town Karachi Escorts,
-            Hotel Escorts Karachi, Outcall Escorts Karachi, Massage with Happy
-            Ending Karachi, GFE Escorts Karachi, Full Service Escorts Karachi
-          </p>
-        </div>
-      </section>
-
-      {/* POPULAR SEARCHES */}
-      <section className="bg-black border-t border-yellow-500/20 py-16">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <h2 className="text-2xl md:text-3xl font-light text-white mb-8 tracking-wide">
-            Popular Searches & Related Keywords
+      {/* FINAL CTA */}
+      <section className="bg-gradient-to-br from-black to-gray-950 py-20 text-center">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-light text-white mb-6">
+            Ready to Book Karachi Escorts?
           </h2>
-
-          <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 list-disc pl-6 text-gray-400">
-            {[
-              "Karachi Escorts",
-              "Escorts in Karachi",
-              "VIP Karachi Escorts",
-              "Karachi Call Girls",
-              "Call Girls in Karachi",
-              "Independent Escorts Karachi",
-              "Model Escorts in Karachi",
-              "Karachi Female Escorts",
-              "Karachi Escort Service",
-              "Hot Karachi Escorts",
-              "DHA Karachi Escorts",
-              "Clifton Karachi Escorts",
-              "Bahria Town Karachi Escorts",
-              "Malir Karachi Escorts",
-              "Nazimabad Karachi Escorts",
-              "Gulshan Karachi Escorts",
-              "Saddar Karachi Escorts",
-              "Gulistan-e-Johar Karachi Escorts",
-              "North Karachi Escorts",
-              "Korangi Karachi Escorts",
-              "Escorts in PC Hotel Karachi",
-              "Escorts in Marriott Hotel Karachi",
-              "Escorts in Mövenpick Karachi",
-              "Escorts in Avari Towers Karachi",
-              "Escorts in Ramada Karachi",
-              "Escorts in Regent Plaza Karachi",
-              "Escorts in Dreamworld Karachi",
-              "Beach Luxury Hotel Escorts Karachi",
-              "Escorts for Hotel Service in Karachi",
-            ].map((keyword, i) => (
-              <li key={i}>
-                <h3 className="text-base md:text-lg font-light text-gray-400">
-                  {keyword}
-                </h3>
-              </li>
-            ))}
-          </ul>
+          <p className="text-2xl text-yellow-400 mb-8">
+            Call or WhatsApp Now – 03708540579
+          </p>
+          <a 
+            href="tel:03708540579"
+            className="inline-block bg-yellow-400 text-black font-bold text-2xl px-16 py-6 rounded-full hover:bg-white transition-all"
+          >
+            CALL 03708540579
+          </a>
         </div>
       </section>
     </>
