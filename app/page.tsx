@@ -163,39 +163,7 @@ export default function HomePage() {
       </section>
 
       {/* PRICING */}
-      <section className="bg-black py-20">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <h3 className="text-3xl font-semibold text-yellow-400 mb-6 text-center">
-            Karachi Escorts Price List
-          </h3>
-
-          <div className="overflow-x-auto">
-            <table className="w-full border border-yellow-500/30 text-gray-300">
-              <thead className="bg-gray-900">
-                <tr>
-                  <th className="p-4 border border-yellow-500/30">Service</th>
-                  <th className="p-4 border border-yellow-500/30">Duration</th>
-                  <th className="p-4 border border-yellow-500/30">Price (PKR)</th>
-                </tr>
-              </thead>
-              <tbody>
-                {[
-                  ["Short Time", "1 Hour", "30,000 – 65,000"],
-                  ["Full Night", "8 Hours", "40,000 – 90,000"],
-                  ["VIP Escort", "Custom", "60,000+"],
-                  ["Massage + Ending", "1 Hour", "25,000 – 40,000"],
-                ].map((row, i) => (
-                  <tr key={i} className="text-center border-t border-yellow-500/20">
-                    {row.map((cell, j) => (
-                      <td key={j} className="p-4 border border-yellow-500/20">{cell}</td>
-                    ))}
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
+     
 
       {/* FINAL CTA */}
       <section className="bg-gradient-to-br from-black to-gray-950 py-20 text-center">
