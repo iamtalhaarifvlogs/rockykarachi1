@@ -1,138 +1,200 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 
-export const metadata = {
-  title:
-    "Premium Escorts in Clifton Karachi | Elite VIP Female Companions Karachi",
-  description:
-    "Discover professional and discreet premium escorts in Clifton Karachi. Explore our elite VIP escort gallery and book the top-rated female companions in Karachi.",
+export const metadata: Metadata = {
+  title: "Escorts in Clifton Karachi | Premium Call Girls Clifton - 03708540579",
+  description: "Book premium Escorts in Clifton Karachi. Verified VIP call girls and luxury companions available in Clifton, near Seaview, Boat Basin & Dolmen Mall. Discreet outcall & hotel service. Call 03708540579.",
+  keywords: [
+    "escorts in Clifton Karachi",
+    "Clifton Karachi escorts",
+    "call girls in Clifton Karachi",
+    "Clifton escorts",
+    "VIP escorts Clifton Karachi",
+    "luxury escorts Clifton Karachi",
+    "high class escorts Clifton",
+    "Clifton Karachi call girls",
+    "elite escorts Clifton",
+    "independent escorts Clifton Karachi",
+    "hotel escorts Clifton Karachi",
+    "Clifton escorts near me",
+    "premium companions Clifton Karachi",
+    "Seaview escorts Karachi",
+    "Boat Basin escorts"
+  ],
+  openGraph: {
+    title: "Escorts in Clifton Karachi | VIP Call Girls Clifton - 03708540579",
+    description: "Premium and discreet escorts in Clifton Karachi. Luxury companions available near Seaview, Boat Basin & Dolmen Mall.",
+    images: [{ url: "/hm1.jpg" }],
+  },
 };
 
-export default function Page() {
+export default function CliftonEscortsKarachiPage() {
   const images = ["/hm2.jpg", "/hm3.jpg", "/hm4.jpg", "/hm5.jpg"];
 
   return (
     <main className="bg-[#FFECE8] text-[#222222]">
-      {/* Hero Section */}
+
+      {/* Hero Section - Clean & Powerful */}
       <section
-        className="w-full h-[500px] relative bg-cover bg-center"
+        className="relative h-[580px] bg-cover bg-center"
         style={{ backgroundImage: "url('/hm1.jpg')" }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/10 to-black/20 flex items-center justify-center px-4">
-          <h1 className="text-white text-4xl sm:text-5xl lg:text-6xl font-bold text-center leading-tight">
-            Premium <strong>Escorts in Clifton Karachi</strong> – Call Now 03708540579
-          </h1>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/70" />
+
+        <div className="relative h-full flex items-center justify-center px-6 text-center">
+          <div>
+            <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+              Escorts in Clifton Karachi<br />
+              <span className="text-[#FF69B4]">03708540579</span>
+            </h1>
+            <p className="text-white/90 text-lg md:text-xl max-w-2xl mx-auto">
+              Premium VIP call girls &amp; luxury companions in Clifton near Seaview, Boat Basin &amp; Dolmen Mall
+            </p>
+          </div>
         </div>
       </section>
 
-      {/* Introduction Section */}
-      <section className="max-w-5xl mx-auto px-6 py-12 text-center">
-        <h2 className="text-4xl font-semibold mb-4 text-[#D6336C]">
-          Elite <strong>Escorts in Clifton Karachi</strong> – Top-Rated Female Companions
+      {/* Introduction */}
+      <section className="max-w-6xl mx-auto px-6 py-16 text-center">
+        <h2 className="text-4xl font-semibold text-[#D6336C] mb-6">
+          Premium Escorts in Clifton Karachi
         </h2>
-        <p className="text-lg leading-relaxed text-[#333333] mb-6">
-          Welcome to the most trusted <strong>escort agency in Clifton Karachi</strong>. We
-          offer <strong>premium VIP female escorts</strong>, <strong>high-class companionship</strong> for elite clients, 
-          and <strong>discreet professional escort services</strong>. Our portfolio includes 
-          <strong>&nbsp; top-rated Clifton escorts</strong>, <strong>luxury escorts for events in Karachi</strong>, 
-          and <strong>exclusive female companions near me</strong>.
-        </p>
-        <p className="text-lg leading-relaxed text-[#333333] mb-6">
-          Whether you are searching for <strong>luxury VIP escorts in Clifton Karachi</strong>, 
-          <strong>professional female companions</strong>, or <strong>high-end escort services in Karachi</strong>, 
-          our elite escorts deliver personalized experiences with elegance, charm, and discretion.
-        </p>
-        <p className="text-lg leading-relaxed text-[#333333]">
-          Clients trust us for <strong>Clifton Karachi top escorts</strong>, <strong>exclusive companions for parties or dinners</strong>, 
-          <strong>high-class female escorts</strong>, and <strong>elite VIP escort services in Karachi</strong>.
+        <p className="text-lg leading-relaxed text-[#333333] max-w-3xl mx-auto">
+          Searching for high-class <strong>escorts in Clifton Karachi</strong>? 
+          We provide the most elegant, verified, and sophisticated VIP companions 
+          in Clifton, perfect for private evenings, romantic dinners, hotel visits, 
+          and exclusive experiences near Seaview, Boat Basin, and Dolmen Mall.
         </p>
       </section>
 
-      {/* Photo Gallery */}
-      <section className="bg-white py-12 px-6">
-        <h3 className="text-3xl text-center font-semibold mb-8 text-[#D6336C]">
-          Clifton <strong>Escorts Gallery</strong> – Luxury Visual Portfolio
-        </h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {images.map((img, idx) => (
-            <div key={idx} className="overflow-hidden rounded-lg shadow-lg">
-              <img
-                src={img}
-                alt={`Clifton Escort ${idx + 1} - Premium VIP Female Companion Karachi`}
-                className="object-cover w-full h-[300px] transition-transform duration-300 hover:scale-105"
-              />
+      {/* Gallery Section */}
+      <section className="bg-white py-16 px-6">
+        <div className="max-w-6xl mx-auto">
+          <h3 className="text-3xl font-semibold text-center text-[#D6336C] mb-12">
+            Featured Escorts in Clifton Karachi
+          </h3>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            {images.map((img, idx) => (
+              <div 
+                key={idx} 
+                className="bg-[#FFF0F2] rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all group"
+              >
+                <div className="h-[340px] overflow-hidden">
+                  <img
+                    src={img}
+                    alt={`Premium Escort in Clifton Karachi ${idx + 1}`}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <div className="p-6 text-center">
+                  <h4 className="text-xl font-semibold mb-2">Elite Companion {idx + 1}</h4>
+                  <p className="text-sm text-gray-600 mb-5">
+                    Clifton Karachi • Verified • Luxury Experience
+                  </p>
+                  <Link
+                    href="/contact"
+                    className="block w-full bg-[#D6336C] hover:bg-[#b82b5c] text-white py-3.5 rounded-xl font-medium transition-all"
+                  >
+                    Book This Escort
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose Us */}
+      <section className="max-w-5xl mx-auto px-6 py-20">
+        <h2 className="text-4xl font-semibold text-center text-[#D6336C] mb-12">
+          Why Choose Our Escorts in Clifton Karachi
+        </h2>
+
+        <div className="grid md:grid-cols-2 gap-12 text-lg leading-relaxed text-[#333333]">
+          <div className="space-y-8">
+            <div>
+              <h3 className="font-semibold text-xl mb-3 text-[#D6336C]">Verified &amp; High-Class Escorts</h3>
+              <p>We offer only the most beautiful and professional <strong>escorts in Clifton Karachi</strong> who are carefully verified for quality and discretion.</p>
             </div>
-          ))}
+
+            <div>
+              <h3 className="font-semibold text-xl mb-3 text-[#D6336C]">Discreet &amp; Professional Service</h3>
+              <p>Complete privacy guaranteed. Our <strong>Clifton Karachi escorts</strong> maintain the highest level of confidentiality for every client.</p>
+            </div>
+          </div>
+
+          <div className="space-y-8">
+            <div>
+              <h3 className="font-semibold text-xl mb-3 text-[#D6336C]">Fast Response in Clifton</h3>
+              <p>Quick booking and reliable outcall service across Clifton, Seaview, Boat Basin, and nearby areas.</p>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-xl mb-3 text-[#D6336C]">Tailored Luxury Experience</h3>
+              <p>From romantic dinners to private hotel sessions — we create memorable moments with our <strong>Clifton escorts</strong>.</p>
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* Services Section */}
-      <section className="max-w-4xl mx-auto px-4 py-12 text-[#222222]">
-        <h2 className="text-3xl font-semibold mb-4">
-          Why Book Our <strong>Escorts in Clifton Karachi</strong>
-        </h2>
-        <p className="text-lg leading-relaxed mb-4">
-          Our <strong>Clifton escort agency</strong> provides professional, elegant, and
-          discreet companions for clients seeking <strong>elite VIP escorts in Karachi</strong>,
-          <strong>top-rated female escorts</strong>, <strong>exclusive companionship for events</strong>, 
-          and <strong>luxury escort services near Clifton</strong>.
-        </p>
-        <ul className="list-disc list-inside mt-4 space-y-2 text-lg">
-          <li>Premium and professional female escorts in <strong>Clifton Karachi</strong></li>
-          <li>VIP and elite escort services for private events and dinners</li>
-          <li>Discreet and safe companionship for high-end clients in Karachi</li>
-          <li>Personalized experiences tailored to your preferences</li>
-          <li>Trusted and highly-rated escorts with proven client satisfaction</li>
-          <li>Luxury escorts for parties, meetings, or personal visits</li>
-          <li>Exclusive access to elite companions in <strong>Clifton Karachi</strong></li>
-          <li>Booking top female escorts in Karachi made easy and discreet</li>
-          <li>High-class, sophisticated companions for elite clientele</li>
-          <li>Professional VIP escort services in Karachi</li>
-        </ul>
+      {/* Benefits / SEO Section */}
+      <section className="bg-[#FFF0F2] py-16 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <h3 className="text-3xl font-semibold mb-8 text-[#D6336C]">
+            Experience True Luxury with Escorts in Clifton Karachi
+          </h3>
+          <p className="text-lg leading-relaxed text-[#333333]">
+            Our premium <strong>escorts in Clifton Karachi</strong> are perfect for clients seeking elegance, charm, and sophistication. 
+            Whether you want a dinner companion, a private evening, or a full-night experience near Seaview or Dolmen Mall, 
+            we deliver unforgettable moments with complete discretion.
+          </p>
+        </div>
       </section>
 
-      {/* SEO & Benefits Section */}
-      <section className="bg-[#FFF0F2] py-12 px-6 text-center">
-        <h3 className="text-3xl font-semibold mb-6 text-[#D6336C]">
-          Experience Luxury Escort Services in <strong>Clifton Karachi</strong>
-        </h3>
-        <p className="text-lg leading-relaxed max-w-3xl mx-auto mb-4">
-          Booking a <strong>premium escort in Clifton Karachi</strong> ensures a memorable and
-          sophisticated experience. Our companions specialize in <strong>discreet VIP escort services</strong>, 
-          <strong>elite female companionship</strong>, and <strong>luxury escorts for high-class clients in Karachi</strong>.
-        </p>
-        <p className="text-lg leading-relaxed max-w-3xl mx-auto">
-          We cover popular searches like <strong>Clifton Karachi escorts near me</strong>, 
-          <strong>elite VIP female escorts Karachi</strong>, <strong>professional escort agency Clifton</strong>, 
-          <strong>high-end escorts for hire in Karachi</strong>, <strong>trusted Clifton escorts</strong>, 
-          <strong>luxury female companions in Clifton</strong>, <strong>exclusive escort experiences Karachi</strong>, 
-          <strong>top-rated escorts near Clifton</strong>, <strong>Karachi private escort services</strong>, 
-          <strong>premium companionship in Clifton</strong>, <strong>female VIP escort booking Karachi</strong>, 
-          <strong>elite female companions for events in Karachi</strong>, and <strong>Clifton Karachi high-class escorts</strong>. 
-          All services focus on safety, professionalism, and unforgettable experiences.
-        </p>
-      </section>
-
-      {/* Call To Action */}
-      <section className="bg-[#D6336C] text-white py-12 text-center">
-        <h2 className="text-3xl font-bold mb-4">
-          Book Your Elite Escort in <strong>Clifton Karachi</strong> Today
-        </h2>
-        <p className="text-lg mb-6">
-          Contact us now to reserve your <strong>VIP escort in Clifton Karachi</strong> and enjoy
-          a luxurious, discreet, and unforgettable experience.
-        </p>
-        <Link
-          href="/contact"
-          className="bg-white text-[#D6336C] font-semibold px-8 py-3 rounded-md shadow-md hover:bg-gray-100 transition"
-        >
-          Contact Us
-        </Link>
+      {/* Final CTA */}
+      <section className="bg-[#D6336C] text-white py-20 text-center">
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 className="text-4xl font-bold mb-6">
+            Ready to Book Your Clifton Escort?
+          </h2>
+          <p className="text-xl mb-10">
+            Call or WhatsApp for instant booking
+          </p>
+          <a
+            href="tel:03708540579"
+            className="inline-block bg-white text-[#D6336C] font-semibold px-14 py-5 rounded-full text-xl hover:bg-gray-100 transition-all"
+          >
+            Call Now: 03708540579
+          </a>
+        </div>
       </section>
 
       {/* Footer */}
-      <footer className="text-center py-6 text-[#555555]">
-        © {new Date().getFullYear()} Clifton Escorts Karachi. All Rights Reserved.
+      <footer className="text-center py-8 text-[#555555] bg-[#FFF0F2]">
+        © {new Date().getFullYear()} Rocky Escorts Karachi. All Rights Reserved.
       </footer>
+
+      {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "Escorts in Clifton Karachi",
+            "description": "Premium VIP escorts and luxury call girls available in Clifton Karachi near Seaview, Boat Basin and Dolmen Mall.",
+            "provider": {
+              "@type": "Organization",
+              "name": "Rocky Escorts Karachi",
+              "url": "https://rockyescortskarachi.com"
+            },
+            "areaServed": "Clifton Karachi, Seaview, Boat Basin, Dolmen Mall",
+            "telephone": "+923708540579",
+            "serviceType": "VIP Escort Service"
+          })
+        }}
+      />
     </main>
   );
 }
