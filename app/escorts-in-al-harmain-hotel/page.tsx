@@ -1,1 +1,174 @@
+import Image from 'next/image';
+import type { Metadata } from 'next';
 
+export const metadata: Metadata = {
+  title: "Escorts in Al Harmain Hotel Karachi | VIP Call Girls Al Harmain 03708540579",
+  description: "Premium VIP Escorts in Al Harmain Hotel Karachi. Beautiful models, college girls & high-class companions for hotel service. Fast delivery & complete privacy. Call 03708540579",
+  keywords: [
+    "escorts in al harmain hotel karachi", "al harmain hotel call girls", "vip escorts al harmain",
+    "hotel escorts karachi", "al harmain hotel escorts", "call girls in al harmain hotel",
+    "vip models al harmain", "escort service al harmain hotel"
+  ],
+  openGraph: {
+    title: "Escorts in Al Harmain Hotel Karachi | VIP Call Girls",
+    description: "Luxury VIP Escorts & Models available at Al Harmain Hotel Karachi. Discreet and fast service. Call 03708540579",
+    images: [{ url: "/nm1.jpg" }],
+  },
+};
+
+export default function AlHarmainHotelEscortsPage() {
+  return (
+    <main className="bg-black text-white overflow-hidden">
+      {/* Hero Section */}
+      <section className="relative h-screen flex items-center justify-center">
+        <div className="absolute inset-0">
+          <Image 
+            src="/nm1.jpg" 
+            alt="Escorts in Al Harmain Hotel Karachi" 
+            fill 
+            className="object-cover"
+            priority 
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/70 to-black/90" />
+        </div>
+
+        <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
+          <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6">
+            ESCORTS IN AL HARMAIN HOTEL KARACHI<br />
+            <span className="text-[#FFD700]">03708540579</span>
+          </h1>
+          <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
+            VIP Models • College Girls • Elite Companions<br />
+            Hotel Service • Fast Delivery • 100% Privacy
+          </p>
+          <a 
+            href="tel:03708540579"
+            className="mt-10 inline-block bg-[#FFD700] hover:bg-amber-300 text-black font-bold text-xl px-16 py-5 rounded-full transition-all shadow-lg"
+          >
+            CALL / WHATSAPP 03708540579
+          </a>
+        </div>
+      </section>
+
+      {/* Introduction */}
+      <section className="py-16 bg-zinc-950">
+        <div className="max-w-6xl mx-auto px-6 text-center">
+          <h2 className="text-4xl font-bold mb-6">Escorts in Al Harmain Hotel Karachi</h2>
+          <p className="text-lg text-white/80 max-w-4xl mx-auto leading-relaxed">
+            We provide premium and professional Escorts in Al Harmain Hotel Karachi. 
+            Our high-class VIP models and beautiful companions are available for short time, 
+            full night, and luxury hotel bookings with complete discretion and fast delivery.
+          </p>
+        </div>
+      </section>
+
+      {/* Why Choose Us */}
+      <section className="py-16 bg-black">
+        <div className="max-w-6xl mx-auto px-6">
+          <h2 className="text-4xl font-bold text-center mb-12 text-[#FFD700]">Why Choose Our Al Harmain Escorts?</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              ["Fast Hotel Delivery", "20-35 minutes directly to your room"],
+              ["Complete Privacy", "Safe, discreet and professional service"],
+              ["Real & Verified Girls", "Genuine profiles with real photos"],
+              ["All Categories", "VIP Models, College Girls, Housewives & More"],
+              ["Hotel Friendly", "Experienced in smooth hotel entry"],
+              ["24/7 Availability", "Service available day and night"],
+            ].map(([title, desc]) => (
+              <div key={title} className="bg-zinc-900 p-8 rounded-2xl border border-[#FFD700]/20 hover:border-[#FFD700] transition-all">
+                <h3 className="font-bold text-xl mb-3 text-[#FFD700]">{title}</h3>
+                <p className="text-white/80">{desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Types of Escorts */}
+      <section className="py-16 bg-zinc-950">
+        <div className="max-w-6xl mx-auto px-6">
+          <h2 className="text-4xl font-bold text-center mb-12">Types of Escorts Available</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              "VIP Model Escorts", "College & University Girls", "Fashion Models",
+              "Housewife Escorts", "Celebrity Look-Alike", "Independent Escorts",
+              "Slim & Young Girls", "GFE Romantic Escorts", "Luxury Elite Escorts"
+            ].map((type) => (
+              <div key={type} className="bg-black border border-[#FFD700]/30 p-8 rounded-2xl text-center hover:border-[#FFD700] transition-all">
+                <p className="font-semibold text-lg">{type}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing */}
+      <section className="py-16 bg-black">
+        <div className="max-w-5xl mx-auto px-6">
+          <h2 className="text-4xl font-bold text-center mb-12 text-[#FFD700]">Pricing</h2>
+          <div className="overflow-x-auto rounded-2xl border border-[#FFD700]/20">
+            <table className="w-full border-collapse bg-zinc-900 min-w-[600px]">
+              <thead>
+                <tr className="bg-zinc-800">
+                  <th className="p-6 text-left text-white">Category</th>
+                  <th className="p-6 text-center text-white">Short Time</th>
+                  <th className="p-6 text-center text-white">Full Night</th>
+                </tr>
+              </thead>
+              <tbody className="text-white/80">
+                <tr className="border-b border-zinc-800">
+                  <td className="p-6">College / Normal Girls</td>
+                  <td className="p-6 text-center">35,000 – 45,000</td>
+                  <td className="p-6 text-center">60,000 – 80,000</td>
+                </tr>
+                <tr className="border-b border-zinc-800">
+                  <td className="p-6">VIP Escorts</td>
+                  <td className="p-6 text-center">50,000 – 80,000</td>
+                  <td className="p-6 text-center">100,000 – 150,000</td>
+                </tr>
+                <tr>
+                  <td className="p-6">Model / Celebrity Level</td>
+                  <td className="p-6 text-center">80,000 – 150,000</td>
+                  <td className="p-6 text-center">150,000 – 300,000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* Gallery */}
+      <section className="py-16 bg-zinc-950">
+        <div className="max-w-6xl mx-auto px-6">
+          <h2 className="text-4xl font-bold text-center mb-12 text-[#FFD700]">Our Beautiful Companions</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[1,2,3,4,5,6,7].map((n) => (
+              <div key={n} className="relative aspect-[4/5] rounded-2xl overflow-hidden border border-[#FFD700]/20">
+                <Image 
+                  src={`/nm${n}.jpg`} 
+                  alt="Escorts in Al Harmain Hotel Karachi" 
+                  fill 
+                  className="object-cover hover:scale-105 transition-transform duration-700" 
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="py-24 bg-black text-center border-t border-[#FFD700]/20">
+        <div className="max-w-4xl mx-auto px-6">
+          <h2 className="text-5xl font-bold mb-6">Book Escorts in Al Harmain Hotel Karachi</h2>
+          <p className="text-xl text-white/80 mb-10">Fast Delivery • Real Photos • Complete Privacy</p>
+          <a 
+            href="tel:03708540579"
+            className="inline-block bg-[#FFD700] text-black font-bold text-3xl px-20 py-7 rounded-full hover:bg-amber-300 transition-all"
+          >
+            03708540579
+          </a>
+        </div>
+      </section>
+    </main>
+  );
+}
