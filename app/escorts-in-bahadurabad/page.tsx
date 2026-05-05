@@ -3,24 +3,24 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Escorts in Bahadurabad Karachi | VIP Call Girls Bahadurabad 03708540579",
-  description: "Premium VIP Escorts in Bahadurabad Karachi. High-class models, college girls & celebrity companions available for hotel and home service. Fast & discreet delivery. Call 03708540579",
+  description: "Premium VIP Escorts in Bahadurabad Karachi. High-class models, college girls & celebrity companions for hotel and home service. Fast & discreet. Call 03708540579",
   keywords: [
     "escorts in bahadurabad karachi", "bahadurabad call girls", "vip escorts bahadurabad",
     "college girls bahadurabad", "housewife escorts bahadurabad", "celebrity escorts karachi",
-    "bahadurabad escort service", "hotel escorts bahadurabad", "call girls bahadurabad"
+    "bahadurabad escort service", "hotel escorts bahadurabad"
   ],
   openGraph: {
     title: "Escorts in Bahadurabad Karachi | VIP Call Girls Bahadurabad",
-    description: "Luxury & VIP Escorts in Bahadurabad Karachi. Real photos, complete privacy & fast service. Call 03708540579",
+    description: "Luxury VIP Escorts in Bahadurabad Karachi with real photos and complete privacy. Call 03708540579",
     images: [{ url: "/nm1.jpg" }],
   },
 };
 
 export default function BahadurabadEscortsPage() {
   return (
-    <main className="bg-black text-white">
+    <main className="bg-black text-white overflow-hidden">
       {/* Hero Section */}
-      <section className="relative h-[650px] flex items-center justify-center">
+      <section className="relative h-screen flex items-center justify-center">
         <div className="absolute inset-0">
           <Image 
             src="/nm1.jpg" 
@@ -39,7 +39,7 @@ export default function BahadurabadEscortsPage() {
           </h1>
           <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
             VIP Models • College Girls • Celebrity Companions<br />
-            Fast Delivery • 100% Privacy • Luxury Service
+            Fast Delivery • 100% Privacy
           </p>
           <a 
             href="tel:03708540579"
@@ -55,9 +55,9 @@ export default function BahadurabadEscortsPage() {
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold mb-6">Escorts in Bahadurabad Karachi</h2>
           <p className="text-lg text-white/80 max-w-4xl mx-auto leading-relaxed">
-            Welcome to the most trusted premium escort agency in Karachi. We provide high-class 
-            VIP Escorts in Bahadurabad with verified girls, real photos, and complete discretion. 
-            Perfect for hotel visits, home service, short meetings, and full night bookings.
+            Premium and trusted escort agency providing high-class VIP Escorts in Bahadurabad Karachi. 
+            Real photos, verified girls, and complete privacy guaranteed. Perfect for hotel visits, 
+            home service, short meetings, and full night bookings.
           </p>
         </div>
       </section>
@@ -75,7 +75,7 @@ export default function BahadurabadEscortsPage() {
               ["Hotel Friendly", "Safe & professional entry in all hotels"],
               ["24/7 Availability", "Day or night service always available"],
             ].map(([title, desc]) => (
-              <div key={title} className="bg-zinc-900 p-8 rounded-2xl border border-[#FFD700]/20 hover:border-[#FFD700] transition">
+              <div key={title} className="bg-zinc-900 p-8 rounded-2xl border border-[#FFD700]/20 hover:border-[#FFD700] transition-all">
                 <h3 className="font-bold text-xl mb-3 text-[#FFD700]">{title}</h3>
                 <p className="text-white/80">{desc}</p>
               </div>
@@ -87,14 +87,14 @@ export default function BahadurabadEscortsPage() {
       {/* Types of Escorts */}
       <section className="py-16 bg-zinc-950">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-12">Types of Escorts in Bahadurabad</h2>
+          <h2 className="text-4xl font-bold text-center mb-12">Types of Escorts Available</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               "VIP Model Escorts", "University & College Girls", "Fashion Models",
               "Housewife Escorts", "Celebrity Look-Alike", "Independent Escorts",
               "Slim & Young Girls", "GFE Romantic Escorts", "Luxury Elite Escorts"
             ].map((type) => (
-              <div key={type} className="bg-black border border-[#FFD700]/30 p-8 rounded-2xl text-center hover:border-[#FFD700] transition">
+              <div key={type} className="bg-black border border-[#FFD700]/30 p-8 rounded-2xl text-center hover:border-[#FFD700] transition-all">
                 <p className="font-semibold text-lg">{type}</p>
               </div>
             ))}
@@ -105,9 +105,9 @@ export default function BahadurabadEscortsPage() {
       {/* Pricing */}
       <section className="py-16 bg-black">
         <div className="max-w-5xl mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-12 text-[#FFD700]">Pricing</h2>
-          <div className="overflow-x-auto">
-            <table className="w-full border-collapse bg-zinc-900 rounded-2xl overflow-hidden">
+          <h2 className="text-4xl font-bold text-center mb-12 text-[#FFD700]">Our Pricing</h2>
+          <div className="overflow-x-auto rounded-2xl border border-[#FFD700]/20">
+            <table className="w-full border-collapse bg-zinc-900 min-w-[600px]">
               <thead>
                 <tr className="bg-zinc-800">
                   <th className="p-6 text-left text-white">Category</th>
@@ -146,7 +146,7 @@ export default function BahadurabadEscortsPage() {
               <div key={n} className="relative aspect-[4/5] rounded-2xl overflow-hidden border border-[#FFD700]/20">
                 <Image 
                   src={`/nm${n}.jpg`} 
-                  alt="Celebrity Escorts Bahadurabad Karachi" 
+                  alt="Escorts in Bahadurabad Karachi" 
                   fill 
                   className="object-cover hover:scale-105 transition-transform duration-700" 
                 />
@@ -159,8 +159,8 @@ export default function BahadurabadEscortsPage() {
       {/* Final CTA */}
       <section className="py-24 bg-black text-center border-t border-[#FFD700]/20">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="text-5xl font-bold mb-6">Book Your Exclusive Escort in Bahadurabad Now</h2>
-          <p className="text-xl text-white/80 mb-10">Fast • Discreet • Premium Experience</p>
+          <h2 className="text-5xl font-bold mb-6">Ready to Book in Bahadurabad?</h2>
+          <p className="text-xl text-white/80 mb-10">Fast Delivery • Real Photos • Complete Privacy</p>
           <a 
             href="tel:03708540579"
             className="inline-block bg-[#FFD700] text-black font-bold text-3xl px-20 py-7 rounded-full hover:bg-amber-300 transition-all"
