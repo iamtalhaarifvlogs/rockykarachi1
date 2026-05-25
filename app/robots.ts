@@ -18,6 +18,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://www.rockyescortskarachi.com/sitemap.xml",
+    sitemap: "https://rockyescortskarachi.online/sitemap.xml",
   };
 }
