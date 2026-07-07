@@ -38,6 +38,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+<meta name="google-site-verification" content="k9QKCa-USGD0yWx10q9fzrEBHRl5LqVegMSaP3dTbbg" />
       <body className="bg-black text-gray-200">
 <LocalBusinessSchema />
 <SeoSchema />
