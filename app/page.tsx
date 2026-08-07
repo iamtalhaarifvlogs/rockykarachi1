@@ -190,11 +190,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Escorts Collage Integration */}
-      <section className="bg-gradient-to-b from-black to-gray-950 py-8">
-        <EscortsCollage />
-      </section>
-
+     
       {/* ==================== WHY CHOOSE US ==================== */}
       <section className="bg-gradient-to-b from-gray-950 to-black py-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-yellow-900/5 via-transparent to-transparent pointer-events-none" />
