@@ -72,37 +72,37 @@ export default function ModelsPage() {
         <section className="grid md:grid-cols-3 gap-10">
           {[
             {
-              img: "/model1.jpg",
+              img: "/karachi-call-girls-sara-vip.jpg",
               title: "VIP escorts in DHA Karachi – Premium Girls",
               text:
                 "Our DHA Karachi escorts represent elegance, class, and confidence. Ideal for upscale dates, private parties, or relaxing evenings in Phase 2 or Phase 6.",
             },
             {
-              img: "/model2.jpg",
+              img: "/karachi-call-girls-ayesha-independent.jpg",
               title: "Escorts in Clifton Karachi – Sensual Experiences",
               text:
                 "Clifton Karachi escorts are bold, stunning, and experienced, perfect for clients staying near Seaview, Dolmen Mall, or Boat Basin.",
             },
             {
-              img: "/model3.jpg",
+              img: "/karachi-call-girls-zara-premium.jpg",
               title: "Escorts in Bahria Town Karachi – VIP Girls",
               text:
                 "Bahria Town Karachi escorts reflect modern luxury and sophistication, perfect for elite clients seeking premium companionship.",
             },
             {
-              img: "/model4.jpg",
+              img: "/karachi-call-girls-hina-outcall.jpg",
               title: "Escorts in Malir Karachi – Full Privacy",
               text:
                 "Malir Karachi escort services deliver intimate experiences with discretion, professionalism, and comfort directly to your location.",
             },
             {
-              img: "/nm5.jpg",
+              img: "/24-7-escorts-karachi-available.jpg",
               title: "Escorts in Nazimabad Karachi – Desi Charm",
               text:
                 "Nazimabad escorts offer traditional beauty, emotional warmth, and genuine companionship with fast outcall service.",
             },
             {
-              img: "/model6.jpg",
+              img: "/karachi-call-girls-sana-discreet.jpg",
               title: "VIP & Model Escorts in Karachi",
               text:
                 "Our VIP Karachi escorts include models, influencers, and elite companions selected for clients who demand the best.",

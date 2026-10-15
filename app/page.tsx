@@ -3,59 +3,41 @@ import WhatsAppButton from "@/app/components/WhatsAppButton";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Karachi Escorts | Best Call Girls in Karachi 24/7 VIP Service - 03708540579",
+  title: "Karachi Escorts | Call Girls in Karachi 24/7 VIP Service - 03708540579",
   description:
     "Premium Karachi Escorts & Call Girls available 24/7. Book verified VIP escorts in DHA, Clifton, Marriott Hotel, PECHS, Nazimabad, Bahria Town & all major areas. Discreet outcall & incall service with real photos.",
   keywords: [
-    // Short-tail
     "Karachi escorts",
-    "escorts in Karachi",
-    "call girls Karachi",
+    "call girls in Karachi",
     "Karachi call girls",
+    "escorts in Karachi",
     "VIP escorts Karachi",
-    "escorts Karachi",
     "independent escorts Karachi",
     "hotel escorts Karachi",
     "outcall escorts Karachi",
-    "DHA escorts",
-    "Clifton escorts",
-    "Nazimabad escorts",
-    "PECHS escorts",
-    // Medium-tail
     "DHA escorts Karachi",
     "Clifton escorts Karachi",
-    "Marriott Hotel escorts Karachi",
     "Bahria Town escorts",
-    "Gulshan escorts Karachi",
-    // Long-tail
-    "best VIP escorts in DHA Karachi 24/7",
-    "discreet call girls in Clifton Karachi",
-    "verified escorts near Marriott Hotel Karachi",
-    "premium outcall service PECHS Nazimabad",
-    "luxury companions Bahria Town Karachi",
-    "affordable independent escorts North Nazimabad",
-    "24 hour hotel escorts Karachi 5 star",
-    "elite private escorts service Karachi",
-    "fast response call girls DHA Phase",
-    "beautiful escorts available now in Karachi",
-    "high class escorts near Seaview Clifton",
-    "professional companions Marriott Hotel outcall",
-    "real photos verified escorts Karachi",
-    "private incall outcall Karachi night",
+    "PECHS escorts Karachi",
+    "Nazimabad escorts",
+    "Marriott Hotel escorts Karachi",
+    "verified escorts Karachi",
+    "discreet call girls Karachi",
+    "24/7 escorts Karachi",
   ],
   openGraph: {
-    title: "Karachi Escorts | Best Call Girls in Karachi 24/7 VIP - 03708540579",
+    title: "Karachi Escorts | Call Girls in Karachi 24/7 VIP - 03708540579",
     description:
       "High-class verified Karachi escorts & call girls available 24/7 in DHA, Clifton, Marriott Hotel, PECHS & across Karachi. Discreet, premium & fast outcall service.",
-    images: [{ url: "/hm1.jpg" }],
+    images: [{ url: "/escorts-in-dha-karachi-vip.jpg" }],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Karachi Escorts | Best Call Girls 24/7 - 03708540579",
+    title: "Karachi Escorts | Call Girls 24/7 - 03708540579",
     description:
       "Premium verified escorts in DHA, Clifton, Marriott Hotel & all Karachi areas. Call now for discreet service.",
-    images: ["/hm1.jpg"],
+    images: ["/escorts-in-dha-karachi-vip.jpg"],
   },
 };
 
@@ -116,7 +98,7 @@ export default function HomePage() {
       {/* ==================== HERO SECTION ==================== */}
       <section
         className="relative py-44 md:py-56 bg-cover bg-center bg-no-repeat overflow-hidden"
-        style={{ backgroundImage: "url('/hm1.jpg')" }}
+        style={{ backgroundImage: "url('/escorts-in-dha-karachi-vip.jpg')" }}
       >
         {/* Animated multi-layer gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/55 to-black/85" />
@@ -165,7 +147,6 @@ export default function HomePage() {
 
       {/* ==================== INTRO SECTION ==================== */}
       <section className="bg-black py-20 relative overflow-hidden">
-        {/* Subtle background glow */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-yellow-500/5 blur-[100px] rounded-full pointer-events-none" />
 
         <div className="container mx-auto px-4 max-w-5xl text-gray-300 relative">
@@ -175,7 +156,7 @@ export default function HomePage() {
 
           <div className="group relative w-full h-72 md:h-96 rounded-2xl overflow-hidden mb-10 border border-yellow-500/20 shadow-lg hover:border-yellow-400/50 transition-all duration-700 animate-border-glow">
             <img
-              src="/hm2.jpg"
+              src="/escorts-in-clifton-karachi-call-girls.jpg"
               alt="Premium Karachi Escorts - Verified Call Girls Service in DHA Clifton"
               className="w-full h-full object-cover object-center transition-transform duration-1000 group-hover:scale-110"
             />
@@ -190,7 +171,6 @@ export default function HomePage() {
         </div>
       </section>
 
-     
       {/* ==================== WHY CHOOSE US ==================== */}
       <section className="bg-gradient-to-b from-gray-950 to-black py-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-yellow-900/5 via-transparent to-transparent pointer-events-none" />
@@ -208,7 +188,7 @@ export default function HomePage() {
               </h4>
               <div className="relative w-full h-64 md:h-80 rounded-xl overflow-hidden border border-yellow-500/20 mb-6">
                 <img
-                  src="/hm3.jpg"
+                  src="/escorts-in-bahria-town-karachi.jpg"
                   alt="Verified Escorts in Karachi - Real Photos"
                   className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                 />
@@ -227,7 +207,7 @@ export default function HomePage() {
               </h4>
               <div className="relative w-full h-64 md:h-80 rounded-xl overflow-hidden border border-yellow-500/20 mb-6">
                 <img
-                  src="/hm4.jpg"
+                  src="/escorts-in-pechs-karachi-vip.jpg"
                   alt="Fast Outcall Escorts Karachi - DHA Clifton PECHS"
                   className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                 />
@@ -245,7 +225,7 @@ export default function HomePage() {
               </h4>
               <div className="relative w-full h-64 md:h-80 rounded-xl overflow-hidden border border-yellow-500/20 mb-6">
                 <img
-                  src="/hm5.jpg"
+                  src="/marriott-hotel-escorts-karachi.jpg"
                   alt="Escorts in Marriott Hotel Karachi - Discreet 5 Star Service"
                   className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                 />
@@ -264,7 +244,7 @@ export default function HomePage() {
               </h4>
               <div className="relative w-full h-64 md:h-80 rounded-xl overflow-hidden border border-yellow-500/20 mb-6">
                 <img
-                  src="/hm6.jpg"
+                  src="/al-harmain-hotel-escorts-karachi.jpg"
                   alt="24/7 Escorts in Karachi - Always Available"
                   className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                 />
@@ -328,7 +308,6 @@ export default function HomePage() {
 
       {/* ==================== FINAL CTA ==================== */}
       <section className="bg-gradient-to-br from-black via-gray-950 to-black py-24 text-center relative overflow-hidden">
-        {/* Decorative glowing rings */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] border border-yellow-500/10 rounded-full animate-float-slow pointer-events-none" />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] border border-yellow-500/5 rounded-full animate-float pointer-events-none" />
 
@@ -351,7 +330,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* JSON-LD Structured Data - Enhanced */}
+      {/* JSON-LD Structured Data */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -363,7 +342,7 @@ export default function HomePage() {
               "Premium Karachi Escorts and Call Girls Service providing verified companions in DHA, Clifton, Marriott Hotel and across Karachi. Available 24/7 for incall and outcall.",
             url: "https://rockyescortskarachi.com",
             telephone: "+923708540579",
-            image: "https://rockyescortskarachi.com/hm1.jpg",
+            image: "https://rockyescortskarachi.com/escorts-in-dha-karachi-vip.jpg",
             address: {
               "@type": "PostalAddress",
               addressLocality: "Karachi",
