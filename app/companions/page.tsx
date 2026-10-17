@@ -1,308 +1,225 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Premium Escorts in Karachi | Elite VIP Female Companions in Bahria Town, Clifton, DHA, PECHS",
   description:
-    "Discover professional and discreet premium escorts in Karachi. Explore elite VIP escort galleries and book top-rated female companions in Bahria Town, Clifton, DHA Phase 5 & 6, PECHS. Luxury high-class services for events, dinners, and private experiences.",
-  keywords: [
-    "Premium Escorts Karachi",
-    "VIP Escorts Bahria Town Karachi",
-    "Elite Escorts Clifton Karachi",
-    "Luxury Escorts DHA Karachi",
-    "High-Class Escorts PECHS Karachi",
-    "Bahria Town Karachi escorts near me",
-    "Clifton Karachi top escorts",
-    "DHA Phase 5 escorts",
-    "PECHS VIP female companions",
-    "Karachi luxury companionship",
-    "Professional escort agency Karachi",
-    "Exclusive VIP escorts Karachi",
-    "High-end female escorts for events",
-    "Discreet private escort services Karachi",
-    "Top-rated companions Bahria Town",
-    "Elite escorts Clifton",
-    "VIP models DHA Phase 6",
-    "Premium companions PECHS Karachi",
-  ],
+    "Discover professional and discreet premium escorts in Karachi. Explore elite VIP escort galleries and book top-rated female companions in Bahria Town, Clifton, DHA Phase 5 & 6, PECHS. Call 03708540579.",
   openGraph: {
-    title: "Premium Escorts in Karachi | Elite VIP Female Companions in Bahria Town, Clifton, DHA, PECHS",
-    description:
-      "Book premium VIP escorts in Karachi's top areas: Bahria Town, Clifton, DHA, PECHS. Discreet, professional luxury companions for unforgettable experiences. Call Now 03708540579",
-    images: ["/karachi-escorts-vip-call-girls-hero.jpg"],
-    type: "website",
-  },
-  alternates: {
-    canonical: "/companions",
+    title: "Premium Escorts in Karachi | Elite VIP Female Companions",
+    description: "Book premium VIP escorts in Bahria Town, Clifton, DHA, PECHS. Discreet luxury companions. Call 03708540579",
+    images: [{ url: "/karachi-escorts-vip-call-girls-hero.jpg" }],
   },
 };
 
-export default function Page() {
+export default function CompanionsPage() {
   const bahriaImages = [
     "/24-7-escorts-karachi-available.jpg",
     "/real-verified-call-girls-karachi.jpg",
     "/exclusive-vip-escorts-karachi.jpg",
     "/beautiful-call-girls-karachi.jpg",
     "/sexy-escorts-in-karachi.jpg",
+    "/top-rated-escorts-karachi.jpg",
   ];
+
   const cliftonImages = [
     "/independent-call-girls-karachi-01.jpg",
     "/discreet-escorts-karachi-outcall.jpg",
     "/private-call-girls-karachi.jpg",
     "/hotel-outcall-escorts-karachi.jpg",
+    "/karachi-call-girls-ayesha-independent.jpg",
+    "/vip-model-escorts-karachi-clifton.jpg",
   ];
+
   const pechsImages = [
     "/top-rated-escorts-karachi.jpg",
     "/affordable-call-girls-karachi.jpg",
     "/night-service-escorts-karachi.jpg",
     "/full-service-escorts-karachi.jpg",
     "/companion-girls-karachi-vip.jpg",
-  ];
-  const dhaImages = [
-    "/karachi-call-girls-sara-vip.jpg",
-    "/karachi-call-girls-ayesha-independent.jpg",
-    "/karachi-call-girls-zara-premium.jpg",
     "/karachi-call-girls-hina-outcall.jpg",
   ];
 
+  const dhaImages = [
+    { name: "Sara", img: "/karachi-call-girls-sara-vip.jpg" },
+    { name: "Ayesha", img: "/karachi-call-girls-ayesha-independent.jpg" },
+    { name: "Zara", img: "/karachi-call-girls-zara-premium.jpg" },
+    { name: "Hina", img: "/karachi-call-girls-hina-outcall.jpg" },
+    { name: "Alina", img: "/vip-model-escorts-karachi-dha.jpg" },
+    { name: "Noor", img: "/vip-model-escorts-karachi-clifton.jpg" },
+  ];
+
+  const moreLikeThis = [
+    { img: "/escorts-in-dha-karachi-vip.jpg", title: "Escorts in DHA", link: "/portfolio/vip-escorts-dha-karachi" },
+    { img: "/escorts-in-clifton-karachi-call-girls.jpg", title: "Escorts in Clifton", link: "/portfolio/escorts-clifton-karachi" },
+    { img: "/escorts-in-bahria-town-karachi.jpg", title: "Escorts in Bahria Town", link: "/portfolio/escorts-bahria-town-karachi" },
+    { img: "/al-harmain-hotel-escorts-karachi.jpg", title: "Al Harmain Hotel", link: "/escorts-in-al-harmain-hotel" },
+  ];
+
   return (
-    <main className="bg-[#FFECE8] text-[#222222]">
-      {/* Hero Section */}
-      <section
-        className="w-full h-[500px] relative bg-cover bg-center"
-        style={{ backgroundImage: "url('/karachi-escorts-vip-call-girls-hero.jpg')" }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/25 to-black/40 flex items-center justify-center px-4">
-          <div className="text-center">
-            <h1 className="text-white text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
-              Premium <strong>Escorts in Karachi</strong> – Call Now 03708540579
-            </h1>
-            <h2 className="mt-6 text-white text-xl sm:text-2xl font-medium">
-              Scroll down to explore elite VIP companions, luxury galleries, and premium services in Bahria Town, Clifton, DHA, PECHS & more
-            </h2>
+    <main className="bg-[#0a0a0a] text-gray-200">
+      {/* HERO with CTA */}
+      <section className="relative h-[75vh] flex items-center justify-center overflow-hidden">
+        <Image
+          src="/karachi-escorts-vip-call-girls-hero.jpg"
+          alt="Premium Escorts in Karachi - Elite VIP Companions"
+          fill
+          priority
+          className="object-cover object-[center_20%]"
+        />
+        <div className="absolute inset-0 bg-black/70" />
+        <div className="relative z-10 text-center px-6 max-w-5xl">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
+            Premium Escorts in Karachi
+            <span className="block text-[#c9a86c] mt-2 text-2xl md:text-3xl">
+              Call Now 03708540579
+            </span>
+          </h1>
+          <p className="text-lg text-gray-300 mb-8">
+            Elite VIP companions in Bahria Town, Clifton, DHA, PECHS & more
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="https://wa.me/923708540579" target="_blank" className="inline-block bg-[#c9a86c] text-black font-semibold px-10 py-4 rounded-full hover:bg-white transition">
+              WhatsApp – 03708540579
+            </a>
+            <a href="tel:03708540579" className="inline-block border border-[#c9a86c] text-[#c9a86c] font-semibold px-10 py-4 rounded-full hover:bg-[#c9a86c] hover:text-black transition">
+              Call Now
+            </a>
           </div>
         </div>
       </section>
 
-      {/* Bahria Town Section */}
-      <section id="bahria-town" className="max-w-5xl mx-auto px-6 py-12 text-center">
-        <h2 className="text-4xl font-semibold mb-4 text-[#D6336C]">
-          Elite <strong>Escorts in Bahria Town Karachi</strong> – VIP Female Companions
-        </h2>
-        <p className="text-lg leading-relaxed text-[#333333] mb-6">
-          Welcome to the most trusted <strong>escort agency in Bahria Town Karachi</strong>. We specialize in
-          providing <strong>premium VIP female escorts</strong>, <strong>exclusive companionship</strong>, and
-          <strong> high-class professional escort services</strong>. Our portfolio includes
-          <strong> top-rated Bahria Town escorts</strong>, <strong>luxury companions for events in Karachi</strong>,
-          and <strong>elite female escorts near me</strong> for a truly sophisticated experience.
-        </p>
-        <p className="text-lg leading-relaxed text-[#333333] mb-6">
-          Our <strong>Bahria Town escorts</strong> offer personalized, professional, and discreet experiences for
-          clients seeking <strong>high-class female companions</strong>, <strong>VIP escort services</strong>,
-          <strong> luxury companionship in Karachi</strong>, and <strong>elite escorts for private events</strong>.
-        </p>
-        <p className="text-lg leading-relaxed text-[#333333]">
-          Clients frequently search for <strong>Bahria Town Karachi top escorts</strong>, <strong>luxury VIP escorts</strong>,
-          <strong> professional female companions for hire</strong>, <strong>exclusive escort experiences</strong>,
-          and <strong>high-end VIP escorts in Karachi</strong>. Our team ensures safety, discretion, and a
-          memorable experience with every booking.
-        </p>
-      </section>
-
-      <section className="bg-white py-12 px-6">
-        <h3 className="text-3xl text-center font-semibold mb-8 text-[#D6336C]">
-          Bahria Town <strong>Escorts Gallery</strong> – Luxury Visual Portfolio
-        </h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
-          {bahriaImages.map((img, idx) => (
-            <div key={idx} className="overflow-hidden rounded-lg shadow-lg">
-              <img
-                src={img}
-                alt={`Bahria Town Escort ${idx + 1} - Premium VIP Female Companion Karachi`}
-                className="object-cover w-full h-[300px] transition-transform duration-300 hover:scale-105"
-                loading="lazy"
-              />
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Clifton Section */}
-      <section id="clifton" className="max-w-5xl mx-auto px-6 py-12 text-center">
-        <h2 className="text-4xl font-semibold mb-4 text-[#D6336C]">
-          Elite <strong>Escorts in Clifton Karachi</strong> – Top-Rated Female Companions
-        </h2>
-        <p className="text-lg leading-relaxed text-[#333333] mb-6">
-          Welcome to the most trusted <strong>escort agency in Clifton Karachi</strong>. We
-          offer <strong>premium VIP female escorts</strong>, <strong>high-class companionship</strong> for elite clients,
-          and <strong>discreet professional escort services</strong>. Our portfolio includes
-          <strong> top-rated Clifton escorts</strong>, <strong>luxury escorts for events in Karachi</strong>,
-          and <strong>exclusive female companions near me</strong>.
-        </p>
-        <p className="text-lg leading-relaxed text-[#333333] mb-6">
-          Whether you are searching for <strong>luxury VIP escorts in Clifton Karachi</strong>,
-          <strong> professional female companions</strong>, or <strong>high-end escort services in Karachi</strong>,
-          our elite escorts deliver personalized experiences with elegance, charm, and discretion.
-        </p>
-        <p className="text-lg leading-relaxed text-[#333333]">
-          Clients trust us for <strong>Clifton Karachi top escorts</strong>, <strong>exclusive companions for parties or dinners</strong>,
-          <strong> high-class female escorts</strong>, and <strong>elite VIP escort services in Karachi</strong>.
-        </p>
-      </section>
-
-      <section className="bg-white py-12 px-6">
-        <h3 className="text-3xl text-center font-semibold mb-8 text-[#D6336C]">
-          Clifton <strong>Escorts Gallery</strong> – Luxury Visual Portfolio
-        </h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
-          {cliftonImages.map((img, idx) => (
-            <div key={idx} className="overflow-hidden rounded-lg shadow-lg">
-              <img
-                src={img}
-                alt={`Clifton Escort ${idx + 1} - Premium VIP Female Companion Karachi`}
-                className="object-cover w-full h-[300px] transition-transform duration-300 hover:scale-105"
-                loading="lazy"
-              />
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* PECHS Section */}
-      <section id="pechs" className="max-w-5xl mx-auto px-6 py-12 text-center">
-        <h2 className="text-4xl font-semibold mb-4 text-[#D6336C]">
-          Elite <strong>Escorts in PECHS Karachi</strong> – VIP Female Companions
-        </h2>
-        <p className="text-lg leading-relaxed text-[#333333] mb-6">
-          Welcome to the most trusted <strong>escort agency in PECHS Karachi</strong>. We specialize in
-          providing <strong>premium VIP female escorts</strong>, <strong>exclusive companionship</strong>,
-          and <strong>high-class professional escort services</strong>. Our portfolio features
-          <strong> top-rated PECHS Karachi escorts</strong>, <strong>luxury companions for private events</strong>,
-          and <strong>elite female escorts near me</strong> for a sophisticated and memorable experience.
-        </p>
-        <p className="text-lg leading-relaxed text-[#333333] mb-6">
-          Our <strong>PECHS escorts</strong> offer professional, discreet, and personalized experiences for
-          clients seeking <strong>high-class female companions</strong>, <strong>VIP escort services in Karachi</strong>,
-          <strong> luxury companionship for parties</strong>, and <strong>exclusive VIP escorts in PECHS</strong>.
-        </p>
-        <p className="text-lg leading-relaxed text-[#333333]">
-          Clients often search for <strong>PECHS Karachi top escorts</strong>, <strong>elite VIP female escorts</strong>,
-          <strong> professional companions for hire</strong>, <strong>luxury private escort services Karachi</strong>,
-          <strong> exclusive high-end escorts</strong>, and <strong>trusted VIP escorts PECHS Karachi</strong>.
-          Our team ensures safety, discretion, and unforgettable experiences every time.
-        </p>
-      </section>
-
-      <section className="bg-white py-12 px-6">
-        <h3 className="text-3xl text-center font-semibold mb-8 text-[#D6336C]">
-          PECHS <strong>Escorts Gallery</strong> – Luxury Visual Portfolio
-        </h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
-          {pechsImages.map((img, idx) => (
-            <div key={idx} className="overflow-hidden rounded-lg shadow-lg">
-              <img
-                src={img}
-                alt={`PECHS Escort ${idx + 1} - Premium VIP Female Companion Karachi`}
-                className="object-cover w-full h-[300px] transition-transform duration-300 hover:scale-105"
-                loading="lazy"
-              />
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* DHA Section */}
-      <section id="dha" className="max-w-5xl mx-auto px-6 py-12 text-center">
-        <h2 className="text-4xl font-semibold mb-4 text-[#D6336C]">
-          VIP <strong>Escorts in DHA Karachi</strong> – Elite Luxury Companions in DHA Phase 5 & 6
-        </h2>
-        <p className="text-lg leading-relaxed text-[#333333] mb-6">
-          DHA Karachi represents prestige, security, and refined living.
-          Our VIP companions reflect that same sophistication — offering
-          elegant presence for private evenings, upscale dinners, and
-          discreet social engagements across Phase 5, Phase 6, and nearby
-          premium locations.
-        </p>
-        <p className="text-lg leading-relaxed text-[#333333]">
-          Whether you are visiting Karachi for business or residing in DHA,
-          our curated selection ensures professionalism, beauty, and complete discretion.
-        </p>
-      </section>
-
-      <section className="bg-white py-12 px-6">
-        <h3 className="text-3xl text-center font-semibold mb-8 text-[#D6336C]">
-          DHA <strong>Escorts Gallery</strong> – Featured VIP Models
-        </h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
-          {dhaImages.map((img, index) => (
-            <div
-              key={index}
-              className="bg-[#FFF0F2] rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
-            >
-              <div className="h-[320px] overflow-hidden">
-                <img
-                  src={img}
-                  alt={`VIP Companion DHA Karachi ${index + 1} - Premium VIP Female Companion`}
-                  className="w-full h-full object-cover hover:scale-105 transition duration-300"
-                  loading="lazy"
-                />
+      {/* BAHRIA TOWN */}
+      <section id="bahria-town" className="py-16 px-6">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-semibold text-center text-[#c9a86c] mb-6">
+            Escorts in Bahria Town Karachi
+          </h2>
+          <p className="text-center text-gray-300 max-w-3xl mx-auto mb-10">
+            Premium VIP female escorts and luxury companions available in Bahria Town Karachi. 
+            Discreet, professional and high-class service for elite clients.
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+            {bahriaImages.map((img, idx) => (
+              <div key={idx} className="relative aspect-[3/4] rounded-xl overflow-hidden border border-[#c9a86c]/20">
+                <Image src={img} alt={`Escorts in Bahria Town Karachi VIP Companion ${idx + 1}`} fill className="object-cover" />
               </div>
-              <div className="p-6 text-center">
-                <h3 className="text-xl font-semibold mb-2">
-                  Elite Model {index + 1}
-                </h3>
-                <p className="text-sm text-gray-600 mb-4">
-                  Sophisticated • Discreet • Luxury Experience
-                </p>
-                <Link
-                  href="/contact"
-                  className="block w-full bg-[#D6336C] hover:bg-[#b82b5c] text-white py-3 rounded-md font-medium transition"
-                >
-                  Book Now
-                </Link>
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* Final CTA */}
-      <section className="bg-[#D6336C] text-white py-12 text-center">
-        <h2 className="text-3xl font-bold mb-4">
-          Book Your Elite Escort in <strong>Karachi</strong> Today – Bahria Town, Clifton, DHA, PECHS
-        </h2>
-        <p className="text-lg mb-6">
-          Contact us now to reserve your <strong>VIP escort in Karachi</strong> and enjoy
-          a luxurious, discreet, and unforgettable experience. Call 03708540579
-        </p>
-        <Link
-          href="/contact"
-          className="bg-white text-[#D6336C] font-semibold px-8 py-3 rounded-md shadow-md hover:bg-gray-100 transition"
-        >
-          Contact Us
-        </Link>
+      {/* CLIFTON */}
+      <section id="clifton" className="py-16 px-6 bg-[#111]">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-semibold text-center text-[#c9a86c] mb-6">
+            Escorts in Clifton Karachi
+          </h2>
+          <p className="text-center text-gray-300 max-w-3xl mx-auto mb-10">
+            Top-rated escorts in Clifton near Seaview, Boat Basin and Dolmen Mall. 
+            Elegant and sophisticated companions for private evenings.
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+            {cliftonImages.map((img, idx) => (
+              <div key={idx} className="relative aspect-[3/4] rounded-xl overflow-hidden border border-[#c9a86c]/20">
+                <Image src={img} alt={`Escorts in Clifton Karachi VIP Companion ${idx + 1}`} fill className="object-cover" />
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
 
-      {/* Internal Links */}
-      <section className="py-10 text-center text-[#555]">
-        <p>
-          Explore More:{" "}
-          <a href="#clifton" className="text-[#D6336C] hover:underline mx-2">
-            Clifton Escorts
-          </a>
-          •
-          <a href="#bahria-town" className="text-[#D6336C] hover:underline mx-2">
-            Bahria Town Escorts
-          </a>
-          •
-          <a href="#pechs" className="text-[#D6336C] hover:underline mx-2">
-            PECHS Escorts
-          </a>
-          •
-          <a href="#dha" className="text-[#D6336C] hover:underline mx-2">
-            DHA Escorts
-          </a>
-        </p>
+      {/* PECHS */}
+      <section id="pechs" className="py-16 px-6">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-semibold text-center text-[#c9a86c] mb-6">
+            Escorts in PECHS Karachi
+          </h2>
+          <p className="text-center text-gray-300 max-w-3xl mx-auto mb-10">
+            Verified VIP escorts and call girls in PECHS Karachi. Fast outcall and discreet service.
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+            {pechsImages.map((img, idx) => (
+              <div key={idx} className="relative aspect-[3/4] rounded-xl overflow-hidden border border-[#c9a86c]/20">
+                <Image src={img} alt={`Escorts in PECHS Karachi VIP Companion ${idx + 1}`} fill className="object-cover" />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* DHA */}
+      <section id="dha" className="py-16 px-6 bg-[#111]">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-semibold text-center text-[#c9a86c] mb-6">
+            Escorts in DHA Karachi
+          </h2>
+          <p className="text-center text-gray-300 max-w-3xl mx-auto mb-10">
+            Elite VIP companions in DHA Phase 5 & Phase 6. Luxury and complete discretion.
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+            {dhaImages.map((model) => (
+              <div key={model.name} className="bg-[#0a0a0a] border border-[#c9a86c]/20 rounded-xl overflow-hidden">
+                <div className="relative aspect-[3/4]">
+                  <Image src={model.img} alt={`${model.name} - Escorts in DHA Karachi VIP Companion`} fill className="object-cover" />
+                </div>
+                <div className="p-3 text-center">
+                  <p className="font-medium text-white">{model.name}</p>
+                  <Link href="/contact" className="text-xs text-[#c9a86c] hover:underline">
+                    Book Now
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">
+            Frequently Asked Questions
+          </h2>
+          <div className="space-y-4">
+            {[
+              { q: "Do you provide escorts in Bahria Town, Clifton, DHA and PECHS?", a: "Yes. We cover all major areas including Bahria Town, Clifton, DHA Phase 5 & 6, and PECHS." },
+              { q: "Are the companions verified with real photos?", a: "Yes. All profiles are verified with real photos. We do not use fake images." },
+              { q: "Is the service completely discreet?", a: "Yes. Privacy and discretion are our highest priority for every booking." },
+              { q: "How can I book a premium companion?", a: "WhatsApp or call 03708540579. Share your preferred area and time for quick confirmation." },
+              { q: "Do you provide hotel outcall service?", a: "Yes. Discreet hotel outcall is available across Karachi including major hotels." },
+            ].map((item, i) => (
+              <div key={i} className="bg-[#111] border border-[#c9a86c]/20 rounded-xl p-5">
+                <h3 className="font-semibold text-[#c9a86c] mb-1">{item.q}</h3>
+                <p className="text-gray-400 text-sm">{item.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* MORE LIKE THIS */}
+      <section className="py-16 px-6 bg-[#111]">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">
+            More Like This
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {moreLikeThis.map((item) => (
+              <Link
+                key={item.title}
+                href={item.link}
+                className="group block rounded-2xl overflow-hidden border border-[#c9a86c]/20 hover:border-[#c9a86c]/50 transition"
+              >
+                <div className="relative aspect-[3/4]">
+                  <Image src={item.img} alt={item.title} fill className="object-cover group-hover:scale-105 transition duration-500" />
+                </div>
+                <div className="p-3 bg-[#0a0a0a] text-center text-sm">{item.title}</div>
+              </Link>
+            ))}
+          </div>
+        </div>
       </section>
     </main>
   );

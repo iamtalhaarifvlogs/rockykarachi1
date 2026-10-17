@@ -48,13 +48,13 @@ export default function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-50 bg-black border-b border-yellow-500/40">
+      <header className="sticky top-0 z-50 bg-black/95 backdrop-blur-md border-b border-yellow-500/30">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-
+          {/* Logo + Social */}
           <div className="flex items-center space-x-6">
             <Link
               href="/"
-              className="text-2xl font-bold text-yellow-500 tracking-wide"
+              className="text-2xl font-bold text-yellow-500 tracking-wide hover:text-yellow-400 transition"
             >
               Rocky Escorts
             </Link>
@@ -66,7 +66,7 @@ export default function Header() {
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-9 h-9 flex items-center justify-center rounded-full border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black transition-all duration-300"
+                  className="w-9 h-9 flex items-center justify-center rounded-full border border-yellow-500/60 text-yellow-500 hover:bg-yellow-500 hover:text-black transition-all duration-300"
                 >
                   {social.icon}
                 </a>
@@ -74,49 +74,65 @@ export default function Header() {
             </div>
           </div>
 
-          <nav className="hidden md:flex items-center space-x-8 text-yellow-500">
-            <Link href="/" className="hover:text-yellow-400">
+          {/* Desktop Navigation */}
+          <nav className="hidden md:flex items-center space-x-8 text-yellow-500 font-medium">
+            <Link href="/" className="hover:text-yellow-400 transition">
               Home
             </Link>
 
+            {/* Services Dropdown */}
             <div className="relative group">
-              <span className="cursor-pointer hover:text-yellow-400">
+              <button className="hover:text-yellow-400 transition flex items-center gap-1">
                 Services
-              </span>
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
 
-              <div className="absolute left-0 mt-3 w-56 bg-black border border-yellow-500/40 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                <Link href="/portfolio/vip-escorts-dha-karachi" className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10">
-                  Escorts in DHA
+              <div className="absolute left-0 mt-3 w-64 bg-black border border-yellow-500/40 rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 py-2">
+                <Link href="/portfolio/vip-escorts-dha-karachi" className="block px-5 py-2.5 text-yellow-500 hover:bg-yellow-500/10">
+                  Escorts in DHA Karachi
                 </Link>
-                <Link href="/portfolio/escorts-clifton-karachi" className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10">
-                  VIP Escorts in Clifton
+                <Link href="/portfolio/escorts-clifton-karachi" className="block px-5 py-2.5 text-yellow-500 hover:bg-yellow-500/10">
+                  Escorts in Clifton
                 </Link>
-                <Link href="/portfolio/escorts-gulshan-e-iqbal-karachi" className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10">
-                  VIP Escorts in Gulshan E Iqbal
+                <Link href="/portfolio/escorts-bahria-town-karachi" className="block px-5 py-2.5 text-yellow-500 hover:bg-yellow-500/10">
+                  Escorts in Bahria Town
                 </Link>
-                <Link href="/portfolio/escorts-bahria-town-karachi" className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10">
-                  VIP Escorts in Bahria Town Karachi
+                <Link href="/portfolio/escorts-pechs-karachi" className="block px-5 py-2.5 text-yellow-500 hover:bg-yellow-500/10">
+                  Escorts in PECHS
                 </Link>
-                <Link href="/portfolio/escorts-pechs-karachi" className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10">
-                  VIP Escorts in PECHS Karachi
+                <Link href="/portfolio/escorts-gulshan-e-iqbal-karachi" className="block px-5 py-2.5 text-yellow-500 hover:bg-yellow-500/10">
+                  Escorts in Gulshan-e-Iqbal
                 </Link>
-                <Link href="/portfolio" className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10">
-                  View More
+                <Link href="/escorts-in-al-harmain-hotel" className="block px-5 py-2.5 text-yellow-500 hover:bg-yellow-500/10">
+                  Al Harmain Hotel Escorts
                 </Link>
-                <Link href="/models" className="block px-4 py-3 text-yellow-500 hover:bg-yellow-500/10">
-                  Models
+                <Link href="/escorts-in-bahadurabad" className="block px-5 py-2.5 text-yellow-500 hover:bg-yellow-500/10">
+                  Escorts in Bahadurabad
                 </Link>
               </div>
             </div>
 
-            <Link href="/about-us" className="hover:text-yellow-400">
+            {/* Models - Separate */}
+            <Link href="/models" className="hover:text-yellow-400 transition">
+              Models
+            </Link>
+
+            <Link href="/companions" className="hover:text-yellow-400 transition">
+              Companions
+            </Link>
+
+            <Link href="/about-us" className="hover:text-yellow-400 transition">
               About Us
             </Link>
-            <Link href="/contact" className="hover:text-yellow-400">
-              Contact Us
+
+            <Link href="/contact" className="hover:text-yellow-400 transition">
+              Contact
             </Link>
           </nav>
 
+          {/* Mobile Menu Button */}
           <button
             className="md:hidden text-yellow-500"
             onClick={() => setMenuOpen(true)}
@@ -126,54 +142,27 @@ export default function Header() {
             </svg>
           </button>
         </div>
-
-        <div className="hidden md:flex fixed top-1/3 right-6 flex-col space-y-4 z-40">
-          {socialLinks.map((social) => (
-            <a
-              key={social.name}
-              href={social.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-10 h-10 flex items-center justify-center rounded-full bg-black border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black transition-all duration-300 shadow-lg"
-            >
-              {social.icon}
-            </a>
-          ))}
-        </div>
-
-        <div className="md:hidden fixed top-20 left-4 flex flex-col space-y-3 z-40">
-          {socialLinks.map((social) => (
-            <a
-              key={social.name}
-              href={social.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-9 h-9 flex items-center justify-center rounded-full bg-black border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black transition-all duration-300 shadow-lg"
-            >
-              {social.icon}
-            </a>
-          ))}
-        </div>
       </header>
 
+      {/* Mobile Menu */}
       <div
         className={`fixed top-0 right-0 h-full w-[80%] max-w-sm bg-black border-l border-yellow-500/40 z-50 transform transition-transform duration-300 ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="p-6 flex flex-col space-y-6 text-yellow-500">
-          <button className="self-end text-yellow-500" onClick={() => setMenuOpen(false)}>
+        <div className="p-6 flex flex-col space-y-5 text-yellow-500">
+          <button className="self-end" onClick={() => setMenuOpen(false)}>
             <svg className="w-7 h-7" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
             </svg>
           </button>
 
-          <Link href="/" onClick={() => setMenuOpen(false)}>Home</Link>
+          <Link href="/" onClick={() => setMenuOpen(false)} className="text-lg">Home</Link>
 
           <div>
             <button
               onClick={() => setServicesOpen(!servicesOpen)}
-              className="flex justify-between w-full hover:text-yellow-400"
+              className="flex justify-between w-full text-lg"
             >
               Services
               <span>{servicesOpen ? "−" : "+"}</span>
@@ -182,18 +171,20 @@ export default function Header() {
             {servicesOpen && (
               <div className="mt-3 ml-4 flex flex-col space-y-3 text-sm">
                 <Link href="/portfolio/vip-escorts-dha-karachi" onClick={() => setMenuOpen(false)}>Escorts in DHA</Link>
-                <Link href="/portfolio/escorts-clifton-karachi" onClick={() => setMenuOpen(false)}>VIP Escorts in Clifton</Link>
-                <Link href="/portfolio/escorts-bahria-town-karachi" onClick={() => setMenuOpen(false)}>VIP Escorts in Bahria Town Karachi</Link>
-                <Link href="/portfolio/escorts-pechs-karachi" onClick={() => setMenuOpen(false)}>VIP Escorts in PECHS Karachi</Link>
-                <Link href="/portfolio/escorts-gulshan-e-iqbal-karachi" onClick={() => setMenuOpen(false)}>VIP Escorts in Gulshan E Iqbal Karachi</Link>
-                <Link href="/portfolio" onClick={() => setMenuOpen(false)}>View More</Link>
-                <Link href="/models" onClick={() => setMenuOpen(false)}>Models</Link>
+                <Link href="/portfolio/escorts-clifton-karachi" onClick={() => setMenuOpen(false)}>Escorts in Clifton</Link>
+                <Link href="/portfolio/escorts-bahria-town-karachi" onClick={() => setMenuOpen(false)}>Escorts in Bahria Town</Link>
+                <Link href="/portfolio/escorts-pechs-karachi" onClick={() => setMenuOpen(false)}>Escorts in PECHS</Link>
+                <Link href="/portfolio/escorts-gulshan-e-iqbal-karachi" onClick={() => setMenuOpen(false)}>Escorts in Gulshan-e-Iqbal</Link>
+                <Link href="/escorts-in-al-harmain-hotel" onClick={() => setMenuOpen(false)}>Al Harmain Hotel</Link>
+                <Link href="/escorts-in-bahadurabad" onClick={() => setMenuOpen(false)}>Bahadurabad</Link>
               </div>
             )}
           </div>
 
-          <Link href="/about-us" onClick={() => setMenuOpen(false)}>About Us</Link>
-          <Link href="/contact" onClick={() => setMenuOpen(false)}>Contact Us</Link>
+          <Link href="/models" onClick={() => setMenuOpen(false)} className="text-lg">Models</Link>
+          <Link href="/companions" onClick={() => setMenuOpen(false)} className="text-lg">Companions</Link>
+          <Link href="/about-us" onClick={() => setMenuOpen(false)} className="text-lg">About Us</Link>
+          <Link href="/contact" onClick={() => setMenuOpen(false)} className="text-lg">Contact</Link>
         </div>
       </div>
 

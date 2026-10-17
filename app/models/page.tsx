@@ -1,171 +1,163 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title:
-    "Top-Rated Karachi Escorts | VIP Call Girls 24/7 Available – Call Now 03708540579",
+  title: "Top-Rated Karachi Escorts | VIP Call Girls Models 24/7 – 03708540579",
   description:
-    "Verified Karachi escorts, VIP call girls, and elite companions available across DHA, Clifton, Bahria Town, and top hotels. Call or WhatsApp 03708540579.",
-  keywords: [
-    "Karachi Escorts",
-    "Call Girls in Karachi",
-    "VIP Karachi Escorts",
-    "Model Escorts in Karachi",
-    "DHA Karachi Escorts",
-    "Clifton Karachi Escorts",
-    "Bahria Town Karachi Escorts",
-    "Hotel Escorts Karachi",
-    "Outcall Escorts Karachi",
-  ],
+    "Browse verified Karachi escorts and VIP call girls. Models available in DHA, Clifton, Bahria Town, PECHS and hotels. Call 03708540579.",
+  openGraph: {
+    title: "Top-Rated Karachi Escorts | VIP Call Girls Models",
+    images: [{ url: "/escorts-in-clifton-karachi-call-girls.jpg" }],
+  },
 };
 
 export default function ModelsPage() {
+  const models = [
+    { name: "Sara", img: "/karachi-call-girls-sara-vip.jpg", location: "DHA Karachi", desc: "Elegant VIP companion" },
+    { name: "Ayesha", img: "/karachi-call-girls-ayesha-independent.jpg", location: "Clifton", desc: "Independent & sophisticated" },
+    { name: "Zara", img: "/karachi-call-girls-zara-premium.jpg", location: "Bahria Town", desc: "Premium exclusive model" },
+    { name: "Hina", img: "/karachi-call-girls-hina-outcall.jpg", location: "PECHS", desc: "Discreet outcall specialist" },
+    { name: "Mehwish", img: "/karachi-call-girls-mehwish-hotel.jpg", location: "Hotel", desc: "Hotel-friendly escort" },
+    { name: "Sana", img: "/karachi-call-girls-sana-discreet.jpg", location: "Karachi", desc: "Fully discreet companion" },
+    { name: "Alina", img: "/vip-model-escorts-karachi-dha.jpg", location: "DHA", desc: "High-class DHA model" },
+    { name: "Noor", img: "/vip-model-escorts-karachi-clifton.jpg", location: "Clifton", desc: "Stylish Clifton companion" },
+    { name: "Fatima", img: "/vip-model-escorts-karachi-bahria.jpg", location: "Bahria Town", desc: "Luxury companion" },
+    { name: "Iqra", img: "/vip-model-escorts-karachi-pechs.jpg", location: "PECHS", desc: "Elegant personality" },
+    { name: "Maham", img: "/high-class-escorts-karachi.jpg", location: "High Class", desc: "Premium high-class" },
+    { name: "Laiba", img: "/luxury-call-girls-karachi.jpg", location: "Luxury", desc: "Luxury experience" },
+    { name: "Anaya", img: "/independent-escorts-karachi-real.jpg", location: "Independent", desc: "Real independent escort" },
+    { name: "Hira", img: "/professional-escorts-service-karachi.jpg", location: "Professional", desc: "Professional service" },
+    { name: "Saba", img: "/24-7-escorts-karachi-available.jpg", location: "24/7", desc: "Available any time" },
+    { name: "Kinza", img: "/exclusive-vip-escorts-karachi.jpg", location: "Exclusive", desc: "Exclusive VIP" },
+    { name: "Areeba", img: "/beautiful-call-girls-karachi.jpg", location: "Beautiful", desc: "Beautiful and charming" },
+    { name: "Mahnoor", img: "/sexy-escorts-in-karachi.jpg", location: "Premium", desc: "Premium companion" },
+    { name: "Nida", img: "/night-service-escorts-karachi.jpg", location: "Night", desc: "Night service specialist" },
+    { name: "Rabia", img: "/full-service-escorts-karachi.jpg", location: "Full Service", desc: "Full service companion" },
+    { name: "Komal", img: "/companion-girls-karachi-vip.jpg", location: "Companion", desc: "VIP companion girl" },
+    { name: "Esha", img: "/real-verified-call-girls-karachi.jpg", location: "Verified", desc: "Real verified call girl" },
+    { name: "Sana R", img: "/affordable-call-girls-karachi.jpg", location: "Affordable", desc: "Affordable quality" },
+    { name: "Iqra B", img: "/top-rated-escorts-karachi.jpg", location: "Top Rated", desc: "Top rated escort" },
+  ];
+
   return (
-    <main className="bg-black text-yellow-500 px-4 py-12">
-      <div className="max-w-7xl mx-auto space-y-16">
-
-        {/* HERO SECTION */}
-        <section className="space-y-4 text-center">
-          <h1 className="text-3xl md:text-4xl font-bold">
-            Top-Rated Karachi Escorts | VIP Call Girls 24/7 Available – Call Now
-            03708540579
+    <main className="bg-[#0a0a0a] text-gray-200">
+      {/* HERO */}
+      <section className="relative h-[85vh] flex items-center justify-center overflow-hidden">
+        <Image
+          src="/escorts-in-clifton-karachi-call-girls.jpg"
+          alt="Top Rated Karachi Escorts Models"
+          fill
+          priority
+          className="object-cover object-[center_15%]"
+        />
+        <div className="absolute inset-0 bg-black/70" />
+        <div className="relative z-10 text-center px-6 max-w-4xl">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
+            Top-Rated Karachi Escorts
+            <span className="block text-[#c9a86c] mt-2 text-2xl md:text-3xl">
+              VIP Call Girls 24/7 – 03708540579
+            </span>
           </h1>
-          <p className="text-sm md:text-base text-white-400 max-w-4xl mx-auto">
-            Welcome to rockyescortskarchi — your trusted source for verified
-            Karachi escorts, VIP call girls, and elite companions available
-            across DHA, Clifton, Bahria Town, and top hotels.
+          <p className="text-lg text-gray-300 mb-8">
+            Verified VIP call girls available in DHA, Clifton, Bahria Town, PECHS and hotels.
           </p>
-          <p className="font-semibold text-green-400">
-            📞 Call / WhatsApp: <span className="underline">03708540579</span>
-          </p>
-        </section>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="https://wa.me/923708540579" target="_blank" className="inline-block bg-[#c9a86c] text-black font-semibold px-10 py-4 rounded-full hover:bg-white transition">
+              WhatsApp – 03708540579
+            </a>
+            <a href="tel:03708540579" className="inline-block border border-[#c9a86c] text-[#c9a86c] font-semibold px-10 py-4 rounded-full hover:bg-[#c9a86c] hover:text-black transition">
+              Call Now
+            </a>
+          </div>
+        </div>
+      </section>
 
-        {/* MAIN H1 KEYWORD */}
-        <section className="space-y-6">
-          <h2 className="text-2xl font-semibold text-center">
-            Call Girls in Karachi – Verified, Sensual & Elite Companions
+      {/* MODELS GRID */}
+      <section className="py-16 px-6">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-12">
+            Our Verified Models
           </h2>
-          <p className="text-white-400 max-w-5xl mx-auto text-center">
-            At rockyescortskarchi, we offer professional, discreet, and verified
-            escort services in Karachi. Whether you’re visiting for business,
-            staying in a hotel, or relaxing at home, we provide companions
-            tailored to your preferences with complete privacy and fast outcall.
-          </p>
-        </section>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+            {models.map((model) => (
+              <div key={model.name} className="bg-[#111] border border-[#c9a86c]/20 rounded-2xl overflow-hidden hover:border-[#c9a86c]/50 transition">
+                <div className="relative aspect-[3/4]">
+                  <Image src={model.img} alt={`${model.name} - Karachi Escort ${model.location}`} fill className="object-cover" />
+                </div>
+                <div className="p-4 text-center">
+                  <h3 className="text-lg font-semibold text-white">{model.name}</h3>
+                  <p className="text-sm text-[#c9a86c] mb-1">{model.location}</p>
+                  <p className="text-gray-400 text-xs mb-3">{model.desc}</p>
+                  <Link href="/contact" className="inline-block w-full bg-[#c9a86c] text-black py-2 rounded-lg text-sm font-medium hover:bg-white transition">
+                    Book {model.name}
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-        {/* WHY CHOOSE */}
-        <section className="space-y-4 max-w-4xl mx-auto">
-          <h3 className="text-xl font-semibold text-center">
-            Why Choose rockyescortskarchi?
-          </h3>
-          <ul className="list-disc list-inside text-white-400 space-y-1">
-            <li>100% real and verified escorts</li>
-            <li>Fast outcall service anywhere in Karachi</li>
-            <li>VIP and affordable models available</li>
-            <li>24/7 availability – day & night</li>
-            <li>Complete discretion and privacy</li>
-            <li>Client-focused satisfaction</li>
-          </ul>
-        </section>
+      {/* TYPES */}
+      <section className="py-16 px-6 bg-[#111]">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">
+            Types of Escorts Available
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {["VIP Model Escorts","College Girls","Independent Escorts","Young Call Girls","MILF & Mature","Aunties","GFE Companions","Hotel Outcall","Full Night Service","Luxury Elite","TikTokers","Professionals"].map((type) => (
+              <div key={type} className="bg-[#0a0a0a] border border-[#c9a86c]/20 rounded-xl py-3 text-center text-sm">
+                {type}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-        {/* MODELS COLLAGE + CONTENT */}
-        <section className="grid md:grid-cols-3 gap-10">
-          {[
-            {
-              img: "/karachi-call-girls-sara-vip.jpg",
-              title: "VIP escorts in DHA Karachi – Premium Girls",
-              text:
-                "Our DHA Karachi escorts represent elegance, class, and confidence. Ideal for upscale dates, private parties, or relaxing evenings in Phase 2 or Phase 6.",
-            },
-            {
-              img: "/karachi-call-girls-ayesha-independent.jpg",
-              title: "Escorts in Clifton Karachi – Sensual Experiences",
-              text:
-                "Clifton Karachi escorts are bold, stunning, and experienced, perfect for clients staying near Seaview, Dolmen Mall, or Boat Basin.",
-            },
-            {
-              img: "/karachi-call-girls-zara-premium.jpg",
-              title: "Escorts in Bahria Town Karachi – VIP Girls",
-              text:
-                "Bahria Town Karachi escorts reflect modern luxury and sophistication, perfect for elite clients seeking premium companionship.",
-            },
-            {
-              img: "/karachi-call-girls-hina-outcall.jpg",
-              title: "Escorts in Malir Karachi – Full Privacy",
-              text:
-                "Malir Karachi escort services deliver intimate experiences with discretion, professionalism, and comfort directly to your location.",
-            },
-            {
-              img: "/24-7-escorts-karachi-available.jpg",
-              title: "Escorts in Nazimabad Karachi – Desi Charm",
-              text:
-                "Nazimabad escorts offer traditional beauty, emotional warmth, and genuine companionship with fast outcall service.",
-            },
-            {
-              img: "/karachi-call-girls-sana-discreet.jpg",
-              title: "VIP & Model Escorts in Karachi",
-              text:
-                "Our VIP Karachi escorts include models, influencers, and elite companions selected for clients who demand the best.",
-            },
-          ].map((item, index) => (
-            <div key={index} className="space-y-4">
-              <Image
-                src={item.img}
-                alt={item.title}
-                width={400}
-                height={500}
-                className="rounded-xl shadow-xl"
-              />
-              <h3 className="text-lg font-semibold">{item.title}</h3>
-              <p className="text-yellow-400 text-sm">{item.text}</p>
-            </div>
-          ))}
-        </section>
+      {/* PRICING */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-8">Service Charges</h2>
+          <div className="overflow-x-auto rounded-2xl border border-[#c9a86c]/20">
+            <table className="w-full text-left">
+              <thead className="bg-[#111]">
+                <tr>
+                  <th className="p-4 text-[#c9a86c]">Category</th>
+                  <th className="p-4 text-[#c9a86c] text-center">Short Time</th>
+                  <th className="p-4 text-[#c9a86c] text-center">Full Night</th>
+                </tr>
+              </thead>
+              <tbody className="text-gray-300">
+                <tr className="border-t border-[#c9a86c]/10"><td className="p-4">College / Young Girls</td><td className="p-4 text-center">30,000 – 45,000</td><td className="p-4 text-center">60,000 – 80,000</td></tr>
+                <tr className="border-t border-[#c9a86c]/10"><td className="p-4">VIP Escorts</td><td className="p-4 text-center">50,000 – 80,000</td><td className="p-4 text-center">100,000 – 150,000</td></tr>
+                <tr className="border-t border-[#c9a86c]/10"><td className="p-4">Model / Elite</td><td className="p-4 text-center">80,000 – 150,000</td><td className="p-4 text-center">150,000+</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
 
-        {/* PRICING */}
-        <section className="space-y-6 max-w-5xl mx-auto">
-          <h3 className="text-xl font-semibold text-center">
-            Prices of Karachi Escort Services
-          </h3>
-
-          <table className="w-full border border-yellow-500/40 text-sm">
-            <thead className="bg-yellow-500/10">
-              <tr>
-                <th className="p-3 border">Service Type</th>
-                <th className="p-3 border">Time</th>
-                <th className="p-3 border">Price Range (PKR)</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="p-3 border">Short-Time Fun</td>
-                <td className="p-3 border">1 Hour</td>
-                <td className="p-3 border">30,000 – 65,000</td>
-              </tr>
-              <tr>
-                <td className="p-3 border">Full Night</td>
-                <td className="p-3 border">8 Hours</td>
-                <td className="p-3 border">35,000 – 80,000</td>
-              </tr>
-              <tr>
-                <td className="p-3 border">VIP Escort</td>
-                <td className="p-3 border">Custom</td>
-                <td className="p-3 border">50,000+</td>
-              </tr>
-              <tr>
-                <td className="p-3 border">Massage with Ending</td>
-                <td className="p-3 border">1 Hour</td>
-                <td className="p-3 border">22,000 – 32,000</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <p className="text-center font-semibold">
-            📞 Book Now: <span className="underline">03708540579</span>
-          </p>
-        </section>
-
-      </div>
+      {/* FAQ */}
+      <section className="py-16 px-6 bg-[#111]">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">Frequently Asked Questions</h2>
+          <div className="space-y-4">
+            {[
+              { q: "Are the models shown on this page real?", a: "Yes. Every model is verified with real photos. We do not use stock or fake images." },
+              { q: "Can I choose a specific model for booking?", a: "Yes. Message us on WhatsApp with the model name and your location for confirmation." },
+              { q: "Do models provide hotel outcall service?", a: "Yes. Most models are available for discreet hotel and home visits across Karachi." },
+              { q: "How quickly can a model reach my location?", a: "Usually 20–40 minutes depending on the area (DHA, Clifton, Bahria Town, PECHS etc.)." },
+              { q: "Is advance payment required to book a model?", a: "Usually payment is done after arrival. Details are confirmed at the time of booking." },
+            ].map((item, i) => (
+              <div key={i} className="bg-[#0a0a0a] border border-[#c9a86c]/20 rounded-xl p-5">
+                <h3 className="font-semibold text-[#c9a86c] mb-1">{item.q}</h3>
+                <p className="text-gray-400 text-sm">{item.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

@@ -1,112 +1,118 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Escorts in DHA Karachi | VIP Call Girls DHA Phase 5 & 6 - 03708540579",
-  description: "Premium Escorts in DHA Karachi. Book verified VIP call girls and luxury companions in DHA Phase 5, Phase 6 & surrounding areas. Discreet hotel & outcall service. Call 03708540579.",
-  keywords: [
-    "escorts in DHA Karachi",
-    "DHA Karachi escorts",
-    "VIP escorts DHA Karachi",
-    "call girls in DHA Karachi",
-    "DHA Phase 5 escorts",
-    "DHA Phase 6 escorts",
-    "luxury escorts DHA Karachi",
-    "high class escorts DHA",
-    "DHA Karachi call girls",
-    "VIP companions DHA Karachi",
-    "elite escorts in DHA",
-    "DHA escorts service",
-    "independent escorts DHA Karachi",
-    "hotel escorts DHA Karachi",
-  ],
+  description:
+    "Premium Escorts in DHA Karachi. Book verified VIP call girls and luxury companions in DHA Phase 5, Phase 6 & surrounding areas. Discreet outcall. Call 03708540579.",
   openGraph: {
-    title: "Escorts in DHA Karachi | VIP Call Girls DHA - 03708540579",
-    description: "Book premium escorts in DHA Karachi. Luxury companions available in DHA Phase 5 & 6 with complete discretion.",
-    images: [{ url: "/herobg.jpg" }],
+    title: "Escorts in DHA Karachi | VIP Call Girls DHA",
+    images: [{ url: "/escorts-in-dha-karachi-vip.jpg" }],
   },
 };
 
 export default function VipEscortsDhaKarachiPage() {
   const models = [
-    "/nm1.jpg",
-    "/model1.jpg",
-    "/model2.jpg",
-    "/model3.jpg",
+    { name: "Sara", img: "/karachi-call-girls-sara-vip.jpg", desc: "Elegant VIP companion" },
+    { name: "Ayesha", img: "/karachi-call-girls-ayesha-independent.jpg", desc: "Independent & sophisticated" },
+    { name: "Zara", img: "/karachi-call-girls-zara-premium.jpg", desc: "Premium exclusive model" },
+    { name: "Hina", img: "/karachi-call-girls-hina-outcall.jpg", desc: "Discreet outcall specialist" },
+    { name: "Mehwish", img: "/karachi-call-girls-mehwish-hotel.jpg", desc: "Hotel-friendly escort" },
+    { name: "Sana", img: "/karachi-call-girls-sana-discreet.jpg", desc: "Fully discreet companion" },
+    { name: "Alina", img: "/vip-model-escorts-karachi-dha.jpg", desc: "High-class DHA model" },
+    { name: "Noor", img: "/vip-model-escorts-karachi-clifton.jpg", desc: "Stylish & charming" },
+    { name: "Fatima", img: "/vip-model-escorts-karachi-bahria.jpg", desc: "Luxury companion" },
+    { name: "Iqra", img: "/vip-model-escorts-karachi-pechs.jpg", desc: "Elegant personality" },
+    { name: "Maham", img: "/high-class-escorts-karachi.jpg", desc: "Premium high-class" },
+    { name: "Laiba", img: "/luxury-call-girls-karachi.jpg", desc: "Luxury experience" },
+    { name: "Anaya", img: "/independent-escorts-karachi-real.jpg", desc: "Real independent escort" },
+    { name: "Hira", img: "/professional-escorts-service-karachi.jpg", desc: "Professional service" },
+    { name: "Saba", img: "/24-7-escorts-karachi-available.jpg", desc: "Available 24/7" },
+    { name: "Kinza", img: "/exclusive-vip-escorts-karachi.jpg", desc: "Exclusive VIP" },
+  ];
+
+  const moreLikeThis = [
+    { img: "/escorts-in-clifton-karachi-call-girls.jpg", title: "Escorts in Clifton", link: "/portfolio/escorts-clifton-karachi" },
+    { img: "/escorts-in-bahria-town-karachi.jpg", title: "Escorts in Bahria Town", link: "/portfolio/escorts-bahria-town-karachi" },
+    { img: "/escorts-in-pechs-karachi-vip.jpg", title: "Escorts in PECHS", link: "/portfolio/escorts-pechs-karachi" },
+    { img: "/al-harmain-hotel-escorts-karachi.jpg", title: "Al Harmain Hotel", link: "/escorts-in-al-harmain-hotel" },
   ];
 
   return (
-    <main className="bg-[#FFECE8] text-[#222222]">
-
-      {/* HERO SECTION - Strong Keyword Focus */}
-      <section
-        className="relative h-[580px] bg-cover bg-center"
-        style={{ backgroundImage: "url('/herobg.jpg')" }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/70" />
-
-        <div className="relative h-full flex items-center justify-center px-6 text-center">
-          <div className="max-w-4xl">
-            <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              Escorts in DHA Karachi<br />
-              <span className="text-[#FF69B4]">03708540579</span>
-            </h1>
-
-            <p className="text-white/90 text-lg md:text-xl max-w-2xl mx-auto">
-              Premium VIP call girls &amp; luxury companions in DHA Phase 5 &amp; Phase 6
-            </p>
+    <main className="bg-[#0a0a0a] text-gray-200">
+      {/* HERO - Face visible */}
+      <section className="relative h-[85vh] flex items-center justify-center overflow-hidden">
+        <Image
+          src="/escorts-in-dha-karachi-vip.jpg"
+          alt="Escorts in DHA Karachi - VIP Call Girls Phase 5 & 6"
+          fill
+          priority
+          className="object-cover object-[center_18%]"
+        />
+        <div className="absolute inset-0 bg-black/70" />
+        <div className="relative z-10 text-center px-6 max-w-4xl">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
+            Escorts in DHA Karachi
+            <span className="block text-[#c9a86c] mt-2 text-2xl md:text-3xl">Call 03708540579</span>
+          </h1>
+          <p className="text-lg text-gray-300 mb-8">VIP Call Girls & Luxury Companions in DHA Phase 5 & 6</p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="https://wa.me/923708540579" target="_blank" className="inline-block bg-[#c9a86c] text-black font-semibold px-10 py-4 rounded-full hover:bg-white transition">
+              WhatsApp – 03708540579
+            </a>
+            <a href="tel:03708540579" className="inline-block border border-[#c9a86c] text-[#c9a86c] font-semibold px-10 py-4 rounded-full hover:bg-[#c9a86c] hover:text-black transition">
+              Call Now
+            </a>
           </div>
         </div>
       </section>
 
-      {/* INTRO SECTION */}
-      <section className="max-w-6xl mx-auto px-6 py-16 text-center">
-        <h2 className="text-4xl font-semibold text-[#D6336C] mb-6">
-          Premium Escorts in DHA Karachi
-        </h2>
-
-        <p className="text-lg leading-relaxed text-[#333333] max-w-3xl mx-auto">
-          Looking for high-class <strong>escorts in DHA Karachi</strong>? We offer the most elegant, 
-          verified, and sophisticated VIP companions in DHA Phase 5, Phase 6, and surrounding areas. 
-          Whether you desire a private evening, hotel companionship, or an exclusive experience, 
-          our luxury <strong>DHA Karachi escorts</strong> deliver unmatched beauty and discretion.
-        </p>
+      {/* INTRO - Content Depth */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-semibold text-[#c9a86c] mb-6 text-center">Premium Escorts in DHA Karachi</h2>
+          <p className="text-lg text-gray-300 leading-relaxed mb-5">
+            Looking for high-class <strong>escorts in DHA Karachi</strong>? We provide verified VIP call girls and luxury companions in DHA Phase 5, Phase 6 and surrounding areas with complete discretion.
+          </p>
+          <p className="text-gray-400 leading-relaxed mb-5">
+            DHA is one of the most requested locations for premium companionship in Karachi. Whether you are staying in a private residence in Phase 5 or Phase 6, or need a discreet hotel outcall nearby, our team arranges verified companions quickly. Clients looking for 
+            <Link href="/portfolio/escorts-clifton-karachi" className="text-[#c9a86c] hover:underline"> escorts in Clifton</Link> or 
+            <Link href="/portfolio/escorts-bahria-town-karachi" className="text-[#c9a86c] hover:underline"> escorts in Bahria Town</Link> can also be accommodated with the same level of privacy.
+          </p>
+          <p className="text-gray-400 leading-relaxed">
+            All profiles shown are verified with real photos. Booking is simple via WhatsApp or call on 03708540579. Share your preferred time and exact location in DHA for fast confirmation.
+          </p>
+        </div>
       </section>
 
-      {/* FEATURED MODELS */}
-      <section className="bg-white py-16 px-6">
+      {/* TYPES */}
+      <section className="py-12 px-6 bg-[#111]">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-semibold text-center text-[#D6336C] mb-12">
-            Featured VIP Escorts in DHA Karachi
-          </h2>
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">Types of Escorts Available in DHA</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {["VIP Model Escorts","College Girls","Independent Escorts","Young Call Girls","MILF & Mature","Aunties","GFE Companions","Hotel Outcall","Full Night Service","Luxury Elite","TikTokers","Professionals"].map((type) => (
+              <div key={type} className="bg-[#0a0a0a] border border-[#c9a86c]/20 rounded-xl py-3 text-center text-sm">{type}</div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {models.map((img, index) => (
-              <div
-                key={index}
-                className="bg-[#FFF0F2] rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group"
-              >
-                <div className="h-[340px] overflow-hidden">
-                  <img
-                    src={img}
-                    alt={`VIP Escort in DHA Karachi ${index + 1}`}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
+      {/* MODELS */}
+      <section className="py-16 px-6">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-12">Featured VIP Escorts in DHA</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+            {models.map((model) => (
+              <div key={model.name} className="bg-[#111] border border-[#c9a86c]/20 rounded-2xl overflow-hidden hover:border-[#c9a86c]/50 transition">
+                <div className="relative aspect-[3/4]">
+                  <Image src={model.img} alt={`${model.name} - Escorts in DHA Karachi VIP Call Girl`} fill className="object-cover" />
                 </div>
-
-                <div className="p-6 text-center">
-                  <h3 className="text-xl font-semibold mb-2 text-[#222]">
-                    Elite Companion {index + 1}
-                  </h3>
-                  <p className="text-sm text-gray-600 mb-5">
-                    DHA Phase 5 &amp; 6 • Verified • Luxury Experience
-                  </p>
-
-                  <Link
-                    href="/contact"
-                    className="block w-full bg-[#D6336C] hover:bg-[#b82b5c] text-white py-3.5 rounded-xl font-medium transition-all"
-                  >
-                    Book This Model
+                <div className="p-4 text-center">
+                  <h3 className="text-lg font-semibold text-white">{model.name}</h3>
+                  <p className="text-sm text-gray-400 mb-3">{model.desc}</p>
+                  <Link href="/contact" className="inline-block w-full bg-[#c9a86c] text-black py-2 rounded-lg text-sm font-medium hover:bg-white transition">
+                    Book {model.name}
                   </Link>
                 </div>
               </div>
@@ -115,99 +121,89 @@ export default function VipEscortsDhaKarachiPage() {
         </div>
       </section>
 
-      {/* WHY CHOOSE US */}
-      <section className="max-w-5xl mx-auto px-6 py-20">
-        <h2 className="text-4xl font-semibold text-center text-[#D6336C] mb-12">
-          Why Clients Trust Our Escorts in DHA Karachi
-        </h2>
-
-        <div className="grid md:grid-cols-2 gap-12 text-lg leading-relaxed text-[#333333]">
-          <div className="space-y-8">
-            <div>
-              <h3 className="font-semibold text-xl mb-3 text-[#D6336C]">Verified &amp; High-Class Escorts</h3>
-              <p>We only work with carefully selected, verified <strong>escorts in DHA Karachi</strong> who maintain the highest standards of beauty, manners, and professionalism.</p>
-            </div>
-
-            <div>
-              <h3 className="font-semibold text-xl mb-3 text-[#D6336C]">Complete Discretion</h3>
-              <p>Your privacy is our priority. All bookings for <strong>DHA Karachi escorts</strong> are handled with strict confidentiality.</p>
-            </div>
-          </div>
-
-          <div className="space-y-8">
-            <div>
-              <h3 className="font-semibold text-xl mb-3 text-[#D6336C]">Fast Service in DHA Phases</h3>
-              <p>Quick response and reliable outcall service across DHA Phase 4, 5, 6, and nearby premium locations.</p>
-            </div>
-
-            <div>
-              <h3 className="font-semibold text-xl mb-3 text-[#D6336C]">Tailored Luxury Experience</h3>
-              <p>From elegant dinner dates to private hotel evenings — we create memorable moments with our <strong>VIP escorts in DHA Karachi</strong>.</p>
-            </div>
+      {/* WHY CHOOSE */}
+      <section className="py-16 px-6 bg-[#111]">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">Why Choose Us for DHA Escorts?</h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              { title: "Verified Profiles", desc: "Real photos and verified companions only." },
+              { title: "Complete Privacy", desc: "Discreet service with full confidentiality." },
+              { title: "Fast Response in DHA", desc: "Quick confirmation for Phase 5 & Phase 6." },
+              { title: "24/7 Available", desc: "Day and night service across DHA." },
+              { title: "DHA Coverage", desc: "Phase 5, Phase 6 and nearby locations." },
+              { title: "Wide Selection", desc: "From young girls to mature companions." },
+            ].map((item) => (
+              <div key={item.title} className="bg-[#0a0a0a] border border-[#c9a86c]/20 rounded-2xl p-6">
+                <h3 className="text-lg font-semibold text-[#c9a86c] mb-2">{item.title}</h3>
+                <p className="text-gray-400 text-sm">{item.desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* CTA SECTION */}
-      <section className="bg-[#D6336C] text-white py-20 text-center">
-        <div className="max-w-3xl mx-auto px-6">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Ready for an Exclusive Experience?
-          </h2>
-          <p className="text-xl mb-10">
-            Book the finest <strong>escorts in DHA Karachi</strong> today.
-          </p>
-
-          <a
-            href="tel:03708540579"
-            className="inline-block bg-white text-[#D6336C] px-12 py-5 rounded-full font-semibold text-xl hover:bg-gray-100 transition-all"
-          >
-            Call Now: 03708540579
-          </a>
+      {/* PRICING */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-8">Service Charges – DHA Karachi</h2>
+          <div className="overflow-x-auto rounded-2xl border border-[#c9a86c]/20">
+            <table className="w-full text-left">
+              <thead className="bg-[#111]">
+                <tr>
+                  <th className="p-4 text-[#c9a86c]">Category</th>
+                  <th className="p-4 text-[#c9a86c] text-center">Short Time</th>
+                  <th className="p-4 text-[#c9a86c] text-center">Full Night</th>
+                </tr>
+              </thead>
+              <tbody className="text-gray-300">
+                <tr className="border-t border-[#c9a86c]/10"><td className="p-4">College / Young Girls</td><td className="p-4 text-center">35,000 – 45,000</td><td className="p-4 text-center">60,000 – 80,000</td></tr>
+                <tr className="border-t border-[#c9a86c]/10"><td className="p-4">VIP Escorts</td><td className="p-4 text-center">50,000 – 80,000</td><td className="p-4 text-center">100,000 – 150,000</td></tr>
+                <tr className="border-t border-[#c9a86c]/10"><td className="p-4">Model / Elite</td><td className="p-4 text-center">80,000 – 150,000</td><td className="p-4 text-center">150,000+</td></tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
 
-      {/* INTERNAL LINKS */}
-      <section className="py-12 text-center text-[#555] bg-[#FFF0F2]">
-        <p className="text-lg">
-          Explore More:{" "}
-          <Link href="/escorts-clifton-karachi" className="text-[#D6336C] hover:underline mx-2">
-            Clifton Escorts
-          </Link>{" • "}
-          <Link href="/escorts-bahria-town-karachi" className="text-[#D6336C] hover:underline mx-2">
-            Bahria Town Escorts
-          </Link>{" • "}
-          <Link href="/escorts-pechs-karachi" className="text-[#D6336C] hover:underline mx-2">
-            PECHS Escorts
-          </Link>
-        </p>
+      {/* MORE LIKE THIS */}
+      <section className="py-16 px-6 bg-[#111]">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">More Like This</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {moreLikeThis.map((item) => (
+              <Link key={item.title} href={item.link} className="group block rounded-2xl overflow-hidden border border-[#c9a86c]/20 hover:border-[#c9a86c]/50 transition">
+                <div className="relative aspect-[3/4]">
+                  <Image src={item.img} alt={item.title} fill className="object-cover group-hover:scale-105 transition duration-500" />
+                </div>
+                <div className="p-3 bg-[#0a0a0a] text-center text-sm">{item.title}</div>
+              </Link>
+            ))}
+          </div>
+        </div>
       </section>
 
-      {/* FOOTER */}
-      <footer className="text-center py-8 text-[#777] bg-[#FFF0F2] text-sm">
-        © {new Date().getFullYear()} Rocky Escorts Karachi. All Rights Reserved.
-      </footer>
-
-      {/* JSON-LD Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Service",
-            "name": "Escorts in DHA Karachi",
-            "description": "Premium VIP escorts and luxury companions available in DHA Phase 5 & 6 Karachi. Discreet and high-class service.",
-            "provider": {
-              "@type": "Organization",
-              "name": "Rocky Escorts Karachi",
-              "url": "https://rockyescortskarachi.com"
-            },
-            "areaServed": "DHA Karachi, Phase 5, Phase 6",
-            "telephone": "+923708540579",
-            "serviceType": "VIP Escort Service"
-          })
-        }}
-      />
+      {/* FAQ - Unique Local */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">Frequently Asked Questions – DHA Escorts</h2>
+          <div className="space-y-4">
+            {[
+              { q: "Do you provide escorts in DHA Phase 5 and Phase 6?", a: "Yes. We provide verified VIP escorts across DHA Phase 5, Phase 6 and nearby residential blocks." },
+              { q: "How long does it take for an escort to reach DHA?", a: "Usually 20–40 minutes depending on your exact block and traffic." },
+              { q: "Can I book a DHA escort for a hotel nearby?", a: "Yes. Discreet hotel outcall is available for hotels near DHA and other major hotels in Karachi." },
+              { q: "Are the photos of DHA escorts real?", a: "Yes. All profiles use real verified photos. We do not use fake or stock images." },
+              { q: "What is the best way to book escorts in DHA Karachi?", a: "WhatsApp or call 03708540579. Share your location in DHA and preferred time for quick confirmation." },
+              { q: "Do you also cover Clifton and Bahria Town from DHA bookings?", a: "Yes. If you need service in Clifton or Bahria Town, we can arrange the same verified companions." },
+            ].map((item, i) => (
+              <div key={i} className="bg-[#111] border border-[#c9a86c]/20 rounded-xl p-5">
+                <h3 className="font-semibold text-[#c9a86c] mb-1">{item.q}</h3>
+                <p className="text-gray-400 text-sm">{item.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

@@ -1,391 +1,215 @@
-import EscortsCollage from "@/app/components/EscortsCollage";
-import WhatsAppButton from "@/app/components/WhatsAppButton";
+import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Karachi Escorts | Call Girls in Karachi 24/7 VIP Service - 03708540579",
   description:
-    "Premium Karachi Escorts & Call Girls available 24/7. Book verified VIP escorts in DHA, Clifton, Marriott Hotel, PECHS, Nazimabad, Bahria Town & all major areas. Discreet outcall & incall service with real photos.",
-  keywords: [
-    "Karachi escorts",
-    "call girls in Karachi",
-    "Karachi call girls",
-    "escorts in Karachi",
-    "VIP escorts Karachi",
-    "independent escorts Karachi",
-    "hotel escorts Karachi",
-    "outcall escorts Karachi",
-    "DHA escorts Karachi",
-    "Clifton escorts Karachi",
-    "Bahria Town escorts",
-    "PECHS escorts Karachi",
-    "Nazimabad escorts",
-    "Marriott Hotel escorts Karachi",
-    "verified escorts Karachi",
-    "discreet call girls Karachi",
-    "24/7 escorts Karachi",
-  ],
+    "Premium Karachi Escorts & Call Girls available 24/7. Book verified VIP escorts in DHA, Clifton, Bahria Town, PECHS & major hotels. Discreet outcall service. Call 03708540579.",
   openGraph: {
-    title: "Karachi Escorts | Call Girls in Karachi 24/7 VIP - 03708540579",
-    description:
-      "High-class verified Karachi escorts & call girls available 24/7 in DHA, Clifton, Marriott Hotel, PECHS & across Karachi. Discreet, premium & fast outcall service.",
+    title: "Karachi Escorts | Call Girls in Karachi 24/7 VIP",
+    description: "Verified VIP escorts and call girls across Karachi. Call 03708540579.",
     images: [{ url: "/escorts-in-dha-karachi-vip.jpg" }],
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Karachi Escorts | Call Girls 24/7 - 03708540579",
-    description:
-      "Premium verified escorts in DHA, Clifton, Marriott Hotel & all Karachi areas. Call now for discreet service.",
-    images: ["/escorts-in-dha-karachi-vip.jpg"],
   },
 };
 
 export default function HomePage() {
+  const featuredModels = [
+    { name: "Sara", img: "/karachi-call-girls-sara-vip.jpg", location: "DHA Karachi", desc: "Elegant VIP companion" },
+    { name: "Ayesha", img: "/karachi-call-girls-ayesha-independent.jpg", location: "Clifton", desc: "Independent & sophisticated" },
+    { name: "Zara", img: "/karachi-call-girls-zara-premium.jpg", location: "Bahria Town", desc: "Premium exclusive model" },
+    { name: "Hina", img: "/karachi-call-girls-hina-outcall.jpg", location: "PECHS", desc: "Discreet outcall specialist" },
+    { name: "Mehwish", img: "/karachi-call-girls-mehwish-hotel.jpg", location: "Hotel", desc: "Hotel-friendly escort" },
+    { name: "Sana", img: "/karachi-call-girls-sana-discreet.jpg", location: "Karachi", desc: "Fully discreet companion" },
+    { name: "Alina", img: "/vip-model-escorts-karachi-dha.jpg", location: "DHA", desc: "High-class DHA model" },
+    { name: "Noor", img: "/vip-model-escorts-karachi-clifton.jpg", location: "Clifton", desc: "Stylish Clifton companion" },
+    { name: "Fatima", img: "/vip-model-escorts-karachi-bahria.jpg", location: "Bahria Town", desc: "Luxury companion" },
+    { name: "Iqra", img: "/vip-model-escorts-karachi-pechs.jpg", location: "PECHS", desc: "Elegant personality" },
+    { name: "Maham", img: "/high-class-escorts-karachi.jpg", location: "High Class", desc: "Premium high-class" },
+    { name: "Laiba", img: "/luxury-call-girls-karachi.jpg", location: "Luxury", desc: "Luxury experience" },
+    { name: "Anaya", img: "/independent-escorts-karachi-real.jpg", location: "Independent", desc: "Real independent escort" },
+    { name: "Hira", img: "/professional-escorts-service-karachi.jpg", location: "Professional", desc: "Professional service" },
+    { name: "Saba", img: "/24-7-escorts-karachi-available.jpg", location: "24/7", desc: "Available any time" },
+    { name: "Kinza", img: "/exclusive-vip-escorts-karachi.jpg", location: "Exclusive", desc: "Exclusive VIP" },
+  ];
+
+  const moreLikeThis = [
+    { img: "/escorts-in-dha-karachi-vip.jpg", title: "Escorts in DHA", link: "/portfolio/vip-escorts-dha-karachi" },
+    { img: "/escorts-in-clifton-karachi-call-girls.jpg", title: "Escorts in Clifton", link: "/portfolio/escorts-clifton-karachi" },
+    { img: "/escorts-in-bahria-town-karachi.jpg", title: "Escorts in Bahria Town", link: "/portfolio/escorts-bahria-town-karachi" },
+    { img: "/al-harmain-hotel-escorts-karachi.jpg", title: "Al Harmain Hotel", link: "/escorts-in-al-harmain-hotel" },
+  ];
+
   return (
-    <>
-      <WhatsAppButton />
-
-      {/* Custom Keyframes for Mesmerizing Effects */}
-      <style
-        dangerouslySetInnerHTML={{
-          __html: `
-            @keyframes float {
-              0%, 100% { transform: translateY(0) translateX(0); }
-              33% { transform: translateY(-18px) translateX(8px); }
-              66% { transform: translateY(10px) translateX(-6px); }
-            }
-            @keyframes float-slow {
-              0%, 100% { transform: translateY(0); }
-              50% { transform: translateY(-12px); }
-            }
-            @keyframes glow-pulse {
-              0%, 100% { box-shadow: 0 0 8px rgba(250, 204, 21, 0.35), 0 0 20px rgba(250, 204, 21, 0.15); }
-              50% { box-shadow: 0 0 22px rgba(250, 204, 21, 0.65), 0 0 45px rgba(250, 204, 21, 0.3); }
-            }
-            @keyframes text-glow {
-              0%, 100% { text-shadow: 0 0 8px rgba(250, 204, 21, 0.4), 0 0 20px rgba(250, 204, 21, 0.2); }
-              50% { text-shadow: 0 0 16px rgba(250, 204, 21, 0.7), 0 0 35px rgba(250, 204, 21, 0.35); }
-            }
-            @keyframes gradient-shift {
-              0% { background-position: 0% 50%; }
-              50% { background-position: 100% 50%; }
-              100% { background-position: 0% 50%; }
-            }
-            @keyframes shimmer {
-              0% { background-position: -200% 0; }
-              100% { background-position: 200% 0; }
-            }
-            @keyframes border-glow {
-              0%, 100% { border-color: rgba(250, 204, 21, 0.25); }
-              50% { border-color: rgba(250, 204, 21, 0.55); }
-            }
-            .animate-float { animation: float 7s ease-in-out infinite; }
-            .animate-float-slow { animation: float-slow 5s ease-in-out infinite; }
-            .animate-glow-pulse { animation: glow-pulse 2.8s ease-in-out infinite; }
-            .animate-text-glow { animation: text-glow 3s ease-in-out infinite; }
-            .animate-gradient { background-size: 200% 200%; animation: gradient-shift 8s ease infinite; }
-            .animate-shimmer {
-              background: linear-gradient(90deg, transparent, rgba(250, 204, 21, 0.15), transparent);
-              background-size: 200% 100%;
-              animation: shimmer 3.5s infinite;
-            }
-            .animate-border-glow { animation: border-glow 3s ease-in-out infinite; }
-          `,
-        }}
-      />
-
-      {/* ==================== HERO SECTION ==================== */}
-      <section
-        className="relative py-44 md:py-56 bg-cover bg-center bg-no-repeat overflow-hidden"
-        style={{ backgroundImage: "url('/escorts-in-dha-karachi-vip.jpg')" }}
-      >
-        {/* Animated multi-layer gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/55 to-black/85" />
-        <div className="absolute inset-0 bg-gradient-to-r from-yellow-900/10 via-transparent to-yellow-900/10 animate-gradient opacity-60" />
-
-        {/* Floating glowing orbs */}
-        <div className="absolute top-20 left-[10%] w-40 h-40 md:w-64 md:h-64 rounded-full bg-yellow-400/10 blur-3xl animate-float pointer-events-none" />
-        <div className="absolute bottom-16 right-[12%] w-32 h-32 md:w-52 md:h-52 rounded-full bg-yellow-500/15 blur-3xl animate-float-slow pointer-events-none" style={{ animationDelay: "1.2s" }} />
-        <div className="absolute top-1/3 right-[25%] w-24 h-24 rounded-full bg-amber-300/10 blur-2xl animate-float pointer-events-none" style={{ animationDelay: "2.4s" }} />
-        <div className="absolute bottom-1/4 left-[20%] w-28 h-28 rounded-full bg-yellow-400/8 blur-2xl animate-float-slow pointer-events-none" style={{ animationDelay: "0.8s" }} />
-
-        <div className="relative container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-white mb-6 tracking-wide drop-shadow-2xl animate-text-glow">
-            Karachi Escorts 24/7 Available
-            <span className="block mt-2 text-yellow-400 font-medium">
-              Call Now 03708540579
-            </span>
+    <main className="bg-[#0a0a0a] text-gray-200">
+      {/* HERO */}
+      <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
+        <Image
+          src="/escorts-in-dha-karachi-vip.jpg"
+          alt="Karachi Escorts VIP Call Girls"
+          fill
+          priority
+          className="object-cover object-[center_20%]"
+        />
+        <div className="absolute inset-0 bg-black/70" />
+        <div className="relative z-10 text-center px-6 max-w-4xl">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
+            Karachi Escorts 24/7
+            <span className="block text-[#c9a86c] mt-2">Call 03708540579</span>
           </h1>
-
-          <h2 className="text-lg md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed mb-10 drop-shadow-xl">
-            Premium Karachi escorts, VIP call girls &amp; elite companions available
-            in DHA, Clifton, Bahria Town, Gulshan, Nazimabad and top hotels.
-          </h2>
-
-          <div className="inline-block">
-            <p className="text-xl md:text-2xl text-yellow-400 font-medium drop-shadow-xl mb-8 animate-text-glow">
-              📞 Call / WhatsApp:{" "}
-              <span className="text-white font-semibold tracking-wider">
-                03708540579
-              </span>
-            </p>
-
-            <a
-              href="tel:03708540579"
-              className="inline-flex items-center gap-3 bg-yellow-400 text-black font-bold text-xl md:text-2xl px-12 py-5 rounded-full 
-                         hover:bg-white hover:scale-105 transition-all duration-500 
-                         animate-glow-pulse shadow-[0_0_25px_rgba(250,204,21,0.4)]
-                         hover:shadow-[0_0_40px_rgba(250,204,21,0.7)]"
-            >
-              <span>CALL NOW</span>
-              <span className="text-2xl">→</span>
+          <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
+            Verified VIP call girls and elite companions in DHA, Clifton, Bahria Town, PECHS and major hotels.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="https://wa.me/923708540579" target="_blank" className="inline-block bg-[#c9a86c] text-black font-semibold px-10 py-4 rounded-full hover:bg-white transition">
+              WhatsApp – 03708540579
+            </a>
+            <a href="tel:03708540579" className="inline-block border border-[#c9a86c] text-[#c9a86c] font-semibold px-10 py-4 rounded-full hover:bg-[#c9a86c] hover:text-black transition">
+              Call Now
             </a>
           </div>
         </div>
       </section>
 
-      {/* ==================== INTRO SECTION ==================== */}
-      <section className="bg-black py-20 relative overflow-hidden">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-yellow-500/5 blur-[100px] rounded-full pointer-events-none" />
-
-        <div className="container mx-auto px-4 max-w-5xl text-gray-300 relative">
-          <h2 className="text-3xl md:text-4xl font-semibold text-yellow-400 mb-8 text-center animate-text-glow">
-            Karachi Escorts – Verified &amp; Premium Call Girls in Karachi
+      {/* INTRO */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-semibold text-[#c9a86c] mb-6">
+            Verified Karachi Escorts & Call Girls
           </h2>
-
-          <div className="group relative w-full h-72 md:h-96 rounded-2xl overflow-hidden mb-10 border border-yellow-500/20 shadow-lg hover:border-yellow-400/50 transition-all duration-700 animate-border-glow">
-            <img
-              src="/escorts-in-clifton-karachi-call-girls.jpg"
-              alt="Premium Karachi Escorts - Verified Call Girls Service in DHA Clifton"
-              className="w-full h-full object-cover object-center transition-transform duration-1000 group-hover:scale-110"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
-          </div>
-
-          <p className="leading-relaxed text-lg md:text-xl text-center max-w-3xl mx-auto">
-            Looking for reliable <strong className="text-yellow-400">escorts in Karachi</strong>? We provide premium, discreet, and verified{" "}
-            <strong className="text-yellow-400">Karachi escorts</strong> and call girls for incall and outcall services across the city.
-            Whether you&apos;re staying in a hotel or at home, our beautiful companions offer an unforgettable experience with complete privacy.
+          <p className="text-lg text-gray-300 leading-relaxed">
+            Looking for reliable <strong>escorts in Karachi</strong>? We provide verified, professional and discreet 
+            <strong> Karachi call girls</strong> for incall and outcall services. Our companions are carefully selected for elegance, personality and complete privacy.
           </p>
         </div>
       </section>
 
-      {/* ==================== WHY CHOOSE US ==================== */}
-      <section className="bg-gradient-to-b from-gray-950 to-black py-24 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-yellow-900/5 via-transparent to-transparent pointer-events-none" />
-
-        <div className="container mx-auto px-4 max-w-6xl text-gray-300 relative">
-          <h3 className="text-3xl md:text-4xl font-semibold text-yellow-400 mb-16 text-center animate-text-glow">
-            Why Choose Us for Escorts in Karachi?
-          </h3>
-
-          <div className="grid md:grid-cols-2 gap-10 lg:gap-14">
-            {/* Card 1 */}
-            <div className="group relative bg-gray-900/40 backdrop-blur-sm rounded-2xl p-6 border border-yellow-500/20 hover:border-yellow-400/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_0_35px_rgba(250,204,21,0.25)]">
-              <h4 className="text-xl font-medium text-white mb-5 group-hover:text-yellow-400 transition-colors duration-300">
-                100% Verified Karachi Escorts
-              </h4>
-              <div className="relative w-full h-64 md:h-80 rounded-xl overflow-hidden border border-yellow-500/20 mb-6">
-                <img
-                  src="/escorts-in-bahria-town-karachi.jpg"
-                  alt="Verified Escorts in Karachi - Real Photos"
-                  className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-              </div>
-              <p className="text-gray-400 leading-relaxed">
-                Every escort is personally verified. We only offer real and professional{" "}
-                <strong className="text-yellow-400/90">Karachi escorts</strong>.
-              </p>
-            </div>
-
-            {/* Card 2 */}
-            <div className="group relative bg-gray-900/40 backdrop-blur-sm rounded-2xl p-6 border border-yellow-500/20 hover:border-yellow-400/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_0_35px_rgba(250,204,21,0.25)]">
-              <h4 className="text-xl font-medium text-white mb-5 group-hover:text-yellow-400 transition-colors duration-300">
-                Fast Outcall Service in Karachi
-              </h4>
-              <div className="relative w-full h-64 md:h-80 rounded-xl overflow-hidden border border-yellow-500/20 mb-6">
-                <img
-                  src="/escorts-in-pechs-karachi-vip.jpg"
-                  alt="Fast Outcall Escorts Karachi - DHA Clifton PECHS"
-                  className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-              </div>
-              <p className="text-gray-400 leading-relaxed">
-                Quick response for <strong className="text-yellow-400/90">escorts in Karachi</strong> across DHA, Clifton, PECHS, Nazimabad and all major areas.
-              </p>
-            </div>
-
-            {/* Card 3 */}
-            <div className="group relative bg-gray-900/40 backdrop-blur-sm rounded-2xl p-6 border border-yellow-500/20 hover:border-yellow-400/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_0_35px_rgba(250,204,21,0.25)]">
-              <h4 className="text-xl font-medium text-white mb-5 group-hover:text-yellow-400 transition-colors duration-300">
-                Escorts in Marriott Hotel Karachi
-              </h4>
-              <div className="relative w-full h-64 md:h-80 rounded-xl overflow-hidden border border-yellow-500/20 mb-6">
-                <img
-                  src="/marriott-hotel-escorts-karachi.jpg"
-                  alt="Escorts in Marriott Hotel Karachi - Discreet 5 Star Service"
-                  className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-              </div>
-              <p className="text-gray-400 leading-relaxed">
-                Discreet hotel service for guests staying at{" "}
-                <strong className="text-yellow-400/90">Marriott Hotel Karachi</strong> and other 5-star hotels.
-              </p>
-            </div>
-
-            {/* Card 4 */}
-            <div className="group relative bg-gray-900/40 backdrop-blur-sm rounded-2xl p-6 border border-yellow-500/20 hover:border-yellow-400/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_0_35px_rgba(250,204,21,0.25)]">
-              <h4 className="text-xl font-medium text-white mb-5 group-hover:text-yellow-400 transition-colors duration-300">
-                24/7 Karachi Escorts Service
-              </h4>
-              <div className="relative w-full h-64 md:h-80 rounded-xl overflow-hidden border border-yellow-500/20 mb-6">
-                <img
-                  src="/al-harmain-hotel-escorts-karachi.jpg"
-                  alt="24/7 Escorts in Karachi - Always Available"
-                  className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-              </div>
-              <p className="text-gray-400 leading-relaxed">
-                Need <strong className="text-yellow-400/90">Karachi escorts</strong> at any time? We are available 24 hours a day.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ==================== SERVICES & AREAS ==================== */}
-      <section className="bg-gradient-to-b from-black via-gray-900 to-black py-24 relative overflow-hidden">
-        <div className="absolute top-1/2 left-0 w-72 h-72 bg-yellow-500/5 blur-[120px] rounded-full pointer-events-none" />
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-yellow-400/5 blur-[150px] rounded-full pointer-events-none" />
-
-        <div className="container mx-auto px-4 max-w-6xl text-gray-300 relative">
-          <h2 className="text-3xl md:text-4xl font-light text-white mb-16 text-center">
-            Escorts in Karachi – Available in All Major Areas
+      {/* FEATURED MODELS */}
+      <section className="py-16 px-6 bg-[#111]">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-semibold text-center text-[#c9a86c] mb-12">
+            Featured VIP Companions
           </h2>
-
-          <div className="grid sm:grid-cols-2 gap-8">
-            {[
-              {
-                title: "Escorts in DHA Karachi",
-                desc: "Premium escorts in DHA Karachi offering luxury companionship and discreet service.",
-              },
-              {
-                title: "Escorts in Clifton Karachi",
-                desc: "Beautiful and sophisticated Clifton Karachi escorts near Seaview and Boat Basin.",
-              },
-              {
-                title: "Escorts in Marriott Hotel Karachi",
-                desc: "Professional escorts in Marriott Hotel Karachi with fast and discreet hotel service.",
-              },
-              {
-                title: "Escorts in Nazimabad & PECHS",
-                desc: "Affordable and attractive escorts available in Nazimabad, North Nazimabad, and PECHS Karachi.",
-              },
-            ].map((area, i) => (
-              <div
-                key={i}
-                className="group relative p-8 rounded-2xl bg-gradient-to-br from-gray-900/80 to-black/80 border border-yellow-500/15 
-                           hover:border-yellow-400/40 transition-all duration-500 hover:-translate-y-1 
-                           hover:shadow-[0_0_30px_rgba(250,204,21,0.15)] overflow-hidden"
-              >
-                <div className="absolute inset-0 animate-shimmer opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
-                <h3 className="text-2xl font-semibold text-yellow-400 mb-4 group-hover:text-yellow-300 transition-colors">
-                  {area.title}
-                </h3>
-                <p className="leading-relaxed text-gray-400 group-hover:text-gray-300 transition-colors">
-                  {area.desc}
-                </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+            {featuredModels.map((model) => (
+              <div key={model.name} className="bg-[#0a0a0a] border border-[#c9a86c]/20 rounded-2xl overflow-hidden hover:border-[#c9a86c]/50 transition">
+                <div className="relative aspect-[3/4]">
+                  <Image src={model.img} alt={`${model.name} - Karachi Escort in ${model.location}`} fill className="object-cover" />
+                </div>
+                <div className="p-4 text-center">
+                  <h3 className="text-lg font-semibold text-white">{model.name}</h3>
+                  <p className="text-sm text-[#c9a86c] mb-1">{model.location}</p>
+                  <p className="text-gray-400 text-xs mb-3">{model.desc}</p>
+                  <Link href="/contact" className="inline-block w-full bg-[#c9a86c] text-black py-2 rounded-lg text-sm font-medium hover:bg-white transition">
+                    Book {model.name}
+                  </Link>
+                </div>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ==================== FINAL CTA ==================== */}
-      <section className="bg-gradient-to-br from-black via-gray-950 to-black py-24 text-center relative overflow-hidden">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] border border-yellow-500/10 rounded-full animate-float-slow pointer-events-none" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] border border-yellow-500/5 rounded-full animate-float pointer-events-none" />
-
-        <div className="container mx-auto px-4 relative z-10">
-          <h2 className="text-4xl md:text-5xl font-light text-white mb-6 animate-text-glow">
-            Ready to Book Karachi Escorts?
+      {/* TYPES */}
+      <section className="py-16 px-6">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-semibold text-center text-[#c9a86c] mb-10">
+            Types of Escorts Available
           </h2>
-          <p className="text-2xl md:text-3xl text-yellow-400 mb-12 font-medium">
-            Call or WhatsApp Now – 03708540579
-          </p>
-          <a
-            href="tel:03708540579"
-            className="inline-block bg-yellow-400 text-black font-bold text-2xl md:text-3xl px-16 py-6 rounded-full 
-                       hover:bg-white hover:scale-110 transition-all duration-500 
-                       animate-glow-pulse shadow-[0_0_30px_rgba(250,204,21,0.5)]
-                       hover:shadow-[0_0_50px_rgba(250,204,21,0.8)]"
-          >
-            CALL 03708540579
-          </a>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {["VIP Model Escorts","College Girls","Independent Escorts","Young Call Girls","MILF & Mature","Aunties","GFE Companions","Hotel Outcall","Full Night Service","Luxury Elite","TikTokers","Professionals"].map((type) => (
+              <div key={type} className="bg-[#111] border border-[#c9a86c]/20 rounded-xl py-4 text-center text-sm hover:border-[#c9a86c]/50 transition">
+                {type}
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* JSON-LD Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            name: "Rocky Escorts Karachi",
-            description:
-              "Premium Karachi Escorts and Call Girls Service providing verified companions in DHA, Clifton, Marriott Hotel and across Karachi. Available 24/7 for incall and outcall.",
-            url: "https://rockyescortskarachi.com",
-            telephone: "+923708540579",
-            image: "https://rockyescortskarachi.com/escorts-in-dha-karachi-vip.jpg",
-            address: {
-              "@type": "PostalAddress",
-              addressLocality: "Karachi",
-              addressRegion: "Sindh",
-              addressCountry: "PK",
-            },
-            geo: {
-              "@type": "GeoCoordinates",
-              latitude: "24.8607",
-              longitude: "67.0011",
-            },
-            openingHoursSpecification: {
-              "@type": "OpeningHoursSpecification",
-              dayOfWeek: [
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday",
-                "Saturday",
-                "Sunday",
-              ],
-              opens: "00:00",
-              closes: "23:59",
-            },
-            priceRange: "$$",
-            areaServed: [
-              "DHA Karachi",
-              "Clifton",
-              "Marriott Hotel Karachi",
-              "PECHS",
-              "Nazimabad",
-              "Bahria Town",
-              "Gulshan",
-            ],
-            makesOffer: {
-              "@type": "Offer",
-              description:
-                "Escorts in Karachi, Call Girls in Karachi, Hotel Escorts Karachi, VIP Outcall Service",
-            },
-          }),
-        }}
-      />
-    </>
+      {/* WHY CHOOSE */}
+      <section className="py-16 px-6 bg-[#111]">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-semibold text-center text-[#c9a86c] mb-10">
+            Why Choose Rocky Escorts Karachi?
+          </h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              { title: "Verified Profiles", desc: "Real photos only. No fake profiles." },
+              { title: "Complete Privacy", desc: "Discreet handling of every booking." },
+              { title: "24/7 Availability", desc: "Day and night service across Karachi." },
+              { title: "Hotel Friendly", desc: "Experienced in discreet hotel outcall." },
+              { title: "Wide Coverage", desc: "DHA, Clifton, Bahria Town, PECHS & more." },
+              { title: "Professional Service", desc: "Respectful and high-class companionship." },
+            ].map((item) => (
+              <div key={item.title} className="bg-[#0a0a0a] border border-[#c9a86c]/20 rounded-2xl p-6">
+                <h3 className="text-lg font-semibold text-[#c9a86c] mb-2">{item.title}</h3>
+                <p className="text-gray-400 text-sm">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* PRICING */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-8">Service Charges</h2>
+          <div className="overflow-x-auto rounded-2xl border border-[#c9a86c]/20">
+            <table className="w-full text-left">
+              <thead className="bg-[#111]">
+                <tr>
+                  <th className="p-4 text-[#c9a86c]">Category</th>
+                  <th className="p-4 text-[#c9a86c] text-center">Short Time</th>
+                  <th className="p-4 text-[#c9a86c] text-center">Full Night</th>
+                </tr>
+              </thead>
+              <tbody className="text-gray-300">
+                <tr className="border-t border-[#c9a86c]/10"><td className="p-4">College / Young Girls</td><td className="p-4 text-center">30,000 – 45,000</td><td className="p-4 text-center">60,000 – 80,000</td></tr>
+                <tr className="border-t border-[#c9a86c]/10"><td className="p-4">VIP Escorts</td><td className="p-4 text-center">50,000 – 80,000</td><td className="p-4 text-center">100,000 – 150,000</td></tr>
+                <tr className="border-t border-[#c9a86c]/10"><td className="p-4">Model / Elite</td><td className="p-4 text-center">80,000 – 150,000</td><td className="p-4 text-center">150,000+</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-16 px-6 bg-[#111]">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">Frequently Asked Questions</h2>
+          <div className="space-y-4">
+            {[
+              { q: "Are Karachi escorts on this site real?", a: "Yes. All profiles are verified with real photos. We do not use fake pictures." },
+              { q: "Which areas do you cover in Karachi?", a: "DHA, Clifton, Bahria Town, PECHS, Gulshan-e-Iqbal, Bahadurabad, Nazimabad and major hotels." },
+              { q: "How do I book an escort in Karachi?", a: "WhatsApp or call 03708540579. Share your location and preferred time for quick confirmation." },
+              { q: "Do you provide hotel outcall?", a: "Yes. Discreet hotel outcall is available across Karachi for short time and full night." },
+              { q: "Is the service available at night?", a: "Yes. We operate 24/7 including late night bookings." },
+            ].map((item, i) => (
+              <div key={i} className="bg-[#0a0a0a] border border-[#c9a86c]/20 rounded-xl p-5">
+                <h3 className="font-semibold text-[#c9a86c] mb-1">{item.q}</h3>
+                <p className="text-gray-400 text-sm">{item.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* MORE LIKE THIS */}
+      <section className="py-16 px-6">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">More Like This</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {moreLikeThis.map((item) => (
+              <Link key={item.title} href={item.link} className="group block rounded-2xl overflow-hidden border border-[#c9a86c]/20 hover:border-[#c9a86c]/50 transition">
+                <div className="relative aspect-[3/4]">
+                  <Image src={item.img} alt={item.title} fill className="object-cover group-hover:scale-105 transition duration-500" />
+                </div>
+                <div className="p-3 bg-[#111] text-center text-sm">{item.title}</div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }

@@ -5,311 +5,203 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Escorts in Al Harmain Hotel Karachi | VIP Call Girls Al Harmain 03708540579",
   description:
-    "Premium VIP Escorts in Al Harmain Hotel Karachi. Beautiful models, college girls & high-class companions for hotel service. Fast delivery & complete privacy. Call 03708540579",
-  keywords: [
-    "escorts in al harmain hotel karachi",
-    "al harmain hotel call girls",
-    "vip escorts al harmain",
-    "hotel escorts karachi",
-    "al harmain hotel escorts",
-    "call girls in al harmain hotel",
-    "vip models al harmain",
-    "escort service al harmain hotel",
-  ],
+    "Premium VIP Escorts in Al Harmain Hotel Karachi. Verified models and high-class companions for discreet hotel service. Call 03708540579.",
   openGraph: {
     title: "Escorts in Al Harmain Hotel Karachi | VIP Call Girls",
-    description:
-      "Luxury VIP Escorts & Models available at Al Harmain Hotel Karachi. Discreet and fast service. Call 03708540579",
     images: [{ url: "/al-harmain-hotel-escorts-karachi.jpg" }],
   },
 };
 
 export default function AlHarmainHotelEscortsPage() {
-  const galleryImages = [
-    "/independent-call-girls-karachi-01.jpg",
-    "/discreet-escorts-karachi-outcall.jpg",
-    "/private-call-girls-karachi.jpg",
-    "/hotel-outcall-escorts-karachi.jpg",
-    "/24-7-escorts-karachi-available.jpg",
-    "/real-verified-call-girls-karachi.jpg",
-    "/exclusive-vip-escorts-karachi.jpg",
+  const models = [
+    { name: "Sara", img: "/karachi-call-girls-sara-vip.jpg", desc: "Elegant VIP companion" },
+    { name: "Ayesha", img: "/karachi-call-girls-ayesha-independent.jpg", desc: "Independent & sophisticated" },
+    { name: "Zara", img: "/karachi-call-girls-zara-premium.jpg", desc: "Premium exclusive model" },
+    { name: "Hina", img: "/karachi-call-girls-hina-outcall.jpg", desc: "Discreet outcall specialist" },
+    { name: "Mehwish", img: "/karachi-call-girls-mehwish-hotel.jpg", desc: "Hotel-friendly escort" },
+    { name: "Sana", img: "/karachi-call-girls-sana-discreet.jpg", desc: "Fully discreet companion" },
+    { name: "Alina", img: "/vip-model-escorts-karachi-dha.jpg", desc: "High-class model" },
+    { name: "Noor", img: "/vip-model-escorts-karachi-clifton.jpg", desc: "Stylish & charming" },
+    { name: "Fatima", img: "/vip-model-escorts-karachi-bahria.jpg", desc: "Luxury companion" },
+    { name: "Iqra", img: "/vip-model-escorts-karachi-pechs.jpg", desc: "Elegant personality" },
+    { name: "Maham", img: "/high-class-escorts-karachi.jpg", desc: "Premium high-class" },
+    { name: "Laiba", img: "/luxury-call-girls-karachi.jpg", desc: "Luxury experience" },
+    { name: "Anaya", img: "/independent-escorts-karachi-real.jpg", desc: "Real independent escort" },
+    { name: "Hira", img: "/professional-escorts-service-karachi.jpg", desc: "Professional service" },
+    { name: "Saba", img: "/24-7-escorts-karachi-available.jpg", desc: "Available 24/7" },
+    { name: "Kinza", img: "/exclusive-vip-escorts-karachi.jpg", desc: "Exclusive VIP" },
   ];
 
   const moreLikeThis = [
-    {
-      img: "/karachi-call-girls-sara-vip.jpg",
-      title: "VIP Escorts in DHA Karachi",
-      link: "/companions#dha",
-    },
-    {
-      img: "/karachi-call-girls-ayesha-independent.jpg",
-      title: "Escorts in Clifton Karachi",
-      link: "/companions#clifton",
-    },
-    {
-      img: "/karachi-call-girls-zara-premium.jpg",
-      title: "Escorts in Bahria Town",
-      link: "/companions#bahria-town",
-    },
-    {
-      img: "/karachi-call-girls-hina-outcall.jpg",
-      title: "Escorts in PECHS Karachi",
-      link: "/companions#pechs",
-    },
+    { img: "/escorts-in-dha-karachi-vip.jpg", title: "Escorts in DHA", link: "/portfolio/vip-escorts-dha-karachi" },
+    { img: "/escorts-in-clifton-karachi-call-girls.jpg", title: "Escorts in Clifton", link: "/portfolio/escorts-clifton-karachi" },
+    { img: "/escorts-in-bahria-town-karachi.jpg", title: "Escorts in Bahria Town", link: "/portfolio/escorts-bahria-town-karachi" },
+    { img: "/independent-call-girls-karachi-01.jpg", title: "Bahadurabad Escorts", link: "/escorts-in-bahadurabad" },
   ];
 
   return (
-    <main className="bg-black text-white overflow-hidden">
-      {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center">
-        <div className="absolute inset-0">
-          <Image
-            src="/al-harmain-hotel-escorts-karachi.jpg"
-            alt="Escorts in Al Harmain Hotel Karachi - VIP Call Girls"
-            fill
-            className="object-cover"
-            priority
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/70 to-black/90" />
-        </div>
-
-        <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
+    <main className="bg-[#0a0a0a] text-gray-200">
+      {/* HERO */}
+      <section className="relative h-[85vh] flex items-center justify-center overflow-hidden">
+        <Image
+          src="/al-harmain-hotel-escorts-karachi.jpg"
+          alt="Escorts in Al Harmain Hotel Karachi - VIP Call Girls Hotel Outcall"
+          fill
+          priority
+          className="object-cover object-[center_20%]"
+        />
+        <div className="absolute inset-0 bg-black/70" />
+        <div className="relative z-10 text-center px-6 max-w-4xl">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
             Escorts in Al Harmain Hotel Karachi
-            <br />
-            <span className="text-[#FFD700]">Call Now 03708540579</span>
+            <span className="block text-[#c9a86c] mt-2 text-2xl md:text-3xl">Call 03708540579</span>
           </h1>
-          <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
-            VIP Models • College Girls • Elite Companions
-            <br />
-            Hotel Outcall Service • Fast Delivery • 100% Privacy
-          </p>
-          <a
-            href="tel:03708540579"
-            className="mt-10 inline-block bg-[#FFD700] hover:bg-amber-300 text-black font-bold text-xl px-16 py-5 rounded-full transition-all shadow-lg"
-          >
-            CALL / WHATSAPP 03708540579
-          </a>
+          <p className="text-lg text-gray-300 mb-8">VIP Models • College Girls • Elite Companions for Hotel Service</p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="https://wa.me/923708540579" target="_blank" className="inline-block bg-[#c9a86c] text-black font-semibold px-10 py-4 rounded-full hover:bg-white transition">
+              WhatsApp – 03708540579
+            </a>
+            <a href="tel:03708540579" className="inline-block border border-[#c9a86c] text-[#c9a86c] font-semibold px-10 py-4 rounded-full hover:bg-[#c9a86c] hover:text-black transition">
+              Call Now
+            </a>
+          </div>
         </div>
       </section>
 
-      {/* Introduction */}
-      <section className="py-16 bg-zinc-950">
-        <div className="max-w-6xl mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Premium Escorts in Al Harmain Hotel Karachi
-          </h2>
-          <p className="text-lg text-white/80 max-w-4xl mx-auto leading-relaxed">
-            Looking for reliable <strong>escorts in Al Harmain Hotel Karachi</strong>? 
-            We provide verified VIP call girls, college girls and high-class companions 
-            for discreet hotel outcall service. Our professional team ensures fast delivery, 
-            real photos and complete privacy for every client staying at Al Harmain Hotel.
+      {/* INTRO */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-semibold text-[#c9a86c] mb-6 text-center">Premium Escorts in Al Harmain Hotel Karachi</h2>
+          <p className="text-lg text-gray-300 leading-relaxed mb-5">
+            Looking for reliable <strong>escorts in Al Harmain Hotel Karachi</strong>? We provide verified VIP call girls and high-class companions for discreet hotel outcall service with complete privacy.
+          </p>
+          <p className="text-gray-400 leading-relaxed mb-5">
+            Al Harmain Hotel is a common request for discreet companionship. Our escorts are experienced with smooth hotel entry and maintain full confidentiality. Clients staying in 
+            <Link href="/portfolio/vip-escorts-dha-karachi" className="text-[#c9a86c] hover:underline"> DHA</Link>, 
+            <Link href="/portfolio/escorts-clifton-karachi" className="text-[#c9a86c] hover:underline"> Clifton</Link> or nearby hotels can also be served.
+          </p>
+          <p className="text-gray-400 leading-relaxed">
+            Booking is private and fast. WhatsApp or call 03708540579 with your room details and preferred time. We confirm availability quickly.
           </p>
         </div>
       </section>
 
-      {/* Why Choose Us */}
-      <section className="py-16 bg-black">
-        <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-[#FFD700]">
-            Why Choose Our Al Harmain Hotel Escorts?
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              ["Fast Hotel Delivery", "20-35 minutes directly to your room at Al Harmain Hotel"],
-              ["Complete Privacy", "Safe, discreet and professional hotel escort service"],
-              ["Real & Verified Girls", "Genuine profiles with real photos of Karachi escorts"],
-              ["All Categories", "VIP Models, College Girls, Independent Escorts & More"],
-              ["Hotel Friendly", "Experienced in smooth and discreet hotel entry"],
-              ["24/7 Availability", "Escorts available day and night in Al Harmain Hotel"],
-            ].map(([title, desc]) => (
-              <div
-                key={title}
-                className="bg-zinc-900 p-8 rounded-2xl border border-[#FFD700]/20 hover:border-[#FFD700] transition-all"
-              >
-                <h3 className="font-bold text-xl mb-3 text-[#FFD700]">{title}</h3>
-                <p className="text-white/80">{desc}</p>
+      {/* TYPES */}
+      <section className="py-12 px-6 bg-[#111]">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">Types of Escorts Available at Al Harmain Hotel</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {["VIP Model Escorts","College Girls","Independent Escorts","Young Call Girls","MILF & Mature","Aunties","GFE Companions","Hotel Outcall","Full Night Service","Luxury Elite","TikTokers","Professionals"].map((type) => (
+              <div key={type} className="bg-[#0a0a0a] border border-[#c9a86c]/20 rounded-xl py-3 text-center text-sm">{type}</div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* MODELS */}
+      <section className="py-16 px-6">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-12">Our Companions at Al Harmain Hotel</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+            {models.map((model) => (
+              <div key={model.name} className="bg-[#111] border border-[#c9a86c]/20 rounded-2xl overflow-hidden hover:border-[#c9a86c]/50 transition">
+                <div className="relative aspect-[3/4]">
+                  <Image src={model.img} alt={`${model.name} - Escorts in Al Harmain Hotel Karachi VIP Call Girl`} fill className="object-cover" />
+                </div>
+                <div className="p-4 text-center">
+                  <h3 className="text-lg font-semibold text-white">{model.name}</h3>
+                  <p className="text-sm text-gray-400 mb-3">{model.desc}</p>
+                  <Link href="/contact" className="inline-block w-full bg-[#c9a86c] text-black py-2 rounded-lg text-sm font-medium hover:bg-white transition">
+                    Book {model.name}
+                  </Link>
+                </div>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Types of Escorts */}
-      <section className="py-16 bg-zinc-950">
-        <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-            Types of Escorts Available at Al Harmain Hotel
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {/* WHY CHOOSE */}
+      <section className="py-16 px-6 bg-[#111]">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">Why Choose Us for Al Harmain Hotel?</h2>
+          <div className="grid md:grid-cols-3 gap-6">
             {[
-              "VIP Model Escorts",
-              "College & University Girls",
-              "Fashion Models",
-              "Independent Escorts",
-              "GFE Romantic Escorts",
-              "Luxury Elite Escorts",
-            ].map((type) => (
-              <div
-                key={type}
-                className="bg-black border border-[#FFD700]/30 p-8 rounded-2xl text-center hover:border-[#FFD700] transition-all"
-              >
-                <p className="font-semibold text-lg">{type}</p>
+              { title: "Hotel Friendly", desc: "Experienced in smooth and discreet hotel entry." },
+              { title: "Verified Profiles", desc: "Real photos and verified companions only." },
+              { title: "Complete Privacy", desc: "Discreet service with full confidentiality." },
+              { title: "Fast Response", desc: "Quick confirmation and arrival at the hotel." },
+              { title: "24/7 Available", desc: "Day and night hotel outcall service." },
+              { title: "Wide Selection", desc: "From young girls to mature companions." },
+            ].map((item) => (
+              <div key={item.title} className="bg-[#0a0a0a] border border-[#c9a86c]/20 rounded-2xl p-6">
+                <h3 className="text-lg font-semibold text-[#c9a86c] mb-2">{item.title}</h3>
+                <p className="text-gray-400 text-sm">{item.desc}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Pricing */}
-      <section className="py-16 bg-black">
-        <div className="max-w-5xl mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-[#FFD700]">
-            Pricing – Escorts in Al Harmain Hotel Karachi
-          </h2>
-          <div className="overflow-x-auto rounded-2xl border border-[#FFD700]/20">
-            <table className="w-full border-collapse bg-zinc-900 min-w-[600px]">
-              <thead>
-                <tr className="bg-zinc-800">
-                  <th className="p-6 text-left text-white">Category</th>
-                  <th className="p-6 text-center text-white">Short Time</th>
-                  <th className="p-6 text-center text-white">Full Night</th>
+      {/* PRICING */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-8">Service Charges – Al Harmain Hotel</h2>
+          <div className="overflow-x-auto rounded-2xl border border-[#c9a86c]/20">
+            <table className="w-full text-left">
+              <thead className="bg-[#111]">
+                <tr>
+                  <th className="p-4 text-[#c9a86c]">Category</th>
+                  <th className="p-4 text-[#c9a86c] text-center">Short Time</th>
+                  <th className="p-4 text-[#c9a86c] text-center">Full Night</th>
                 </tr>
               </thead>
-              <tbody className="text-white/80">
-                <tr className="border-b border-zinc-800">
-                  <td className="p-6">College / Normal Girls</td>
-                  <td className="p-6 text-center">35,000 – 45,000</td>
-                  <td className="p-6 text-center">60,000 – 80,000</td>
-                </tr>
-                <tr className="border-b border-zinc-800">
-                  <td className="p-6">VIP Escorts</td>
-                  <td className="p-6 text-center">50,000 – 80,000</td>
-                  <td className="p-6 text-center">100,000 – 150,000</td>
-                </tr>
-                <tr>
-                  <td className="p-6">Model / Celebrity Level</td>
-                  <td className="p-6 text-center">80,000 – 150,000</td>
-                  <td className="p-6 text-center">150,000 – 300,000</td>
-                </tr>
+              <tbody className="text-gray-300">
+                <tr className="border-t border-[#c9a86c]/10"><td className="p-4">College / Young Girls</td><td className="p-4 text-center">35,000 – 45,000</td><td className="p-4 text-center">60,000 – 80,000</td></tr>
+                <tr className="border-t border-[#c9a86c]/10"><td className="p-4">VIP Escorts</td><td className="p-4 text-center">50,000 – 80,000</td><td className="p-4 text-center">100,000 – 150,000</td></tr>
+                <tr className="border-t border-[#c9a86c]/10"><td className="p-4">Model / Elite</td><td className="p-4 text-center">80,000 – 150,000</td><td className="p-4 text-center">150,000+</td></tr>
               </tbody>
             </table>
           </div>
         </div>
       </section>
 
-      {/* Gallery */}
-      <section className="py-16 bg-zinc-950">
-        <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-[#FFD700]">
-            Our Beautiful Companions at Al Harmain Hotel
-          </h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {galleryImages.map((src, idx) => (
-              <div
-                key={idx}
-                className="relative aspect-[4/5] rounded-2xl overflow-hidden border border-[#FFD700]/20"
-              >
-                <Image
-                  src={src}
-                  alt={`Escorts in Al Harmain Hotel Karachi ${idx + 1}`}
-                  fill
-                  className="object-cover hover:scale-105 transition-transform duration-700"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section className="py-16 bg-black">
-        <div className="max-w-4xl mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-[#FFD700]">
-            Frequently Asked Questions – Al Harmain Hotel Escorts
-          </h2>
-          <div className="space-y-6">
-            {[
-              {
-                q: "How fast can escorts reach Al Harmain Hotel Karachi?",
-                a: "Our escorts usually reach Al Harmain Hotel within 20-35 minutes after confirmation.",
-              },
-              {
-                q: "Are the escorts real and verified?",
-                a: "Yes, all our Karachi escorts are 100% verified with real photos. No fake profiles.",
-              },
-              {
-                q: "Is the service discreet at Al Harmain Hotel?",
-                a: "Absolutely. We provide complete privacy and professional hotel-friendly service.",
-              },
-              {
-                q: "What payment methods are accepted?",
-                a: "We accept cash payment after the companion arrives at your hotel room.",
-              },
-              {
-                q: "Can I book for full night at Al Harmain Hotel?",
-                a: "Yes, both short-time and full-night bookings are available for Al Harmain Hotel.",
-              },
-            ].map((item, i) => (
-              <div
-                key={i}
-                className="bg-zinc-900 border border-[#FFD700]/20 rounded-2xl p-6"
-              >
-                <h3 className="font-semibold text-lg text-[#FFD700] mb-2">
-                  {item.q}
-                </h3>
-                <p className="text-white/80">{item.a}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* More Like This */}
-      <section className="py-16 bg-zinc-950">
-        <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-[#FFD700]">
-            More Like This – Related Escorts in Karachi
-          </h2>
+      {/* MORE LIKE THIS */}
+      <section className="py-16 px-6 bg-[#111]">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">More Like This</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {moreLikeThis.map((item, idx) => (
-              <Link
-                key={idx}
-                href={item.link}
-                className="group block rounded-2xl overflow-hidden border border-[#FFD700]/20 hover:border-[#FFD700] transition-all"
-              >
+            {moreLikeThis.map((item) => (
+              <Link key={item.title} href={item.link} className="group block rounded-2xl overflow-hidden border border-[#c9a86c]/20 hover:border-[#c9a86c]/50 transition">
                 <div className="relative aspect-[3/4]">
-                  <Image
-                    src={item.img}
-                    alt={item.title}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
+                  <Image src={item.img} alt={item.title} fill className="object-cover group-hover:scale-105 transition duration-500" />
                 </div>
-                <div className="p-4 bg-black text-center">
-                  <p className="font-medium text-sm md:text-base">{item.title}</p>
-                </div>
+                <div className="p-3 bg-[#0a0a0a] text-center text-sm">{item.title}</div>
               </Link>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Final CTA */}
-      <section className="py-24 bg-black text-center border-t border-[#FFD700]/20">
-        <div className="max-w-4xl mx-auto px-6">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Book Escorts in Al Harmain Hotel Karachi Now
-          </h2>
-          <p className="text-xl text-white/80 mb-10">
-            Fast Delivery • Real Photos • Complete Privacy
-          </p>
-          <a
-            href="tel:03708540579"
-            className="inline-block bg-[#FFD700] text-black font-bold text-2xl md:text-3xl px-16 py-6 rounded-full hover:bg-amber-300 transition-all"
-          >
-            03708540579
-          </a>
+      {/* FAQ */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">Frequently Asked Questions – Al Harmain Hotel</h2>
+          <div className="space-y-4">
+            {[
+              { q: "How fast can escorts reach Al Harmain Hotel?", a: "Usually within 20–35 minutes after confirmation." },
+              { q: "Is hotel entry discreet at Al Harmain?", a: "Yes. Our companions are experienced with smooth and discreet hotel visits." },
+              { q: "Are the escorts verified?", a: "Yes. All profiles use real verified photos only." },
+              { q: "Can I book for full night at the hotel?", a: "Yes. Both short-time and full-night bookings are available." },
+              { q: "What is the best way to book for Al Harmain Hotel?", a: "WhatsApp or call 03708540579. Share your room details and preferred time." },
+              { q: "Do you also serve other hotels nearby?", a: "Yes. We provide discreet hotel outcall across major hotels in Karachi." },
+            ].map((item, i) => (
+              <div key={i} className="bg-[#111] border border-[#c9a86c]/20 rounded-xl p-5">
+                <h3 className="font-semibold text-[#c9a86c] mb-1">{item.q}</h3>
+                <p className="text-gray-400 text-sm">{item.a}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
     </main>

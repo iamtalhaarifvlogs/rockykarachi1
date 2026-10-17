@@ -1,41 +1,38 @@
 export default function SeoSchema() {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    name: "Rocky Escorts Karachi",
-    url: "https://rockyescortskarachi.com",
-    logo: "https://rockyescortskarachi.com/logo.png",
-    image: "https://rockyescortskarachi.com/herobg.jpg",
-    description:
-      "Rocky Escorts Karachi provides verified VIP call girls, model escorts, hotel outcall services, and elite companions across Karachi.",
-    telephone: "+92-370-8540579",
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: "Karachi",
-      addressRegion: "Sindh",
-      addressCountry: "PK",
-    },
-    areaServed: [
-      "DHA Karachi",
-      "Clifton Karachi",
-      "Bahria Town Karachi",
-      "Malir Karachi",
-      "Nazimabad Karachi",
-      "Gulshan Karachi",
-    ],
-    sameAs: [
-      "https://www.facebook.com/share/1CDg2uAznc/",
-    ],
-    makesOffer: {
-      "@type": "Offer",
-      itemOffered: {
-        "@type": "Service",
-        name: "Karachi Escort Services",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://rockyescortskarachi.com/#website",
+        url: "https://rockyescortskarachi.com",
+        name: "Rocky Escorts Karachi",
         description:
-          "VIP Karachi escorts, model escorts, call girls, hotel outcall services, massage with happy ending, and girlfriend experience.",
-        areaServed: "Karachi",
+          "Premium VIP call girls, verified escorts and elite companions in Karachi. Available 24/7 across DHA, Clifton, Bahria Town, PECHS and major hotels.",
+        publisher: {
+          "@id": "https://rockyescortskarachi.com/#organization",
+        },
+        inLanguage: "en-PK",
       },
-    },
+      {
+        "@type": "Organization",
+        "@id": "https://rockyescortskarachi.com/#organization",
+        name: "Rocky Escorts Karachi",
+        url: "https://rockyescortskarachi.com",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://rockyescortskarachi.com/karachi-escorts-vip-call-girls-hero.jpg",
+        },
+        contactPoint: {
+          "@type": "ContactPoint",
+          telephone: "+923708540579",
+          contactType: "customer service",
+          areaServed: "PK",
+          availableLanguage: ["English", "Urdu"],
+        },
+        sameAs: ["https://www.facebook.com/share/1CDg2uAznc/"],
+      },
+    ],
   };
 
   return (

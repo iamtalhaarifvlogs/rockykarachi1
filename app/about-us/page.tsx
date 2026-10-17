@@ -1,135 +1,111 @@
 import Image from "next/image";
+import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Rocky Escorts Karachi | Trusted VIP Call Girls Service in Karachi",
+  description:
+    "Rocky Escorts Karachi is a trusted provider of verified VIP call girls and elite companions in DHA, Clifton, Bahria Town, PECHS and major hotels. Discreet 24/7 service. Call 03708540579.",
+  openGraph: {
+    title: "About Rocky Escorts Karachi | Trusted VIP Call Girls",
+    description: "Verified VIP escorts and discreet companions across Karachi.",
+    images: [{ url: "/luxury-call-girls-karachi.jpg" }],
+  },
+};
 
 export default function AboutUsPage() {
   return (
-    <main className="bg-black text-white">
-      {/* HERO SECTION */}
-      <section
-        className="relative h-[85vh] flex items-center justify-center text-center"
-        style={{
-          backgroundImage: "url('/herobg.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-black/70"></div>
-
-        <div className="relative z-10 px-6 max-w-5xl">
-          <h1 className="text-4xl md:text-6xl font-bold text-[#D4AF37] mb-6">
-            ROCKY ESCORTS KARACHI VIP CALL GIRLS  
-            <br />
-            <span className="text-2xl md:text-3xl text-white mt-3 block">
-              📞 0370-8540579
+    <main className="bg-[#0a0a0a] text-gray-200">
+      {/* HERO */}
+      <section className="relative h-[80vh] flex items-center justify-center text-center">
+        <Image
+          src="/luxury-call-girls-karachi.jpg"
+          alt="About Rocky Escorts Karachi - VIP Call Girls"
+          fill
+          priority
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-black/75" />
+        <div className="relative z-10 px-6 max-w-4xl">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
+            About Rocky Escorts Karachi
+            <span className="block text-[#c9a86c] mt-3 text-2xl md:text-3xl">
+              Trusted VIP Call Girls Service
             </span>
           </h1>
-
-          <p className="text-lg md:text-xl text-white leading-relaxed">
-            Premium, discreet and elite escort services in Karachi for gentlemen
-            who value class, privacy and unforgettable companionship.
+          <p className="text-lg text-gray-300 mb-8">
+            Verified companions • Complete privacy • Available 24/7
           </p>
+          <a
+            href="https://wa.me/923708540579"
+            target="_blank"
+            className="inline-block bg-[#c9a86c] text-black font-semibold px-10 py-4 rounded-full hover:bg-white transition"
+          >
+            WhatsApp Now – 03708540579
+          </a>
         </div>
       </section>
 
       {/* ABOUT CONTENT */}
-      <section className="max-w-7xl mx-auto px-6 py-16">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#D4AF37] mb-6">
-          About Rocky Escorts Karachi
+      <section className="max-w-4xl mx-auto px-6 py-16">
+        <h2 className="text-3xl font-semibold text-[#c9a86c] mb-6">
+          Who We Are
         </h2>
-
-        <p className="text-white text-lg leading-relaxed mb-6">
-          Rocky Escorts Karachi is a trusted name in the world of luxury escort
-          and VIP call girl services in Karachi. We are not just a service – we
-          are an experience crafted for men who understand taste, discretion
-          and elegance.
+        <p className="text-lg leading-relaxed text-gray-300 mb-6">
+          <strong>Rocky Escorts Karachi</strong> is a trusted name for premium VIP call girls and elite companions in Karachi. 
+          We focus on providing verified, well-mannered and professional escorts for clients who value privacy, class and a smooth experience.
+        </p>
+        <p className="text-lg leading-relaxed text-gray-300 mb-6">
+          Whether you are a local gentleman in DHA or Clifton, a businessman staying at a five-star hotel, or visiting Karachi for a short trip, 
+          our team ensures discreet communication and reliable service. We cover major areas including 
+          <Link href="/portfolio/vip-escorts-dha-karachi" className="text-[#c9a86c] hover:underline"> DHA</Link>, 
+          <Link href="/portfolio/escorts-clifton-karachi" className="text-[#c9a86c] hover:underline"> Clifton</Link>, 
+          <Link href="/portfolio/escorts-bahria-town-karachi" className="text-[#c9a86c] hover:underline"> Bahria Town</Link>, 
+          <Link href="/portfolio/escorts-pechs-karachi" className="text-[#c9a86c] hover:underline"> PECHS</Link>, 
+          Gulshan-e-Iqbal and popular hotels.
+        </p>
+        <p className="text-lg leading-relaxed text-gray-300 mb-12">
+          Our goal is simple: real profiles, clear communication, and a respectful experience every time you book.
         </p>
 
-        <p className="text-white text-lg leading-relaxed mb-6">
-          Our platform connects you with some of the most beautiful, confident
-          and well-maintained models, escorts and companions in Karachi. Whether
-          you are a local gentleman, businessman, or visiting from another city
-          or country, we ensure a smooth, private and respectful experience.
-        </p>
-
-        <p className="text-white text-lg leading-relaxed mb-10">
-          From DHA, Clifton, PECHS, Gulshan, North Nazimabad to five-star hotels
-          across Karachi, our VIP escorts are available for bookings with full
-          privacy and professionalism.
-        </p>
-
-        {/* IMAGE GRID */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-14">
+        {/* WHY CHOOSE US */}
+        <h2 className="text-3xl font-semibold text-[#c9a86c] mb-8">
+          Why Clients Choose Rocky Escorts Karachi
+        </h2>
+        <div className="grid md:grid-cols-2 gap-6 mb-16">
           {[
-            "/model1.jpg",
-            "/model2.jpg",
-            "/model3.jpg",
-            "/model4.jpg",
-            "/model5.jpg",
-            "/model6.jpg",
-          ].map((src, index) => (
-            <div
-              key={index}
-              className="relative w-full h-[380px] rounded-xl overflow-hidden border border-[#D4AF37]/30"
-            >
-              <Image
-                src={src}
-                alt="Karachi VIP Escort Model"
-                fill
-                className="object-cover hover:scale-105 transition-transform duration-500"
-              />
+            { title: "Verified Profiles Only", desc: "Every companion is verified with real photos. No fake pictures or misleading information." },
+            { title: "Complete Discretion", desc: "Your privacy is our priority. All bookings and conversations remain confidential." },
+            { title: "Wide Area Coverage", desc: "Available across DHA, Clifton, Bahria Town, PECHS, Gulshan, Bahadurabad and major hotels." },
+            { title: "Fast Response", desc: "WhatsApp and call support available 24/7 for quick confirmation and booking." },
+            { title: "Hotel & Home Service", desc: "Discreet outcall service for hotels, apartments and private residences." },
+            { title: "Professional Companions", desc: "Well-mannered, elegant and experienced escorts for short time or full night." },
+          ].map((item) => (
+            <div key={item.title} className="bg-[#111] border border-[#c9a86c]/20 rounded-xl p-6">
+              <h3 className="text-lg font-semibold text-[#c9a86c] mb-2">{item.title}</h3>
+              <p className="text-gray-400 text-sm leading-relaxed">{item.desc}</p>
             </div>
           ))}
         </div>
 
-        {/* WHY CHOOSE US */}
-        <h2 className="text-3xl md:text-4xl font-bold text-[#D4AF37] mb-6">
-          Why Choose Rocky Escorts?
+        {/* FAQ */}
+        <h2 className="text-3xl font-semibold text-[#c9a86c] mb-8">
+          Frequently Asked Questions
         </h2>
-
-        <ul className="list-disc list-inside text-white text-lg space-y-3 mb-12">
-          <li>100% Real & Verified Escorts and Models</li>
-          <li>Discreet and Secure Booking Process</li>
-          <li>Premium Call Girls in Karachi</li>
-          <li>Hotel, Home & Private Location Visits</li>
-          <li>Respectful, Clean & Classy Companionship</li>
-          <li>24/7 WhatsApp Booking Support</li>
-        </ul>
-
-        {/* KARACHI FOCUS */}
-        <h2 className="text-3xl md:text-4xl font-bold text-[#D4AF37] mb-6">
-          Escort Services Designed for Karachi Lifestyle
-        </h2>
-
-        <p className="text-white text-lg leading-relaxed mb-6">
-          Karachi is a city that never sleeps, and we understand its lifestyle.
-          Whether you want company for a late-night dinner, a hotel stay, a
-          private meetup or simply someone to relax with after a long day, our
-          escorts know how to match your mood.
-        </p>
-
-        <p className="text-white text-lg leading-relaxed mb-6">
-          We focus on privacy because in Karachi, discretion matters. No fake
-          promises, no uncomfortable situations — only smooth communication,
-          respectful behavior and premium service.
-        </p>
-
-        {/* CALL TO ACTION */}
-        <div className="mt-14 p-8 border border-[#D4AF37]/40 rounded-2xl bg-black/80 text-center">
-          <h2 className="text-3xl font-bold text-[#D4AF37] mb-4">
-            Ready to Book a VIP Escort in Karachi?
-          </h2>
-
-          <p className="text-white text-lg mb-6">
-            Connect with us now on WhatsApp and experience premium escort
-            services like never before.
-          </p>
-
-          <a
-            href="https://wa.me/923708540579"
-            target="_blank"
-            className="inline-block bg-[#D4AF37] text-black font-semibold px-8 py-4 rounded-full hover:bg-white transition"
-          >
-            WhatsApp Now – 0370-8540579
-          </a>
+        <div className="space-y-4 mb-16">
+          {[
+            { q: "Is Rocky Escorts Karachi a real service?", a: "Yes. We provide verified VIP call girls and companions across Karachi with real photos and direct booking via WhatsApp or call." },
+            { q: "Which areas of Karachi do you cover?", a: "We cover DHA Phase 5 & 6, Clifton, Bahria Town, PECHS, Gulshan-e-Iqbal, Bahadurabad, Nazimabad and major hotels including Al Harmain, Marriott and PC Hotel." },
+            { q: "How do I book an escort in Karachi?", a: "Simply WhatsApp or call 03708540579. Share your location and preferred time. Our team will confirm availability quickly." },
+            { q: "Do you provide hotel outcall service?", a: "Yes. We offer discreet hotel outcall service across Karachi for both short-time and full-night bookings." },
+            { q: "Are the photos real?", a: "Yes. All profiles use real verified photos. We do not use fake or edited pictures." },
+            { q: "Is the service available at night?", a: "Yes. We operate 24/7 including late night and early morning bookings." },
+          ].map((item, i) => (
+            <div key={i} className="bg-[#111] border border-[#c9a86c]/20 rounded-xl p-5">
+              <h3 className="font-semibold text-[#c9a86c] mb-1">{item.q}</h3>
+              <p className="text-gray-400 text-sm">{item.a}</p>
+            </div>
+          ))}
         </div>
       </section>
     </main>

@@ -1,102 +1,118 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Escorts in Clifton Karachi | Premium Call Girls Clifton - 03708540579",
-  description: "Book premium Escorts in Clifton Karachi. Verified VIP call girls and luxury companions available in Clifton, near Seaview, Boat Basin & Dolmen Mall. Discreet outcall & hotel service. Call 03708540579.",
-  keywords: [
-    "escorts in Clifton Karachi",
-    "Clifton Karachi escorts",
-    "call girls in Clifton Karachi",
-    "Clifton escorts",
-    "VIP escorts Clifton Karachi",
-    "luxury escorts Clifton Karachi",
-    "high class escorts Clifton",
-    "Clifton Karachi call girls",
-    "elite escorts Clifton",
-    "independent escorts Clifton Karachi",
-    "hotel escorts Clifton Karachi",
-    "Clifton escorts near me",
-    "premium companions Clifton Karachi",
-    "Seaview escorts Karachi",
-    "Boat Basin escorts"
-  ],
+  description:
+    "Book premium Escorts in Clifton Karachi. Verified VIP call girls near Seaview, Boat Basin & Dolmen Mall. Discreet outcall. Call 03708540579.",
   openGraph: {
-    title: "Escorts in Clifton Karachi | VIP Call Girls Clifton - 03708540579",
-    description: "Premium and discreet escorts in Clifton Karachi. Luxury companions available near Seaview, Boat Basin & Dolmen Mall.",
-    images: [{ url: "/hm1.jpg" }],
+    title: "Escorts in Clifton Karachi | VIP Call Girls",
+    images: [{ url: "/escorts-in-clifton-karachi-call-girls.jpg" }],
   },
 };
 
 export default function CliftonEscortsKarachiPage() {
-  const images = ["/hm2.jpg", "/hm3.jpg", "/hm4.jpg", "/hm5.jpg"];
+  const models = [
+    { name: "Sara", img: "/karachi-call-girls-sara-vip.jpg", desc: "Elegant VIP companion" },
+    { name: "Ayesha", img: "/karachi-call-girls-ayesha-independent.jpg", desc: "Independent & sophisticated" },
+    { name: "Zara", img: "/karachi-call-girls-zara-premium.jpg", desc: "Premium exclusive model" },
+    { name: "Hina", img: "/karachi-call-girls-hina-outcall.jpg", desc: "Discreet outcall specialist" },
+    { name: "Mehwish", img: "/karachi-call-girls-mehwish-hotel.jpg", desc: "Hotel-friendly escort" },
+    { name: "Sana", img: "/karachi-call-girls-sana-discreet.jpg", desc: "Fully discreet companion" },
+    { name: "Alina", img: "/vip-model-escorts-karachi-dha.jpg", desc: "High-class model" },
+    { name: "Noor", img: "/vip-model-escorts-karachi-clifton.jpg", desc: "Stylish Clifton companion" },
+    { name: "Fatima", img: "/vip-model-escorts-karachi-bahria.jpg", desc: "Luxury companion" },
+    { name: "Iqra", img: "/vip-model-escorts-karachi-pechs.jpg", desc: "Elegant personality" },
+    { name: "Maham", img: "/high-class-escorts-karachi.jpg", desc: "Premium high-class" },
+    { name: "Laiba", img: "/luxury-call-girls-karachi.jpg", desc: "Luxury experience" },
+    { name: "Anaya", img: "/independent-escorts-karachi-real.jpg", desc: "Real independent escort" },
+    { name: "Hira", img: "/professional-escorts-service-karachi.jpg", desc: "Professional service" },
+    { name: "Saba", img: "/24-7-escorts-karachi-available.jpg", desc: "Available 24/7" },
+    { name: "Kinza", img: "/exclusive-vip-escorts-karachi.jpg", desc: "Exclusive VIP" },
+  ];
+
+  const moreLikeThis = [
+    { img: "/escorts-in-dha-karachi-vip.jpg", title: "Escorts in DHA", link: "/portfolio/vip-escorts-dha-karachi" },
+    { img: "/escorts-in-bahria-town-karachi.jpg", title: "Escorts in Bahria Town", link: "/portfolio/escorts-bahria-town-karachi" },
+    { img: "/escorts-in-pechs-karachi-vip.jpg", title: "Escorts in PECHS", link: "/portfolio/escorts-pechs-karachi" },
+    { img: "/al-harmain-hotel-escorts-karachi.jpg", title: "Al Harmain Hotel", link: "/escorts-in-al-harmain-hotel" },
+  ];
 
   return (
-    <main className="bg-[#FFECE8] text-[#222222]">
-
-      {/* Hero Section - Clean & Powerful */}
-      <section
-        className="relative h-[580px] bg-cover bg-center"
-        style={{ backgroundImage: "url('/hm1.jpg')" }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/70" />
-
-        <div className="relative h-full flex items-center justify-center px-6 text-center">
-          <div>
-            <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              Escorts in Clifton Karachi<br />
-              <span className="text-[#FF69B4]">03708540579</span>
-            </h1>
-            <p className="text-white/90 text-lg md:text-xl max-w-2xl mx-auto">
-              Premium VIP call girls &amp; luxury companions in Clifton near Seaview, Boat Basin &amp; Dolmen Mall
-            </p>
+    <main className="bg-[#0a0a0a] text-gray-200">
+      {/* HERO */}
+      <section className="relative h-[85vh] flex items-center justify-center overflow-hidden">
+        <Image
+          src="/escorts-in-clifton-karachi-call-girls.jpg"
+          alt="Escorts in Clifton Karachi - VIP Call Girls near Seaview"
+          fill
+          priority
+          className="object-cover object-[center_15%]"
+        />
+        <div className="absolute inset-0 bg-black/70" />
+        <div className="relative z-10 text-center px-6 max-w-4xl">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
+            Escorts in Clifton Karachi
+            <span className="block text-[#c9a86c] mt-2 text-2xl md:text-3xl">Call 03708540579</span>
+          </h1>
+          <p className="text-lg text-gray-300 mb-8">VIP Call Girls near Seaview, Boat Basin & Dolmen Mall</p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="https://wa.me/923708540579" target="_blank" className="inline-block bg-[#c9a86c] text-black font-semibold px-10 py-4 rounded-full hover:bg-white transition">
+              WhatsApp – 03708540579
+            </a>
+            <a href="tel:03708540579" className="inline-block border border-[#c9a86c] text-[#c9a86c] font-semibold px-10 py-4 rounded-full hover:bg-[#c9a86c] hover:text-black transition">
+              Call Now
+            </a>
           </div>
         </div>
       </section>
 
-      {/* Introduction */}
-      <section className="max-w-6xl mx-auto px-6 py-16 text-center">
-        <h2 className="text-4xl font-semibold text-[#D6336C] mb-6">
-          Premium Escorts in Clifton Karachi
-        </h2>
-        <p className="text-lg leading-relaxed text-[#333333] max-w-3xl mx-auto">
-          Searching for high-class <strong>escorts in Clifton Karachi</strong>? 
-          We provide the most elegant, verified, and sophisticated VIP companions 
-          in Clifton, perfect for private evenings, romantic dinners, hotel visits, 
-          and exclusive experiences near Seaview, Boat Basin, and Dolmen Mall.
-        </p>
+      {/* INTRO - Content Depth */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-semibold text-[#c9a86c] mb-6 text-center">Premium Escorts in Clifton Karachi</h2>
+          <p className="text-lg text-gray-300 leading-relaxed mb-5">
+            Searching for high-class <strong>escorts in Clifton Karachi</strong>? We provide verified VIP call girls and sophisticated companions near Seaview, Boat Basin and Dolmen Mall.
+          </p>
+          <p className="text-gray-400 leading-relaxed mb-5">
+            Clifton is a popular area for discreet companionship. Whether you need a short meeting near Seaview or a full evening near Boat Basin, our verified escorts are available for both home and hotel visits. Clients from 
+            <Link href="/portfolio/vip-escorts-dha-karachi" className="text-[#c9a86c] hover:underline"> DHA</Link> and 
+            <Link href="/portfolio/escorts-pechs-karachi" className="text-[#c9a86c] hover:underline"> PECHS</Link> also frequently request Clifton-based companions.
+          </p>
+          <p className="text-gray-400 leading-relaxed">
+            Booking is private and fast. WhatsApp or call 03708540579 with your location in Clifton and preferred time. We confirm availability quickly and maintain complete discretion.
+          </p>
+        </div>
       </section>
 
-      {/* Gallery Section */}
-      <section className="bg-white py-16 px-6">
+      {/* TYPES */}
+      <section className="py-12 px-6 bg-[#111]">
         <div className="max-w-6xl mx-auto">
-          <h3 className="text-3xl font-semibold text-center text-[#D6336C] mb-12">
-            Featured Escorts in Clifton Karachi
-          </h3>
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">Types of Escorts Available in Clifton</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {["VIP Model Escorts","College Girls","Independent Escorts","Young Call Girls","MILF & Mature","Aunties","GFE Companions","Hotel Outcall","Full Night Service","Luxury Elite","TikTokers","Professionals"].map((type) => (
+              <div key={type} className="bg-[#0a0a0a] border border-[#c9a86c]/20 rounded-xl py-3 text-center text-sm">{type}</div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {images.map((img, idx) => (
-              <div 
-                key={idx} 
-                className="bg-[#FFF0F2] rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all group"
-              >
-                <div className="h-[340px] overflow-hidden">
-                  <img
-                    src={img}
-                    alt={`Premium Escort in Clifton Karachi ${idx + 1}`}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
+      {/* MODELS */}
+      <section className="py-16 px-6">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-12">Featured Escorts in Clifton</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+            {models.map((model) => (
+              <div key={model.name} className="bg-[#111] border border-[#c9a86c]/20 rounded-2xl overflow-hidden hover:border-[#c9a86c]/50 transition">
+                <div className="relative aspect-[3/4]">
+                  <Image src={model.img} alt={`${model.name} - Escorts in Clifton Karachi VIP Call Girl`} fill className="object-cover" />
                 </div>
-                <div className="p-6 text-center">
-                  <h4 className="text-xl font-semibold mb-2">Elite Companion {idx + 1}</h4>
-                  <p className="text-sm text-gray-600 mb-5">
-                    Clifton Karachi • Verified • Luxury Experience
-                  </p>
-                  <Link
-                    href="/contact"
-                    className="block w-full bg-[#D6336C] hover:bg-[#b82b5c] text-white py-3.5 rounded-xl font-medium transition-all"
-                  >
-                    Book This Escort
+                <div className="p-4 text-center">
+                  <h3 className="text-lg font-semibold text-white">{model.name}</h3>
+                  <p className="text-sm text-gray-400 mb-3">{model.desc}</p>
+                  <Link href="/contact" className="inline-block w-full bg-[#c9a86c] text-black py-2 rounded-lg text-sm font-medium hover:bg-white transition">
+                    Book {model.name}
                   </Link>
                 </div>
               </div>
@@ -105,96 +121,89 @@ export default function CliftonEscortsKarachiPage() {
         </div>
       </section>
 
-      {/* Why Choose Us */}
-      <section className="max-w-5xl mx-auto px-6 py-20">
-        <h2 className="text-4xl font-semibold text-center text-[#D6336C] mb-12">
-          Why Choose Our Escorts in Clifton Karachi
-        </h2>
-
-        <div className="grid md:grid-cols-2 gap-12 text-lg leading-relaxed text-[#333333]">
-          <div className="space-y-8">
-            <div>
-              <h3 className="font-semibold text-xl mb-3 text-[#D6336C]">Verified &amp; High-Class Escorts</h3>
-              <p>We offer only the most beautiful and professional <strong>escorts in Clifton Karachi</strong> who are carefully verified for quality and discretion.</p>
-            </div>
-
-            <div>
-              <h3 className="font-semibold text-xl mb-3 text-[#D6336C]">Discreet &amp; Professional Service</h3>
-              <p>Complete privacy guaranteed. Our <strong>Clifton Karachi escorts</strong> maintain the highest level of confidentiality for every client.</p>
-            </div>
-          </div>
-
-          <div className="space-y-8">
-            <div>
-              <h3 className="font-semibold text-xl mb-3 text-[#D6336C]">Fast Response in Clifton</h3>
-              <p>Quick booking and reliable outcall service across Clifton, Seaview, Boat Basin, and nearby areas.</p>
-            </div>
-
-            <div>
-              <h3 className="font-semibold text-xl mb-3 text-[#D6336C]">Tailored Luxury Experience</h3>
-              <p>From romantic dinners to private hotel sessions — we create memorable moments with our <strong>Clifton escorts</strong>.</p>
-            </div>
+      {/* WHY CHOOSE */}
+      <section className="py-16 px-6 bg-[#111]">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">Why Choose Us for Clifton Escorts?</h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              { title: "Verified Profiles", desc: "Real photos and verified companions only." },
+              { title: "Complete Privacy", desc: "Discreet service with full confidentiality." },
+              { title: "Fast Response in Clifton", desc: "Quick confirmation near Seaview & Boat Basin." },
+              { title: "24/7 Available", desc: "Day and night service across Clifton." },
+              { title: "Clifton Coverage", desc: "Seaview, Boat Basin, Dolmen Mall & nearby." },
+              { title: "Wide Selection", desc: "From young girls to mature companions." },
+            ].map((item) => (
+              <div key={item.title} className="bg-[#0a0a0a] border border-[#c9a86c]/20 rounded-2xl p-6">
+                <h3 className="text-lg font-semibold text-[#c9a86c] mb-2">{item.title}</h3>
+                <p className="text-gray-400 text-sm">{item.desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Benefits / SEO Section */}
-      <section className="bg-[#FFF0F2] py-16 px-6">
-        <div className="max-w-4xl mx-auto text-center">
-          <h3 className="text-3xl font-semibold mb-8 text-[#D6336C]">
-            Experience True Luxury with Escorts in Clifton Karachi
-          </h3>
-          <p className="text-lg leading-relaxed text-[#333333]">
-            Our premium <strong>escorts in Clifton Karachi</strong> are perfect for clients seeking elegance, charm, and sophistication. 
-            Whether you want a dinner companion, a private evening, or a full-night experience near Seaview or Dolmen Mall, 
-            we deliver unforgettable moments with complete discretion.
-          </p>
+      {/* PRICING */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-8">Service Charges – Clifton Karachi</h2>
+          <div className="overflow-x-auto rounded-2xl border border-[#c9a86c]/20">
+            <table className="w-full text-left">
+              <thead className="bg-[#111]">
+                <tr>
+                  <th className="p-4 text-[#c9a86c]">Category</th>
+                  <th className="p-4 text-[#c9a86c] text-center">Short Time</th>
+                  <th className="p-4 text-[#c9a86c] text-center">Full Night</th>
+                </tr>
+              </thead>
+              <tbody className="text-gray-300">
+                <tr className="border-t border-[#c9a86c]/10"><td className="p-4">College / Young Girls</td><td className="p-4 text-center">35,000 – 45,000</td><td className="p-4 text-center">60,000 – 80,000</td></tr>
+                <tr className="border-t border-[#c9a86c]/10"><td className="p-4">VIP Escorts</td><td className="p-4 text-center">50,000 – 80,000</td><td className="p-4 text-center">100,000 – 150,000</td></tr>
+                <tr className="border-t border-[#c9a86c]/10"><td className="p-4">Model / Elite</td><td className="p-4 text-center">80,000 – 150,000</td><td className="p-4 text-center">150,000+</td></tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
 
-      {/* Final CTA */}
-      <section className="bg-[#D6336C] text-white py-20 text-center">
-        <div className="max-w-3xl mx-auto px-6">
-          <h2 className="text-4xl font-bold mb-6">
-            Ready to Book Your Clifton Escort?
-          </h2>
-          <p className="text-xl mb-10">
-            Call or WhatsApp for instant booking
-          </p>
-          <a
-            href="tel:03708540579"
-            className="inline-block bg-white text-[#D6336C] font-semibold px-14 py-5 rounded-full text-xl hover:bg-gray-100 transition-all"
-          >
-            Call Now: 03708540579
-          </a>
+      {/* MORE LIKE THIS */}
+      <section className="py-16 px-6 bg-[#111]">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">More Like This</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {moreLikeThis.map((item) => (
+              <Link key={item.title} href={item.link} className="group block rounded-2xl overflow-hidden border border-[#c9a86c]/20 hover:border-[#c9a86c]/50 transition">
+                <div className="relative aspect-[3/4]">
+                  <Image src={item.img} alt={item.title} fill className="object-cover group-hover:scale-105 transition duration-500" />
+                </div>
+                <div className="p-3 bg-[#0a0a0a] text-center text-sm">{item.title}</div>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="text-center py-8 text-[#555555] bg-[#FFF0F2]">
-        © {new Date().getFullYear()} Rocky Escorts Karachi. All Rights Reserved.
-      </footer>
-
-      {/* JSON-LD Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Service",
-            "name": "Escorts in Clifton Karachi",
-            "description": "Premium VIP escorts and luxury call girls available in Clifton Karachi near Seaview, Boat Basin and Dolmen Mall.",
-            "provider": {
-              "@type": "Organization",
-              "name": "Rocky Escorts Karachi",
-              "url": "https://rockyescortskarachi.com"
-            },
-            "areaServed": "Clifton Karachi, Seaview, Boat Basin, Dolmen Mall",
-            "telephone": "+923708540579",
-            "serviceType": "VIP Escort Service"
-          })
-        }}
-      />
+      {/* FAQ - Unique Local */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">Frequently Asked Questions – Clifton Escorts</h2>
+          <div className="space-y-4">
+            {[
+              { q: "Do you provide escorts near Seaview and Boat Basin?", a: "Yes. We provide verified escorts across Clifton including Seaview, Boat Basin, Dolmen Mall and nearby areas." },
+              { q: "How fast can an escort reach Clifton?", a: "Usually 20–35 minutes depending on your exact location and traffic." },
+              { q: "Can I book a Clifton escort for a hotel?", a: "Yes. Discreet hotel outcall is available for hotels in and around Clifton." },
+              { q: "Are the Clifton escort photos real?", a: "Yes. All profiles use real verified photos only." },
+              { q: "What is the best way to book escorts in Clifton?", a: "WhatsApp or call 03708540579. Share your Clifton location and preferred time." },
+              { q: "Do you also serve DHA and PECHS from Clifton bookings?", a: "Yes. We can arrange the same verified companions for DHA and PECHS as well." },
+            ].map((item, i) => (
+              <div key={i} className="bg-[#111] border border-[#c9a86c]/20 rounded-xl p-5">
+                <h3 className="font-semibold text-[#c9a86c] mb-1">{item.q}</h3>
+                <p className="text-gray-400 text-sm">{item.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

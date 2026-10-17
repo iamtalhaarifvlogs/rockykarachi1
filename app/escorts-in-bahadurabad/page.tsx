@@ -1,172 +1,207 @@
-import Image from 'next/image';
-import type { Metadata } from 'next';
+import Image from "next/image";
+import Link from "next/link";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Escorts in Bahadurabad Karachi | VIP Call Girls Bahadurabad 03708540579",
-  description: "Premium VIP Escorts in Bahadurabad Karachi. High-class models, college girls & celebrity companions for hotel and home service. Fast & discreet. Call 03708540579",
-  keywords: [
-    "escorts in bahadurabad karachi", "bahadurabad call girls", "vip escorts bahadurabad",
-    "college girls bahadurabad", "housewife escorts bahadurabad", "celebrity escorts karachi",
-    "bahadurabad escort service", "hotel escorts bahadurabad"
-  ],
+  description:
+    "Premium VIP Escorts in Bahadurabad Karachi. Verified models and high-class companions for hotel and home service. Call 03708540579.",
   openGraph: {
-    title: "Escorts in Bahadurabad Karachi | VIP Call Girls Bahadurabad",
-    description: "Luxury VIP Escorts in Bahadurabad Karachi with real photos and complete privacy. Call 03708540579",
-    images: [{ url: "/nm1.jpg" }],
+    title: "Escorts in Bahadurabad Karachi | VIP Call Girls",
+    images: [{ url: "/independent-call-girls-karachi-01.jpg" }],
   },
 };
 
 export default function BahadurabadEscortsPage() {
+  const models = [
+    { name: "Sara", img: "/karachi-call-girls-sara-vip.jpg", desc: "Elegant VIP companion" },
+    { name: "Ayesha", img: "/karachi-call-girls-ayesha-independent.jpg", desc: "Independent & sophisticated" },
+    { name: "Zara", img: "/karachi-call-girls-zara-premium.jpg", desc: "Premium exclusive model" },
+    { name: "Hina", img: "/karachi-call-girls-hina-outcall.jpg", desc: "Discreet outcall specialist" },
+    { name: "Mehwish", img: "/karachi-call-girls-mehwish-hotel.jpg", desc: "Hotel-friendly escort" },
+    { name: "Sana", img: "/karachi-call-girls-sana-discreet.jpg", desc: "Fully discreet companion" },
+    { name: "Alina", img: "/vip-model-escorts-karachi-dha.jpg", desc: "High-class model" },
+    { name: "Noor", img: "/vip-model-escorts-karachi-clifton.jpg", desc: "Stylish & charming" },
+    { name: "Fatima", img: "/vip-model-escorts-karachi-bahria.jpg", desc: "Luxury companion" },
+    { name: "Iqra", img: "/vip-model-escorts-karachi-pechs.jpg", desc: "Elegant personality" },
+    { name: "Maham", img: "/high-class-escorts-karachi.jpg", desc: "Premium high-class" },
+    { name: "Laiba", img: "/luxury-call-girls-karachi.jpg", desc: "Luxury experience" },
+    { name: "Anaya", img: "/independent-escorts-karachi-real.jpg", desc: "Real independent escort" },
+    { name: "Hira", img: "/professional-escorts-service-karachi.jpg", desc: "Professional service" },
+    { name: "Saba", img: "/24-7-escorts-karachi-available.jpg", desc: "Available 24/7" },
+    { name: "Kinza", img: "/exclusive-vip-escorts-karachi.jpg", desc: "Exclusive VIP" },
+  ];
+
+  const moreLikeThis = [
+    { img: "/escorts-in-dha-karachi-vip.jpg", title: "Escorts in DHA", link: "/portfolio/vip-escorts-dha-karachi" },
+    { img: "/escorts-in-clifton-karachi-call-girls.jpg", title: "Escorts in Clifton", link: "/portfolio/escorts-clifton-karachi" },
+    { img: "/escorts-in-bahria-town-karachi.jpg", title: "Escorts in Bahria Town", link: "/portfolio/escorts-bahria-town-karachi" },
+    { img: "/al-harmain-hotel-escorts-karachi.jpg", title: "Al Harmain Hotel", link: "/escorts-in-al-harmain-hotel" },
+  ];
+
   return (
-    <main className="bg-black text-white overflow-hidden">
-      {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center">
-        <div className="absolute inset-0">
-          <Image 
-            src="/nm1.jpg" 
-            alt="Escorts in Bahadurabad Karachi" 
-            fill 
-            className="object-cover"
-            priority 
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/70 to-black/90" />
-        </div>
-
-        <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
-          <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6">
-            ESCORTS IN BAHADURABAD KARACHI<br />
-            <span className="text-[#FFD700]">03708540579</span>
+    <main className="bg-[#0a0a0a] text-gray-200">
+      {/* HERO */}
+      <section className="relative h-[85vh] flex items-center justify-center overflow-hidden">
+        <Image
+          src="/independent-call-girls-karachi-01.jpg"
+          alt="Escorts in Bahadurabad Karachi - VIP Call Girls"
+          fill
+          priority
+          className="object-cover object-[center_18%]"
+        />
+        <div className="absolute inset-0 bg-black/70" />
+        <div className="relative z-10 text-center px-6 max-w-4xl">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
+            Escorts in Bahadurabad Karachi
+            <span className="block text-[#c9a86c] mt-2 text-2xl md:text-3xl">Call 03708540579</span>
           </h1>
-          <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
-            VIP Models • College Girls • Celebrity Companions<br />
-            Fast Delivery • 100% Privacy
-          </p>
-          <a 
-            href="tel:03708540579"
-            className="mt-10 inline-block bg-[#FFD700] hover:bg-amber-300 text-black font-bold text-xl px-16 py-5 rounded-full transition-all shadow-lg"
-          >
-            CALL / WHATSAPP 03708540579
-          </a>
+          <p className="text-lg text-gray-300 mb-8">VIP Models • College Girls • Elite Companions</p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="https://wa.me/923708540579" target="_blank" className="inline-block bg-[#c9a86c] text-black font-semibold px-10 py-4 rounded-full hover:bg-white transition">
+              WhatsApp – 03708540579
+            </a>
+            <a href="tel:03708540579" className="inline-block border border-[#c9a86c] text-[#c9a86c] font-semibold px-10 py-4 rounded-full hover:bg-[#c9a86c] hover:text-black transition">
+              Call Now
+            </a>
+          </div>
         </div>
       </section>
 
-      {/* Introduction */}
-      <section className="py-16 bg-zinc-950">
-        <div className="max-w-6xl mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6">Escorts in Bahadurabad Karachi</h2>
-          <p className="text-lg text-white/80 max-w-4xl mx-auto leading-relaxed">
-            Premium and trusted escort agency providing high-class VIP Escorts in Bahadurabad Karachi. 
-            Real photos, verified girls, and complete privacy guaranteed. Perfect for hotel visits, 
-            home service, short meetings, and full night bookings.
+      {/* INTRO */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-semibold text-[#c9a86c] mb-6 text-center">Premium Escorts in Bahadurabad Karachi</h2>
+          <p className="text-lg text-gray-300 leading-relaxed mb-5">
+            Looking for reliable <strong>escorts in Bahadurabad Karachi</strong>? We provide verified VIP call girls and high-class companions for discreet hotel and home service with complete privacy.
+          </p>
+          <p className="text-gray-400 leading-relaxed mb-5">
+            Bahadurabad is a convenient location for discreet companionship. Whether you need a short meeting or a full evening, our verified escorts are available for home and hotel visits. Clients from 
+            <Link href="/portfolio/vip-escorts-dha-karachi" className="text-[#c9a86c] hover:underline"> DHA</Link> and 
+            <Link href="/escorts-in-al-harmain-hotel" className="text-[#c9a86c] hover:underline"> Al Harmain Hotel</Link> also request Bahadurabad based companions.
+          </p>
+          <p className="text-gray-400 leading-relaxed">
+            Booking is private and fast. WhatsApp or call 03708540579 with your location in Bahadurabad and preferred time. We confirm availability quickly.
           </p>
         </div>
       </section>
 
-      {/* Why Choose Us */}
-      <section className="py-16 bg-black">
-        <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-12 text-[#FFD700]">Why Choose Us?</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              ["Fast Delivery", "20-30 minutes in Bahadurabad and nearby areas"],
-              ["Complete Privacy", "100% discretion and safe service guaranteed"],
-              ["Real & Verified", "Genuine profiles with real photos"],
-              ["All Categories", "VIP Models, College Girls, Housewives & Celebrity Look-Alikes"],
-              ["Hotel Friendly", "Safe & professional entry in all hotels"],
-              ["24/7 Availability", "Day or night service always available"],
-            ].map(([title, desc]) => (
-              <div key={title} className="bg-zinc-900 p-8 rounded-2xl border border-[#FFD700]/20 hover:border-[#FFD700] transition-all">
-                <h3 className="font-bold text-xl mb-3 text-[#FFD700]">{title}</h3>
-                <p className="text-white/80">{desc}</p>
+      {/* TYPES */}
+      <section className="py-12 px-6 bg-[#111]">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">Types of Escorts Available in Bahadurabad</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {["VIP Model Escorts","College Girls","Independent Escorts","Young Call Girls","MILF & Mature","Aunties","GFE Companions","Hotel Outcall","Full Night Service","Luxury Elite","TikTokers","Professionals"].map((type) => (
+              <div key={type} className="bg-[#0a0a0a] border border-[#c9a86c]/20 rounded-xl py-3 text-center text-sm">{type}</div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* MODELS */}
+      <section className="py-16 px-6">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-12">Our Companions in Bahadurabad</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+            {models.map((model) => (
+              <div key={model.name} className="bg-[#111] border border-[#c9a86c]/20 rounded-2xl overflow-hidden hover:border-[#c9a86c]/50 transition">
+                <div className="relative aspect-[3/4]">
+                  <Image src={model.img} alt={`${model.name} - Escorts in Bahadurabad Karachi VIP Call Girl`} fill className="object-cover" />
+                </div>
+                <div className="p-4 text-center">
+                  <h3 className="text-lg font-semibold text-white">{model.name}</h3>
+                  <p className="text-sm text-gray-400 mb-3">{model.desc}</p>
+                  <Link href="/contact" className="inline-block w-full bg-[#c9a86c] text-black py-2 rounded-lg text-sm font-medium hover:bg-white transition">
+                    Book {model.name}
+                  </Link>
+                </div>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Types of Escorts */}
-      <section className="py-16 bg-zinc-950">
-        <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-12">Types of Escorts Available</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {/* WHY CHOOSE */}
+      <section className="py-16 px-6 bg-[#111]">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">Why Choose Us for Bahadurabad Escorts?</h2>
+          <div className="grid md:grid-cols-3 gap-6">
             {[
-              "VIP Model Escorts", "University & College Girls", "Fashion Models",
-              "Housewife Escorts", "Celebrity Look-Alike", "Independent Escorts",
-              "Slim & Young Girls", "GFE Romantic Escorts", "Luxury Elite Escorts"
-            ].map((type) => (
-              <div key={type} className="bg-black border border-[#FFD700]/30 p-8 rounded-2xl text-center hover:border-[#FFD700] transition-all">
-                <p className="font-semibold text-lg">{type}</p>
+              { title: "Verified Profiles", desc: "Real photos and verified companions only." },
+              { title: "Complete Privacy", desc: "Discreet service with full confidentiality." },
+              { title: "Fast Response", desc: "Quick confirmation and arrival in Bahadurabad." },
+              { title: "24/7 Available", desc: "Day and night service." },
+              { title: "Hotel & Home", desc: "Service at hotels and private locations." },
+              { title: "Wide Selection", desc: "From young girls to mature companions." },
+            ].map((item) => (
+              <div key={item.title} className="bg-[#0a0a0a] border border-[#c9a86c]/20 rounded-2xl p-6">
+                <h3 className="text-lg font-semibold text-[#c9a86c] mb-2">{item.title}</h3>
+                <p className="text-gray-400 text-sm">{item.desc}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Pricing */}
-      <section className="py-16 bg-black">
-        <div className="max-w-5xl mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-12 text-[#FFD700]">Our Pricing</h2>
-          <div className="overflow-x-auto rounded-2xl border border-[#FFD700]/20">
-            <table className="w-full border-collapse bg-zinc-900 min-w-[600px]">
-              <thead>
-                <tr className="bg-zinc-800">
-                  <th className="p-6 text-left text-white">Category</th>
-                  <th className="p-6 text-center text-white">Short Time</th>
-                  <th className="p-6 text-center text-white">Full Night</th>
+      {/* PRICING */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-8">Service Charges – Bahadurabad</h2>
+          <div className="overflow-x-auto rounded-2xl border border-[#c9a86c]/20">
+            <table className="w-full text-left">
+              <thead className="bg-[#111]">
+                <tr>
+                  <th className="p-4 text-[#c9a86c]">Category</th>
+                  <th className="p-4 text-[#c9a86c] text-center">Short Time</th>
+                  <th className="p-4 text-[#c9a86c] text-center">Full Night</th>
                 </tr>
               </thead>
-              <tbody className="text-white/80">
-                <tr className="border-b border-zinc-800">
-                  <td className="p-6">College / Normal Girls</td>
-                  <td className="p-6 text-center">35,000 – 45,000</td>
-                  <td className="p-6 text-center">60,000 – 80,000</td>
-                </tr>
-                <tr className="border-b border-zinc-800">
-                  <td className="p-6">VIP Escorts</td>
-                  <td className="p-6 text-center">50,000 – 80,000</td>
-                  <td className="p-6 text-center">100,000 – 150,000</td>
-                </tr>
-                <tr>
-                  <td className="p-6">Model / Celebrity Level</td>
-                  <td className="p-6 text-center">80,000 – 150,000</td>
-                  <td className="p-6 text-center">150,000 – 300,000</td>
-                </tr>
+              <tbody className="text-gray-300">
+                <tr className="border-t border-[#c9a86c]/10"><td className="p-4">College / Young Girls</td><td className="p-4 text-center">35,000 – 45,000</td><td className="p-4 text-center">60,000 – 80,000</td></tr>
+                <tr className="border-t border-[#c9a86c]/10"><td className="p-4">VIP Escorts</td><td className="p-4 text-center">50,000 – 80,000</td><td className="p-4 text-center">100,000 – 150,000</td></tr>
+                <tr className="border-t border-[#c9a86c]/10"><td className="p-4">Model / Elite</td><td className="p-4 text-center">80,000 – 150,000</td><td className="p-4 text-center">150,000+</td></tr>
               </tbody>
             </table>
           </div>
         </div>
       </section>
 
-      {/* Gallery */}
-      <section className="py-16 bg-zinc-950">
-        <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-12 text-[#FFD700]">Our Premium Companions</h2>
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
-            {[1,2,3,4,5,6,7,8,9,10].map((n) => (
-              <div key={n} className="relative aspect-[4/5] rounded-2xl overflow-hidden border border-[#FFD700]/20">
-                <Image 
-                  src={`/nm${n}.jpg`} 
-                  alt="Escorts in Bahadurabad Karachi" 
-                  fill 
-                  className="object-cover hover:scale-105 transition-transform duration-700" 
-                />
-              </div>
+      {/* MORE LIKE THIS */}
+      <section className="py-16 px-6 bg-[#111]">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">More Like This</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {moreLikeThis.map((item) => (
+              <Link key={item.title} href={item.link} className="group block rounded-2xl overflow-hidden border border-[#c9a86c]/20 hover:border-[#c9a86c]/50 transition">
+                <div className="relative aspect-[3/4]">
+                  <Image src={item.img} alt={item.title} fill className="object-cover group-hover:scale-105 transition duration-500" />
+                </div>
+                <div className="p-3 bg-[#0a0a0a] text-center text-sm">{item.title}</div>
+              </Link>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Final CTA */}
-      <section className="py-24 bg-black text-center border-t border-[#FFD700]/20">
-        <div className="max-w-4xl mx-auto px-6">
-          <h2 className="text-5xl font-bold mb-6">Ready to Book in Bahadurabad?</h2>
-          <p className="text-xl text-white/80 mb-10">Fast Delivery • Real Photos • Complete Privacy</p>
-          <a 
-            href="tel:03708540579"
-            className="inline-block bg-[#FFD700] text-black font-bold text-3xl px-20 py-7 rounded-full hover:bg-amber-300 transition-all"
-          >
-            03708540579
-          </a>
+      {/* FAQ */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">Frequently Asked Questions – Bahadurabad Escorts</h2>
+          <div className="space-y-4">
+            {[
+              { q: "Do you provide escorts in Bahadurabad Karachi?", a: "Yes. We provide verified VIP escorts across Bahadurabad for home and hotel visits." },
+              { q: "How long does it take for an escort to reach Bahadurabad?", a: "Usually within 20–30 minutes after confirmation." },
+              { q: "Can I book a Bahadurabad escort for a hotel?", a: "Yes. Discreet hotel outcall is available in and around Bahadurabad." },
+              { q: "Are the Bahadurabad escort photos real?", a: "Yes. All profiles use real verified photos only." },
+              { q: "What is the best way to book escorts in Bahadurabad?", a: "WhatsApp or call 03708540579. Share your location and preferred time." },
+              { q: "Do you also cover Al Harmain Hotel from Bahadurabad?", a: "Yes. We can arrange the same verified companions for Al Harmain Hotel and nearby areas." },
+            ].map((item, i) => (
+              <div key={i} className="bg-[#111] border border-[#c9a86c]/20 rounded-xl p-5">
+                <h3 className="font-semibold text-[#c9a86c] mb-1">{item.q}</h3>
+                <p className="text-gray-400 text-sm">{item.a}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
     </main>
