@@ -3,11 +3,11 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Top-Rated Karachi Escorts | VIP Call Girls Models 24/7 – 03708540579",
+  title: "Karachi Escorts Models | VIP Call Girls 24/7",
   description:
-    "Browse verified Karachi escorts and VIP call girls. Models available in DHA, Clifton, Bahria Town, PECHS and hotels. Call 03708540579.",
+    "Browse verified Karachi Escorts and VIP Call Girls. Models available in DHA, Clifton, Bahria Town and hotels. Call 03708540579.",
   openGraph: {
-    title: "Top-Rated Karachi Escorts | VIP Call Girls Models",
+    title: "Karachi Escorts Models | VIP Call Girls 24/7",
     images: [{ url: "/escorts-in-clifton-karachi-call-girls.jpg" }],
   },
 };
@@ -46,7 +46,7 @@ export default function ModelsPage() {
       <section className="relative h-[85vh] flex items-center justify-center overflow-hidden">
         <Image
           src="/escorts-in-clifton-karachi-call-girls.jpg"
-          alt="Top Rated Karachi Escorts Models"
+          alt="Karachi Escorts Models and VIP Call Girls"
           fill
           priority
           className="object-cover object-[center_15%]"
@@ -54,9 +54,9 @@ export default function ModelsPage() {
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative z-10 text-center px-6 max-w-4xl">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
-            Top-Rated Karachi Escorts
+            Karachi Escorts Models
             <span className="block text-[#c9a86c] mt-2 text-2xl md:text-3xl">
-              VIP Call Girls 24/7 – 03708540579
+              VIP Call Girls Available 24/7
             </span>
           </h1>
           <p className="text-lg text-gray-300 mb-8">
@@ -64,7 +64,7 @@ export default function ModelsPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="https://wa.me/923708540579" target="_blank" className="inline-block bg-[#c9a86c] text-black font-semibold px-10 py-4 rounded-full hover:bg-white transition">
-              WhatsApp – 03708540579
+              WhatsApp 03708540579
             </a>
             <a href="tel:03708540579" className="inline-block border border-[#c9a86c] text-[#c9a86c] font-semibold px-10 py-4 rounded-full hover:bg-[#c9a86c] hover:text-black transition">
               Call Now
@@ -73,24 +73,44 @@ export default function ModelsPage() {
         </div>
       </section>
 
-      {/* MODELS GRID */}
+      {/* INTRO */}
       <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-lg text-gray-300 leading-relaxed mb-6">
+            Looking for verified <strong>Karachi Escorts Models</strong>? This page shows our complete gallery of 
+            professional <strong>VIP Call Girls</strong> available across Karachi. Every profile uses real photos.
+          </p>
+          <p className="text-lg text-gray-300 leading-relaxed mb-6">
+            You can book <strong>Karachi Escorts</strong> for short time or full night. Popular areas include 
+            DHA, Clifton, Bahria Town, PECHS and major hotels. All models are available 24/7.
+          </p>
+          <p className="text-lg text-gray-300 leading-relaxed">
+            To book any model, WhatsApp or call 03708540579 with the name and your location for quick confirmation.
+          </p>
+        </div>
+      </section>
+
+      {/* MODELS GRID */}
+      <section className="py-16 px-6 bg-[#111]">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-12">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-4">
             Our Verified Models
           </h2>
+          <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
+            Browse verified Karachi Escorts and Call Girls. Select any model and book instantly.
+          </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
             {models.map((model) => (
-              <div key={model.name} className="bg-[#111] border border-[#c9a86c]/20 rounded-2xl overflow-hidden hover:border-[#c9a86c]/50 transition">
+              <div key={model.name} className="bg-[#0a0a0a] border border-[#c9a86c]/20 rounded-2xl overflow-hidden hover:border-[#c9a86c]/50 transition">
                 <div className="relative aspect-[3/4]">
-                  <Image src={model.img} alt={`${model.name} - Karachi Escort ${model.location}`} fill className="object-cover" />
+                  <Image src={model.img} alt={`${model.name} Karachi Escort in ${model.location}`} fill className="object-cover" />
                 </div>
                 <div className="p-4 text-center">
-                  <h3 className="text-lg font-semibold text-white">{model.name}</h3>
+                  <p className="text-lg font-semibold text-white">{model.name}</p>
                   <p className="text-sm text-[#c9a86c] mb-1">{model.location}</p>
                   <p className="text-gray-400 text-xs mb-3">{model.desc}</p>
                   <Link href="/contact" className="inline-block w-full bg-[#c9a86c] text-black py-2 rounded-lg text-sm font-medium hover:bg-white transition">
-                    Book {model.name}
+                    Book {model.name} Now
                   </Link>
                 </div>
               </div>
@@ -100,14 +120,17 @@ export default function ModelsPage() {
       </section>
 
       {/* TYPES */}
-      <section className="py-16 px-6 bg-[#111]">
+      <section className="py-16 px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-4">
             Types of Escorts Available
           </h2>
+          <p className="text-center text-gray-400 mb-10">
+            From VIP models to independent call girls – choose what you prefer.
+          </p>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {["VIP Model Escorts","College Girls","Independent Escorts","Young Call Girls","MILF & Mature","Aunties","GFE Companions","Hotel Outcall","Full Night Service","Luxury Elite","TikTokers","Professionals"].map((type) => (
-              <div key={type} className="bg-[#0a0a0a] border border-[#c9a86c]/20 rounded-xl py-3 text-center text-sm">
+              <div key={type} className="bg-[#111] border border-[#c9a86c]/20 rounded-xl py-3 text-center text-sm">
                 {type}
               </div>
             ))}
@@ -116,12 +139,15 @@ export default function ModelsPage() {
       </section>
 
       {/* PRICING */}
-      <section className="py-16 px-6">
+      <section className="py-16 px-6 bg-[#111]">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-8">Service Charges</h2>
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-4">Service Charges</h2>
+          <p className="text-center text-gray-400 mb-8">
+            Transparent rates for Karachi Escorts Models and VIP Call Girls.
+          </p>
           <div className="overflow-x-auto rounded-2xl border border-[#c9a86c]/20">
             <table className="w-full text-left">
-              <thead className="bg-[#111]">
+              <thead className="bg-[#0a0a0a]">
                 <tr>
                   <th className="p-4 text-[#c9a86c]">Category</th>
                   <th className="p-4 text-[#c9a86c] text-center">Short Time</th>
@@ -139,19 +165,19 @@ export default function ModelsPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-16 px-6 bg-[#111]">
+      <section className="py-16 px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">Frequently Asked Questions</h2>
           <div className="space-y-4">
             {[
-              { q: "Are the models shown on this page real?", a: "Yes. Every model is verified with real photos. We do not use stock or fake images." },
-              { q: "Can I choose a specific model for booking?", a: "Yes. Message us on WhatsApp with the model name and your location for confirmation." },
-              { q: "Do models provide hotel outcall service?", a: "Yes. Most models are available for discreet hotel and home visits across Karachi." },
-              { q: "How quickly can a model reach my location?", a: "Usually 20–40 minutes depending on the area (DHA, Clifton, Bahria Town, PECHS etc.)." },
-              { q: "Is advance payment required to book a model?", a: "Usually payment is done after arrival. Details are confirmed at the time of booking." },
+              { q: "Are the Karachi Escorts Models shown here real?", a: "Yes. Every model is verified with real photos. We do not use stock or fake images." },
+              { q: "Can I choose a specific Call Girl for booking?", a: "Yes. Message us on WhatsApp with the model name and your location for confirmation." },
+              { q: "Do models provide hotel outcall in Karachi?", a: "Yes. Most Karachi Escorts are available for discreet hotel and home visits." },
+              { q: "How quickly can a model reach my location?", a: "Usually 20–40 minutes depending on the area (DHA, Clifton, Bahria Town, PECHS)." },
+              { q: "Is advance payment required?", a: "Usually payment is done after arrival. Details are confirmed at the time of booking." },
             ].map((item, i) => (
-              <div key={i} className="bg-[#0a0a0a] border border-[#c9a86c]/20 rounded-xl p-5">
-                <h3 className="font-semibold text-[#c9a86c] mb-1">{item.q}</h3>
+              <div key={i} className="bg-[#111] border border-[#c9a86c]/20 rounded-xl p-5">
+                <p className="font-semibold text-[#c9a86c] mb-1">{item.q}</p>
                 <p className="text-gray-400 text-sm">{item.a}</p>
               </div>
             ))}

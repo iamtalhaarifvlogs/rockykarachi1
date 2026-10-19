@@ -3,9 +3,9 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Escorts in Gulshan-e-Iqbal Karachi | Premium Call Girls Gulshan - 03708540579",
+  title: "Escorts in Gulshan-e-Iqbal Karachi | VIP Call Girls",
   description:
-    "Book premium Escorts in Gulshan-e-Iqbal Karachi. Verified VIP call girls and luxury companions available in Gulshan-e-Iqbal. Discreet outcall. Call 03708540579.",
+    "Premium Escorts in Gulshan-e-Iqbal Karachi. Verified VIP call girls and luxury companions. Discreet outcall. Call 03708540579.",
   openGraph: {
     title: "Escorts in Gulshan-e-Iqbal Karachi | VIP Call Girls",
     images: [{ url: "/vip-model-escorts-karachi-dha.jpg" }],
@@ -33,19 +33,18 @@ export default function GulshanEIqbalEscortsPage() {
   ];
 
   const moreLikeThis = [
-    { img: "/escorts-in-dha-karachi-vip.jpg", title: "Escorts in DHA", link: "/portfolio/vip-escorts-dha-karachi" },
-    { img: "/escorts-in-clifton-karachi-call-girls.jpg", title: "Escorts in Clifton", link: "/portfolio/escorts-clifton-karachi" },
-    { img: "/escorts-in-bahria-town-karachi.jpg", title: "Escorts in Bahria Town", link: "/portfolio/escorts-bahria-town-karachi" },
-    { img: "/escorts-in-pechs-karachi-vip.jpg", title: "Escorts in PECHS", link: "/portfolio/escorts-pechs-karachi" },
+    { img: "/escorts-in-dha-karachi-vip.jpg", title: "VIP Escorts in DHA", link: "/portfolio/vip-escorts-dha-karachi" },
+    { img: "/escorts-in-clifton-karachi-call-girls.jpg", title: "Call Girls in Clifton", link: "/portfolio/escorts-clifton-karachi" },
+    { img: "/escorts-in-bahria-town-karachi.jpg", title: "Bahria Town Escorts", link: "/portfolio/escorts-bahria-town-karachi" },
+    { img: "/escorts-in-pechs-karachi-vip.jpg", title: "PECHS Escorts", link: "/portfolio/escorts-pechs-karachi" },
   ];
 
   return (
     <main className="bg-[#0a0a0a] text-gray-200">
-      {/* HERO */}
       <section className="relative h-[85vh] flex items-center justify-center overflow-hidden">
         <Image
           src="/vip-model-escorts-karachi-dha.jpg"
-          alt="Escorts in Gulshan-e-Iqbal Karachi - VIP Call Girls"
+          alt="Escorts in Gulshan-e-Iqbal Karachi VIP Call Girls"
           fill
           priority
           className="object-cover object-[center_18%]"
@@ -54,12 +53,16 @@ export default function GulshanEIqbalEscortsPage() {
         <div className="relative z-10 text-center px-6 max-w-4xl">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
             Escorts in Gulshan-e-Iqbal Karachi
-            <span className="block text-[#c9a86c] mt-2 text-2xl md:text-3xl">Call 03708540579</span>
+            <span className="block text-[#c9a86c] mt-2 text-2xl md:text-3xl">
+              VIP Call Girls Available 24/7
+            </span>
           </h1>
-          <p className="text-lg text-gray-300 mb-8">VIP Call Girls & Luxury Companions in Gulshan-e-Iqbal</p>
+          <p className="text-lg text-gray-300 mb-8">
+            Luxury companions across Gulshan-e-Iqbal
+          </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="https://wa.me/923708540579" target="_blank" className="inline-block bg-[#c9a86c] text-black font-semibold px-10 py-4 rounded-full hover:bg-white transition">
-              WhatsApp – 03708540579
+              WhatsApp 03708540579
             </a>
             <a href="tel:03708540579" className="inline-block border border-[#c9a86c] text-[#c9a86c] font-semibold px-10 py-4 rounded-full hover:bg-[#c9a86c] hover:text-black transition">
               Call Now
@@ -68,12 +71,13 @@ export default function GulshanEIqbalEscortsPage() {
         </div>
       </section>
 
-      {/* INTRO */}
       <section className="py-16 px-6">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-semibold text-[#c9a86c] mb-6 text-center">Premium Escorts in Gulshan-e-Iqbal Karachi</h2>
+          <h2 className="text-3xl font-semibold text-[#c9a86c] mb-6 text-center">
+            Premium Escorts in Gulshan-e-Iqbal Karachi
+          </h2>
           <p className="text-lg text-gray-300 leading-relaxed mb-5">
-            Looking for high-class <strong>escorts in Gulshan-e-Iqbal Karachi</strong>? We provide verified VIP call girls and luxury companions across Gulshan-e-Iqbal with complete discretion.
+            Looking for high-class <strong>Escorts in Gulshan-e-Iqbal Karachi</strong>? We provide verified VIP call girls and luxury companions across Gulshan-e-Iqbal with complete discretion.
           </p>
           <p className="text-gray-400 leading-relaxed mb-5">
             Gulshan-e-Iqbal is a frequently requested area for discreet companionship. Whether you need a short meeting or a full evening, our verified escorts are available for home and hotel visits. Clients from 
@@ -81,15 +85,19 @@ export default function GulshanEIqbalEscortsPage() {
             <Link href="/portfolio/escorts-clifton-karachi" className="text-[#c9a86c] hover:underline"> Clifton</Link> also request Gulshan based companions.
           </p>
           <p className="text-gray-400 leading-relaxed">
-            Booking is private and fast. WhatsApp or call 03708540579 with your location in Gulshan-e-Iqbal and preferred time. We confirm availability quickly.
+            Booking <strong>VIP Call Girls</strong> in Gulshan-e-Iqbal is private and fast. WhatsApp or call 03708540579 with your location and preferred time.
           </p>
         </div>
       </section>
 
-      {/* TYPES */}
       <section className="py-12 px-6 bg-[#111]">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">Types of Escorts Available in Gulshan-e-Iqbal</h2>
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-4">
+            Types of Escorts Available in Gulshan-e-Iqbal
+          </h2>
+          <p className="text-center text-gray-400 mb-10">
+            VIP models, independent call girls and more in Gulshan-e-Iqbal.
+          </p>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {["VIP Model Escorts","College Girls","Independent Escorts","Young Call Girls","MILF & Mature","Aunties","GFE Companions","Hotel Outcall","Full Night Service","Luxury Elite","TikTokers","Professionals"].map((type) => (
               <div key={type} className="bg-[#0a0a0a] border border-[#c9a86c]/20 rounded-xl py-3 text-center text-sm">{type}</div>
@@ -98,21 +106,25 @@ export default function GulshanEIqbalEscortsPage() {
         </div>
       </section>
 
-      {/* MODELS */}
       <section className="py-16 px-6">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-12">Featured Escorts in Gulshan-e-Iqbal</h2>
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-4">
+            Featured Escorts in Gulshan-e-Iqbal
+          </h2>
+          <p className="text-center text-gray-400 mb-12">
+            Verified companions for Escorts in Gulshan-e-Iqbal Karachi.
+          </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
             {models.map((model) => (
               <div key={model.name} className="bg-[#111] border border-[#c9a86c]/20 rounded-2xl overflow-hidden hover:border-[#c9a86c]/50 transition">
                 <div className="relative aspect-[3/4]">
-                  <Image src={model.img} alt={`${model.name} - Escorts in Gulshan-e-Iqbal Karachi VIP Call Girl`} fill className="object-cover" />
+                  <Image src={model.img} alt={`${model.name} Escorts in Gulshan-e-Iqbal Karachi VIP Call Girl`} fill className="object-cover" />
                 </div>
                 <div className="p-4 text-center">
-                  <h3 className="text-lg font-semibold text-white">{model.name}</h3>
+                  <p className="text-lg font-semibold text-white">{model.name}</p>
                   <p className="text-sm text-gray-400 mb-3">{model.desc}</p>
                   <Link href="/contact" className="inline-block w-full bg-[#c9a86c] text-black py-2 rounded-lg text-sm font-medium hover:bg-white transition">
-                    Book {model.name}
+                    Book {model.name} in Gulshan
                   </Link>
                 </div>
               </div>
@@ -121,21 +133,22 @@ export default function GulshanEIqbalEscortsPage() {
         </div>
       </section>
 
-      {/* WHY CHOOSE */}
       <section className="py-16 px-6 bg-[#111]">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">Why Choose Us for Gulshan Escorts?</h2>
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">
+            Why Choose Us for Gulshan Escorts
+          </h2>
           <div className="grid md:grid-cols-3 gap-6">
             {[
               { title: "Verified Profiles", desc: "Real photos and verified companions only." },
               { title: "Complete Privacy", desc: "Discreet service with full confidentiality." },
               { title: "Fast Response in Gulshan", desc: "Quick confirmation across Gulshan-e-Iqbal." },
-              { title: "24/7 Available", desc: "Day and night service." },
-              { title: "Gulshan Coverage", desc: "All major blocks of Gulshan-e-Iqbal." },
-              { title: "Wide Selection", desc: "From young girls to mature companions." },
+              { title: "24/7 Available", desc: "Day and night service in Gulshan-e-Iqbal." },
+              { title: "Gulshan Coverage", desc: "All major blocks of Gulshan-e-Iqbal covered." },
+              { title: "Wide Selection", desc: "From young girls to mature VIP companions." },
             ].map((item) => (
               <div key={item.title} className="bg-[#0a0a0a] border border-[#c9a86c]/20 rounded-2xl p-6">
-                <h3 className="text-lg font-semibold text-[#c9a86c] mb-2">{item.title}</h3>
+                <p className="text-lg font-semibold text-[#c9a86c] mb-2">{item.title}</p>
                 <p className="text-gray-400 text-sm">{item.desc}</p>
               </div>
             ))}
@@ -143,10 +156,14 @@ export default function GulshanEIqbalEscortsPage() {
         </div>
       </section>
 
-      {/* PRICING */}
       <section className="py-16 px-6">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-8">Service Charges – Gulshan-e-Iqbal</h2>
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-4">
+            Service Charges – Gulshan-e-Iqbal
+          </h2>
+          <p className="text-center text-gray-400 mb-8">
+            Transparent rates for Escorts in Gulshan-e-Iqbal Karachi.
+          </p>
           <div className="overflow-x-auto rounded-2xl border border-[#c9a86c]/20">
             <table className="w-full text-left">
               <thead className="bg-[#111]">
@@ -166,10 +183,9 @@ export default function GulshanEIqbalEscortsPage() {
         </div>
       </section>
 
-      {/* MORE LIKE THIS */}
       <section className="py-16 px-6 bg-[#111]">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">More Like This</h2>
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">Explore More Areas</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {moreLikeThis.map((item) => (
               <Link key={item.title} href={item.link} className="group block rounded-2xl overflow-hidden border border-[#c9a86c]/20 hover:border-[#c9a86c]/50 transition">
@@ -183,21 +199,22 @@ export default function GulshanEIqbalEscortsPage() {
         </div>
       </section>
 
-      {/* FAQ */}
       <section className="py-16 px-6">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">Frequently Asked Questions – Gulshan Escorts</h2>
+          <h2 className="text-3xl font-semibold text-center text-[#c9a86c] mb-10">
+            Frequently Asked Questions – Gulshan Escorts
+          </h2>
           <div className="space-y-4">
             {[
-              { q: "Do you provide escorts in Gulshan-e-Iqbal Karachi?", a: "Yes. We provide verified VIP escorts across Gulshan-e-Iqbal for home and hotel visits." },
+              { q: "Do you provide Escorts in Gulshan-e-Iqbal Karachi?", a: "Yes. We provide verified VIP escorts across Gulshan-e-Iqbal for home and hotel visits." },
               { q: "How long does it take for an escort to reach Gulshan?", a: "Usually 25–40 minutes depending on your exact block and traffic." },
               { q: "Can I book a Gulshan escort for a hotel?", a: "Yes. Discreet hotel outcall is available for hotels in and around Gulshan-e-Iqbal." },
-              { q: "Are the Gulshan escort photos real?", a: "Yes. All profiles use real verified photos only." },
-              { q: "What is the best way to book escorts in Gulshan-e-Iqbal?", a: "WhatsApp or call 03708540579. Share your location and preferred time." },
-              { q: "Do you also cover DHA and PECHS from Gulshan bookings?", a: "Yes. We can arrange the same verified companions for DHA, Clifton and PECHS as well." },
+              { q: "Are the Gulshan VIP Call Girls photos real?", a: "Yes. All profiles use real verified photos only." },
+              { q: "What is the best way to book Escorts in Gulshan-e-Iqbal?", a: "WhatsApp or call 03708540579. Share your location and preferred time." },
+              { q: "Do you also cover DHA and PECHS?", a: "Yes. We can arrange the same verified companions for DHA, Clifton and PECHS as well." },
             ].map((item, i) => (
               <div key={i} className="bg-[#111] border border-[#c9a86c]/20 rounded-xl p-5">
-                <h3 className="font-semibold text-[#c9a86c] mb-1">{item.q}</h3>
+                <p className="font-semibold text-[#c9a86c] mb-1">{item.q}</p>
                 <p className="text-gray-400 text-sm">{item.a}</p>
               </div>
             ))}
