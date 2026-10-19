@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.rockyescortskarachi.com/sitemap.xml
+Sitemap: https://rockykarachi1.vercel.app/sitemap.xml
