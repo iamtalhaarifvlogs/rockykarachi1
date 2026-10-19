@@ -1,8 +1,9 @@
+
 import { MetadataRoute } from "next";
 
 const baseUrl = "https://rockykarachi1.vercel.app";
 // Domain lagne ke baad isko change kar dena:
-// const baseUrl = "https://rockyescortskarachi.com";
+// const baseUrl = "https://rockykarachi1.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
