@@ -1,3 +1,4 @@
+
 import LocalBusinessSchema from "@/app/components/LocalBusinessSchema";
 import SeoSchema from "@/app/components/SeoSchema";
 import type { Metadata } from "next";

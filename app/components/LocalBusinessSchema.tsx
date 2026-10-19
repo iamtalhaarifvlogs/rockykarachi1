@@ -1,3 +1,4 @@
+
 export default function LocalBusinessSchema() {
   const schema = {
     "@context": "https://schema.org",
