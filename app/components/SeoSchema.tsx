@@ -1,3 +1,4 @@
+
 export default function SeoSchema() {
   const schema = {
     "@context": "https://schema.org",
