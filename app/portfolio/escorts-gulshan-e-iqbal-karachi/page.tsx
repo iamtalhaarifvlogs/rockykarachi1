@@ -19,7 +19,7 @@ export default function GulshanEIqbalEscortsPage() {
     { name: "Ayesha", img: "/karachi-call-girls-ayesha-independent.jpg", desc: "Independent & sophisticated" },
     { name: "Zara", img: "/karachi-call-girls-zara-premium.jpg", desc: "Premium exclusive model" },
     { name: "Hina", img: "/karachi-call-girls-hina-outcall.jpg", desc: "Discreet outcall specialist" },
-    { name: "Mehwish", img: "/karachi-call-girls-mehwish-hotel.jpg", desc: "Hotel-friendly escort" },
+    { name: "Mehwish", img: "/luxury-call-girls-karachi.jpg", desc: "Hotel-friendly escort" },
     { name: "Sana", img: "/karachi-call-girls-sana-discreet.jpg", desc: "Fully discreet companion" },
     { name: "Alina", img: "/vip-model-escorts-karachi-dha.jpg", desc: "High-class model" },
     { name: "Noor", img: "/vip-model-escorts-karachi-clifton.jpg", desc: "Stylish & charming" },

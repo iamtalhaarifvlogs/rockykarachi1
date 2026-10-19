@@ -19,7 +19,7 @@ export default function ModelsPage() {
     { name: "Ayesha", img: "/karachi-call-girls-ayesha-independent.jpg", location: "Clifton", desc: "Independent & sophisticated" },
     { name: "Zara", img: "/karachi-call-girls-zara-premium.jpg", location: "Bahria Town", desc: "Premium exclusive model" },
     { name: "Hina", img: "/karachi-call-girls-hina-outcall.jpg", location: "PECHS", desc: "Discreet outcall specialist" },
-    { name: "Mehwish", img: "/karachi-call-girls-mehwish-hotel.jpg", location: "Hotel", desc: "Hotel-friendly escort" },
+    { name: "Mehwish", img: "/luxury-call-girls-karachi.jpg", location: "Hotel", desc: "Hotel-friendly escort" },
     { name: "Sana", img: "/karachi-call-girls-sana-discreet.jpg", location: "Karachi", desc: "Fully discreet companion" },
     { name: "Alina", img: "/vip-model-escorts-karachi-dha.jpg", location: "DHA", desc: "High-class DHA model" },
     { name: "Noor", img: "/vip-model-escorts-karachi-clifton.jpg", location: "Clifton", desc: "Stylish Clifton companion" },
@@ -35,10 +35,10 @@ export default function ModelsPage() {
     { name: "Mahnoor", img: "/sexy-escorts-in-karachi.jpg", location: "Premium", desc: "Premium companion" },
     { name: "Nida", img: "/night-service-escorts-karachi.jpg", location: "Night", desc: "Night service specialist" },
     { name: "Rabia", img: "/full-service-escorts-karachi.jpg", location: "Full Service", desc: "Full service companion" },
-    { name: "Komal", img: "/companion-girls-karachi-vip.jpg", location: "Companion", desc: "VIP companion girl" },
-    { name: "Esha", img: "/real-verified-call-girls-karachi.jpg", location: "Verified", desc: "Real verified call girl" },
-    { name: "Sana R", img: "/affordable-call-girls-karachi.jpg", location: "Affordable", desc: "Affordable quality" },
-    { name: "Iqra B", img: "/top-rated-escorts-karachi.jpg", location: "Top Rated", desc: "Top rated escort" },
+    { name: "Komal", img: "/premium-vip-escorts-karachi-elite.jpg", location: "Companion", desc: "VIP companion girl" },
+    { name: "Esha", img: "/high-profile-escorts-karachi.jpg", location: "Verified", desc: "Real verified call girl" },
+    { name: "Sana", img: "/affordable-call-girls-karachi.jpg", location: "Affordable", desc: "Affordable quality" },
+    { name: "Iqra ", img: "/top-rated-escorts-karachi.jpg", location: "Top Rated", desc: "Top rated escort" },
   ];
 
   return (

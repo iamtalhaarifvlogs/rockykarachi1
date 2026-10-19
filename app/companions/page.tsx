@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 export default function CompanionsPage() {
   const bahriaImages = [
     "/24-7-escorts-karachi-available.jpg",
-    "/real-verified-call-girls-karachi.jpg",
+    "/high-profile-escorts-karachi.jpg",
     "/exclusive-vip-escorts-karachi.jpg",
     "/beautiful-call-girls-karachi.jpg",
     "/sexy-escorts-in-karachi.jpg",
@@ -38,7 +38,7 @@ export default function CompanionsPage() {
     "/affordable-call-girls-karachi.jpg",
     "/night-service-escorts-karachi.jpg",
     "/full-service-escorts-karachi.jpg",
-    "/companion-girls-karachi-vip.jpg",
+    "/premium-vip-escorts-karachi-elite.jpg",
     "/karachi-call-girls-hina-outcall.jpg",
   ];
 

@@ -20,7 +20,7 @@ export default function HomePage() {
     { name: "Ayesha", img: "/karachi-call-girls-ayesha-independent.jpg", location: "Clifton", desc: "Independent & sophisticated" },
     { name: "Zara", img: "/karachi-call-girls-zara-premium.jpg", location: "Bahria Town", desc: "Premium exclusive model" },
     { name: "Hina", img: "/karachi-call-girls-hina-outcall.jpg", location: "PECHS", desc: "Discreet outcall specialist" },
-    { name: "Mehwish", img: "/karachi-call-girls-mehwish-hotel.jpg", location: "Hotel", desc: "Hotel-friendly escort" },
+    { name: "Mehwish", img: "/luxury-call-girls-karachi.jpg", location: "Hotel", desc: "Hotel-friendly escort" },
     { name: "Sana", img: "/karachi-call-girls-sana-discreet.jpg", location: "Karachi", desc: "Fully discreet companion" },
     { name: "Alina", img: "/vip-model-escorts-karachi-dha.jpg", location: "DHA", desc: "High-class DHA model" },
     { name: "Noor", img: "/vip-model-escorts-karachi-clifton.jpg", location: "Clifton", desc: "Stylish Clifton companion" },
