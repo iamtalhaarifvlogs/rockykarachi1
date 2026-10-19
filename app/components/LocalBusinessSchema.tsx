@@ -2,13 +2,13 @@ export default function LocalBusinessSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://rockyescortskarachi.com/#business",
+    "@id": "https://rockykarachi1.vercel.app/#business",
     name: "Rocky Escorts Karachi",
     alternateName: "Rocky Escorts",
     description:
       "Premium VIP call girls, verified escorts and elite companions in Karachi. Available 24/7 in DHA, Clifton, Bahria Town, PECHS and major hotels.",
-    image: "https://rockyescortskarachi.com/karachi-escorts-vip-call-girls-hero.jpg",
-    url: "https://rockyescortskarachi.com",
+    image: "https://rockykarachi1.vercel.app/karachi-escorts-vip-call-girls-hero.jpg",
+    url: "https://rockykarachi1.vercel.app",
     telephone: "+923708540579",
     priceRange: "$$-$$$",
     address: {
