@@ -1,8 +1,9 @@
+
 import { MetadataRoute } from "next";
 
 const baseUrl = "https://rockykarachi1.vercel.app";
 // Domain lagne ke baad:
-// const baseUrl = "https://rockyescortskarachi.com";
+// const baseUrl = "https://rockykarachi1.vercel.app";
 
 export default function robots(): MetadataRoute.Robots {
   return {

@@ -8,7 +8,7 @@ import WhatsAppButton from "@/app/components/WhatsAppButton";
 import FloatingChatbot from "./components/FloatingChatbot";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://rockyescortskarachi.com"),
+  metadataBase: new URL("https://rockykarachi1.vercel.app"),
   title: {
     default: "Rocky Escorts Karachi | Premium VIP Call Girls & Elite Companions",
     template: "%s | Rocky Escorts Karachi",

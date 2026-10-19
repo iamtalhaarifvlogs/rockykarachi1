@@ -4,13 +4,13 @@ export default function SeoSchema() {
     "@graph": [
       {
         "@type": "WebSite",
-        "@id": "https://rockyescortskarachi.com/#website",
-        url: "https://rockyescortskarachi.com",
+        "@id": "https://rockykarachi1.vercel.app/#website",
+        url: "https://rockykarachi1.vercel.app",
         name: "Rocky Escorts Karachi",
         description:
           "Premium VIP call girls, verified escorts and elite companions in Karachi. Available 24/7 across DHA, Clifton, Bahria Town, PECHS and major hotels.",
         publisher: {
-          "@id": "https://rockyescortskarachi.com/#organization",
+          "@id": "https://rockykarachi1.vercel.app/#organization",
         },
         inLanguage: "en-PK",
       },
@@ -18,10 +18,10 @@ export default function SeoSchema() {
         "@type": "Organization",
         "@id": "https://rockyescortskarachi.com/#organization",
         name: "Rocky Escorts Karachi",
-        url: "https://rockyescortskarachi.com",
+        url: "https://rockykarachi1.vercel.app",
         logo: {
           "@type": "ImageObject",
-          url: "https://rockyescortskarachi.com/karachi-escorts-vip-call-girls-hero.jpg",
+          url: "https://rockykarachi1.vercel.app/karachi-escorts-vip-call-girls-hero.jpg",
         },
         contactPoint: {
           "@type": "ContactPoint",
