@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -71,9 +70,35 @@ export default function AboutUsPage() {
           <Link href="/portfolio/escorts-pechs-karachi" className="text-[#c9a86c] hover:underline"> PECHS</Link>, 
           Gulshan-e-Iqbal and popular hotels.
         </p>
-        <p className="text-lg leading-relaxed text-gray-300 mb-12">
+        <p className="text-lg leading-relaxed text-gray-300 mb-8">
           Our goal is simple: real profiles of VIP Call Girls, clear communication, and a respectful experience every time you book with Rocky Escorts Karachi.
         </p>
+
+        {/* Scenario A: Contextual H3 Interlinking Block */}
+        <div className="bg-[#111] border border-[#c9a86c]/30 rounded-2xl p-6 mb-12">
+          <h3 className="text-xl font-semibold text-[#c9a86c] mb-2">Our Sister Network & Partners</h3>
+          <p className="text-gray-300 text-sm leading-relaxed">
+            To ensure complete client satisfaction and comprehensive availability across the metropolitan area, we work alongside trusted affiliate agencies. You can review additional high-class model profiles at{" "}
+            <a 
+              href="https://pakistanmodelshub.com" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-[#c9a86c] underline hover:text-white transition"
+            >
+              Pakistan Models Hub
+            </a>{" "}
+            or check premium VIP arrangements via{" "}
+            <a 
+              href="https://elitekarachimodels.online/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-[#c9a86c] underline hover:text-white transition"
+            >
+              Elite Karachi Models
+            </a>{" "}
+            for alternate outcall and hotel booking options.
+          </p>
+        </div>
 
         {/* WHY CHOOSE US */}
         <h2 className="text-3xl font-semibold text-[#c9a86c] mb-8">

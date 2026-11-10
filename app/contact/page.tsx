@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -61,10 +60,36 @@ export default function ContactPage() {
           Booking with <strong>Rocky Escorts Karachi</strong> is simple and private. 
           WhatsApp is the fastest way to confirm availability of VIP Call Girls. You can also call directly.
         </p>
-        <p className="text-gray-300 leading-relaxed mb-10">
+        <p className="text-gray-300 leading-relaxed mb-8">
           We provide verified escorts and companions for hotel, home and private meetings across Karachi including 
           DHA, Clifton, Bahria Town, PECHS and major hotels.
         </p>
+
+        {/* Scenario A: Contextual H3 Interlinking Block */}
+        <div className="bg-[#111] border border-[#c9a86c]/30 rounded-2xl p-6 mb-12">
+          <h3 className="text-xl font-semibold text-[#c9a86c] mb-2">Alternative Network Support & Contacts</h3>
+          <p className="text-gray-300 text-sm leading-relaxed">
+            If you require immediate assistance, multi-location inquiries, or alternative agency rosters across the city, feel free to connect through our partner portals at{" "}
+            <a 
+              href="https://pakistanmodelshub.com" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-[#c9a86c] underline hover:text-white transition"
+            >
+              Pakistan Models Hub
+            </a>{" "}
+            or reach out to booking desks via{" "}
+            <a 
+              href="https://elitekarachimodels.online/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-[#c9a86c] underline hover:text-white transition"
+            >
+              Elite Karachi Models
+            </a>{" "}
+            for rapid response and guaranteed privacy.
+          </p>
+        </div>
 
         <div className="grid md:grid-cols-3 gap-6 mb-16">
           <div className="bg-[#111] border border-[#c9a86c]/20 rounded-xl p-6 text-center">

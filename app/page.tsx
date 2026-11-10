@@ -1,5 +1,3 @@
-
-
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
@@ -96,10 +94,36 @@ export default function HomePage() {
             our team ensures fast response and total privacy. Popular areas include DHA, Clifton, Bahria Town, 
             PECHS, Gulshan and major hotels.
           </p>
-          <p className="text-lg text-gray-300 leading-relaxed">
+          <p className="text-lg text-gray-300 leading-relaxed mb-8">
             All <strong>Karachi call girls</strong> profiles use real photos. We do not publish fake images. 
             Book through WhatsApp or direct call on 03708540579 for quick confirmation.
           </p>
+
+          {/* Scenario A: Contextual H3 Interlinking Block */}
+          <div className="bg-[#111] border border-[#c9a86c]/30 rounded-2xl p-6 mt-8">
+            <h3 className="text-xl font-semibold text-[#c9a86c] mb-2">Explore Related VIP Portals</h3>
+            <p className="text-gray-300 text-sm leading-relaxed">
+              Seeking additional verified options and extended agency choices in Karachi? Take a look at{" "}
+              <a 
+                href="https://pakistanmodelshub.com" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-[#c9a86c] underline hover:text-white transition"
+              >
+                Pakistan Models Hub
+              </a>{" "}
+              and{" "}
+              <a 
+                href="https://elitekarachimodels.online/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-[#c9a86c] underline hover:text-white transition"
+              >
+                Elite Karachi Models
+              </a>{" "}
+              for diverse portfolios, independent model profiles, and executive companion bookings across all top hotels.
+            </p>
+          </div>
         </div>
       </section>
 

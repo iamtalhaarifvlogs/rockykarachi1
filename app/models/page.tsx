@@ -1,5 +1,3 @@
-
-
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -86,9 +84,35 @@ export default function ModelsPage() {
             You can book <strong>Karachi Escorts</strong> for short time or full night. Popular areas include 
             DHA, Clifton, Bahria Town, PECHS and major hotels. All models are available 24/7.
           </p>
-          <p className="text-lg text-gray-300 leading-relaxed">
+          <p className="text-lg text-gray-300 leading-relaxed mb-8">
             To book any model, WhatsApp or call 03708540579 with the name and your location for quick confirmation.
           </p>
+
+          {/* Scenario A: Contextual H3 Interlinking Block */}
+          <div className="bg-[#111] border border-[#c9a86c]/30 rounded-2xl p-6 mt-8">
+            <h3 className="text-xl font-semibold text-[#c9a86c] mb-2">Explore Related Agency Directories</h3>
+            <p className="text-gray-300 text-sm leading-relaxed">
+              If you want to compare additional verified model rosters and agency profiles across major Karachi sectors, you can also view top listings at{" "}
+              <a 
+                href="https://pakistanmodelshub.com" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-[#c9a86c] underline hover:text-white transition"
+              >
+                Pakistan Models Hub
+              </a>{" "}
+              or browse luxury escort options on{" "}
+              <a 
+                href="https://elitekarachimodels.online/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-[#c9a86c] underline hover:text-white transition"
+              >
+                Elite Karachi Models
+              </a>{" "}
+              for specialized companion choices.
+            </p>
+          </div>
         </div>
       </section>
 

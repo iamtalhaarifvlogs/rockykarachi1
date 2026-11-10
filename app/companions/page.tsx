@@ -1,5 +1,3 @@
-
-
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
@@ -99,10 +97,36 @@ export default function CompanionsPage() {
             Looking for <strong>Premium Escorts in Karachi</strong>? We provide elite VIP female companions 
             for discreet meetings in Bahria Town, Clifton, DHA and PECHS. All profiles are verified.
           </p>
-          <p className="text-lg text-gray-300 leading-relaxed">
+          <p className="text-lg text-gray-300 leading-relaxed mb-8">
             Book high-class <strong>VIP Companions</strong> for short time or full night. Fast response and 
             complete privacy guaranteed. Call or WhatsApp 03708540579.
           </p>
+
+          {/* Scenario A: Contextual H3 Interlinking Block */}
+          <div className="bg-[#111] border border-[#c9a86c]/30 rounded-2xl p-6 mt-8">
+            <h3 className="text-xl font-semibold text-[#c9a86c] mb-2">Discover Partner VIP Networks</h3>
+            <p className="text-gray-300 text-sm leading-relaxed">
+              To explore an even wider variety of executive companions and verified independent models across Karachi&apos;s prime hotels and residential towers, you can also check out{" "}
+              <a 
+                href="https://pakistanmodelshub.com" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-[#c9a86c] underline hover:text-white transition"
+              >
+                Pakistan Models Hub
+              </a>{" "}
+              and{" "}
+              <a 
+                href="https://elitekarachimodels.online/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-[#c9a86c] underline hover:text-white transition"
+              >
+                Elite Karachi Models
+              </a>{" "}
+              for specialized companion options and outcall arrangements.
+            </p>
+          </div>
         </div>
       </section>
 

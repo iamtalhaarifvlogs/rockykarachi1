@@ -1,5 +1,3 @@
-
-
 import Link from "next/link";
 
 export default function Footer() {
@@ -57,8 +55,31 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom */}
-        <div className="border-t border-[#c9a86c]/15 pt-6 text-center">
+        {/* Scenario B: Prominent & Clean Center-Aligned Network Links */}
+        <div className="border-t border-[#c9a86c]/15 py-5 text-center">
+          <div className="flex justify-center items-center gap-3 text-sm flex-wrap">
+            <a 
+              href="https://justkarachigirls.online/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-gray-400 hover:text-[#c9a86c] transition"
+            >
+              Just Karachi Girls
+            </a>
+            <span className="text-gray-600">•</span>
+            <a 
+              href="https://modelsinkarachi.vercel.app/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-gray-400 hover:text-[#c9a86c] transition"
+            >
+              Models in Karachi
+            </a>
+          </div>
+        </div>
+
+        {/* Bottom Copyright */}
+        <div className="border-t border-[#c9a86c]/10 pt-4 text-center">
           <p className="text-gray-500 text-xs">
             © {new Date().getFullYear()} Rocky Escorts Karachi. All Rights Reserved.
           </p>
