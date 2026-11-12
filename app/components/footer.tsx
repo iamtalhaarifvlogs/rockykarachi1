@@ -60,12 +60,12 @@ export default function Footer() {
         <div className="border-t border-[#c9a86c]/15 py-5 text-center">
           <div className="flex justify-center items-center gap-3 text-sm flex-wrap">
             <a 
-              href="https://justkarachigirls.online/" 
+              href="https://elitekarachimodels.online/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-gray-400 hover:text-[#c9a86c] transition"
             >
-              Just Karachi Girls
+             
             </a>
             <span className="text-gray-600">•</span>
             <a 
@@ -74,7 +74,7 @@ export default function Footer() {
               rel="noopener noreferrer" 
               className="text-gray-400 hover:text-[#c9a86c] transition"
             >
-              Models in Karachi
+            
             </a>
           </div>
         </div>
