@@ -55,8 +55,8 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative z-10 text-center px-6 max-w-4xl">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
-            Karachi Escorts & Call Girls
-            <span className="block text-[#c9a86c] mt-2 text-2xl md:text-3xl">Available 24/7</span>
+            Escorts in DHA Karachi 03708540579
+            <span className="block text-[#c9a86c] mt-2 text-2xl md:text-3xl">Premium Karachi escorts</span>
           </h1>
           <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
             Verified VIP call girls and elite companions in DHA, Clifton, Bahria Town, PECHS and major hotels across Karachi.
