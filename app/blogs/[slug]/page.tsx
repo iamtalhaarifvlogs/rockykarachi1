@@ -277,10 +277,10 @@ export default async function BlogPostPage({ params }: Props) {
           >
             <div style={{ maxWidth: '420px' }}>
               <h3 style={{ margin: '0 0 6px', fontSize: '18px', fontWeight: 700, color: '#fff' }}>
-                Book Verified Escorts 24/7[span_18](start_span)[span_18](end_span)
+                Book Verified Escorts 24/7
               </h3>
               <p style={{ margin: 0, fontSize: '13.5px', color: '#a8a29e', lineHeight: 1.4 }}>
-                Instant confirmation on WhatsApp 03708540579 across DHA, Clifton &amp; Hotels[span_19](start_span)[span_19](end_span).
+                Instant confirmation on WhatsApp 03708540579 across DHA, Clifton &amp; Hotels
               </p>
             </div>
 
@@ -299,7 +299,7 @@ export default async function BlogPostPage({ params }: Props) {
                   textDecoration: 'none',
                 }}
               >
-                WhatsApp[span_20](start_span)[span_20](end_span)
+                WhatsApp
               </a>
               <a
                 href="tel:+923708540579"
@@ -313,7 +313,7 @@ export default async function BlogPostPage({ params }: Props) {
                   textDecoration: 'none',
                 }}
               >
-                Call Now[span_21](start_span)[span_21](end_span)
+                Call Now
               </a>
             </div>
           </div>
