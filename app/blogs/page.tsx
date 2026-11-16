@@ -290,7 +290,7 @@ export default function BlogPageIndex() {
         {/* Bottom CTA matching site styling */}
         <section className="rocky-cta-box">
           <span className="rocky-badge" style={{ marginBottom: '10px' }}>
-            AVAILABLE 24/7 • FAST 30-MIN DISPATCH[span_2](start_span)[span_2](end_span)
+            AVAILABLE 24/7 •
           </span>
           <h3 style={{ fontSize: '24px', fontWeight: 800, color: '#ffffff', margin: '0 0 10px' }}>
             Book Verified Call Girls in Karachi Today
@@ -304,7 +304,7 @@ export default function BlogPageIndex() {
               lineHeight: 1.5,
             }}
           >
-            Connect instantly on WhatsApp or direct call for real profile verification and rapid outcalls[span_3](start_span)[span_3](end_span).
+            Connect instantly on WhatsApp or direct call for real profiles.
           </p>
 
           <div className="rocky-btn-group">
