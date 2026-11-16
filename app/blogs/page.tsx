@@ -314,10 +314,10 @@ export default function BlogPageIndex() {
               rel="noopener noreferrer"
               className="rocky-wa-btn"
             >
-              WhatsApp 03708540579[span_4](start_span)[span_4](end_span)
+              WhatsApp 03708540579
             </a>
             <a href="tel:+923708540579" className="rocky-call-btn">
-              Call Now[span_5](start_span)[span_5](end_span)
+              Call Now
             </a>
           </div>
         </section>
