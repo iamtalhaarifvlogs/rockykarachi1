@@ -27,20 +27,20 @@ const blogDatabase: Record<string, BlogPostData> = {
     sections: [
       {
         paragraphs: [
-          'When staying at top establishments like Pearl Continental Hotel, Marriott, Avari Towers, or luxury apartments in DHA and Clifton, finding dependable and discrete companionship is essential for visiting guests[span_6](start_span)[span_6](end_span).',
+          'When staying at top establishments like Pearl Continental Hotel, Marriott, Avari Towers, or luxury apartments in DHA and Clifton, finding dependable and discrete companionship is essential for visiting guests',
           'Rocky Escorts Karachi provides professional 24/7 outcall service[span_7](start_span)[span_7](end_span), ensuring prompt arrivals and absolute privacy for your stay.',
         ],
       },
       {
         heading: '1. 100% Real, Verified Profiles',
         paragraphs: [
-          'Transparency matters. Every profile published on Rocky Escorts Karachi features genuine, verified photos so you receive the exact companion you choose[span_8](start_span)[span_8](end_span).',
+          'Transparency matters. Every profile published on Rocky Escorts Karachi features genuine, verified photos so you receive the exact companion you choose',
         ],
       },
       {
         heading: '2. Simple WhatsApp Booking & Fast Dispatch',
         paragraphs: [
-          'Simply connect via WhatsApp at 03708540579[span_9](start_span)[span_9](end_span), share your location (DHA, Clifton, Bahria Town, or hotel name)[span_10](start_span)[span_10](end_span), and get instant confirmation with rapid dispatch within 30 to 45 minutes.',
+          'Simply connect via WhatsApp at 03708540579[span_9](start_span)[span_9](end_span), share your location (DHA, Clifton, Bahria Town, or hotel name), and get instant confirmation with rapid dispatch within 30 to 45 minutes.',
         ],
       },
     ],
@@ -55,13 +55,13 @@ const blogDatabase: Record<string, BlogPostData> = {
     sections: [
       {
         paragraphs: [
-          'Client confidentiality is our primary commitment. Whether you are a local executive or an international visitor, your privacy is strictly protected under our secure protocols[span_11](start_span)[span_11](end_span).',
+          'Client confidentiality is our primary commitment. Whether you are a local executive or an international visitor, your privacy is strictly protected under our secure protocols',
         ],
       },
       {
         heading: 'Transparent Pricing & No Hidden Fees',
         paragraphs: [
-          'We maintain clear, transparent rates starting from short-time visits (PKR 30,000 – 45,000 for college/young girls) to full-night companion bookings[span_12](start_span)[span_12](end_span), confirmed instantly over WhatsApp with zero surprises.',
+          'We maintain clear, transparent rates starting from short-time visits (PKR 30,000 – 45,000 for college/young girls) to full-night companion bookings, confirmed instantly over WhatsApp with zero surprises.',
         ],
       },
     ],
@@ -76,13 +76,13 @@ const blogDatabase: Record<string, BlogPostData> = {
     sections: [
       {
         paragraphs: [
-          'Karachi’s prime districts—including DHA Phases 1 through 8, Clifton Block blocks, PECHS, and Bahria Town—are fully covered by our rapid outcall network[span_13](start_span)[span_13](end_span).',
+          'Karachi’s prime districts—including DHA Phases 1 through 8, Clifton Block blocks, PECHS, and Bahria Town—are fully covered by our rapid outcall network',
         ],
       },
       {
         heading: 'Wide Selection of Elite Categories',
         paragraphs: [
-          'From VIP model escorts and independent call girls to GFE companions and mature profiles[span_14](start_span)[span_14](end_span), our roster caters to every preference with uncompromising standards of elegance and respect.',
+          'From VIP model escorts and independent call girls to GFE companions and mature profiles, our roster caters to every preference with uncompromising standards of elegance and respect.',
         ],
       },
     ],
@@ -97,13 +97,13 @@ const blogDatabase: Record<string, BlogPostData> = {
     sections: [
       {
         paragraphs: [
-          'Booking call girls in Karachi should be straightforward and secure[span_15](start_span)[span_15](end_span). Rocky Escorts Karachi ensures verified profiles[span_16](start_span)[span_16](end_span) and clear pricing guidelines before any dispatch takes place.',
+          'Booking call girls in Karachi should be straightforward and secure[span_15](start_span)[span_15](end_span). Rocky Escorts Karachi ensures verified profiles and clear pricing guidelines before any dispatch takes place.',
         ],
       },
       {
         heading: 'How to Reach Us 24/7',
         paragraphs: [
-          'Call or message us directly on WhatsApp at 03708540579 to check model availability tonight[span_17](start_span)[span_17](end_span).',
+          'Call or message us directly on WhatsApp at 03708540579 to check model availability tonight',
         ],
       },
     ],
