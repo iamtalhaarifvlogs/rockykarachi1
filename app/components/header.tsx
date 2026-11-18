@@ -81,7 +81,7 @@ export default function Header() {
             <Link href="/" className="hover:text-yellow-400 transition">
               Home
             </Link>
-<Link href="/blogs" className="hover:text-yellow-400 transition">
+<Link href="/blogs" ="hover:text-yellow-400 transition">
               Must read
             </Link>
 
@@ -126,6 +126,9 @@ export default function Header() {
 
             <Link href="/companions" className="hover:text-yellow-400 transition">
               Companions
+            </Link>
+<Link href="/blogs" ="hover:text-yellow-400 transition">
+              Must read
             </Link>
 
             <Link href="/about-us" className="hover:text-yellow-400 transition">
@@ -192,6 +195,7 @@ export default function Header() {
           <Link href="/models" onClick={() => setMenuOpen(false)} className="text-lg">Models</Link>
           <Link href="/companions" onClick={() => setMenuOpen(false)} className="text-lg">Companions</Link>
           <Link href="/about-us" onClick={() => setMenuOpen(false)} className="text-lg">About Us</Link>
+   <Link href="/blogs" onClick={() => setMenuOpen(false)} className="text-lg">must read</Link>
           <Link href="/contact" onClick={() => setMenuOpen(false)} className="text-lg">Contact</Link>
         </div>
       </div>
