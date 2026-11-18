@@ -81,6 +81,9 @@ export default function Header() {
             <Link href="/" className="hover:text-yellow-400 transition">
               Home
             </Link>
+<Link href="/blogs" className="hover:text-yellow-400 transition">
+              Must read
+            </Link>
 
             {/* Services Dropdown */}
             <div className="relative group">
@@ -127,6 +130,9 @@ export default function Header() {
 
             <Link href="/about-us" className="hover:text-yellow-400 transition">
               About Us
+            </Link>
+ <Link href="/blogs" className="hover:text-yellow-400 transition">
+              Must read
             </Link>
 
             <Link href="/contact" className="hover:text-yellow-400 transition">
