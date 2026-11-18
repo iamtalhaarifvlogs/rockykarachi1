@@ -2,9 +2,9 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Blog & Luxury Lifestyle Guides | Rocky Escorts Karachi',
+  title: 'Vip escorts in Karachi & Premium Karachi escorts Guides | Rocky Escorts Karachi',
   description:
-    'Explore expert guides on hotel outcalls, VIP companionship, and discreet lifestyle updates across DHA, Clifton, and Bahria Town in Karachi.',
+    'Explore expert guides on hotel Karachi escorts, VIP escorts in Karachi, and discreet lifestyle updates across DHA, Clifton, and Bahria Town in Karachi.',
   alternates: {
     canonical: 'https://rockykarachi1.vercel.app/blogs',
   },
@@ -23,9 +23,9 @@ interface BlogPost {
 const blogPosts: BlogPost[] = [
   {
     slug: 'guide-to-hotel-outcalls-karachi',
-    title: 'A Gentleman’s Guide to Secure Hotel Outcalls in Karachi',
+    title: 'A Gentleman’s Guide to VIP escorts in Karachi',
     excerpt:
-      'Everything you need to know about discreet companion arrangements across 5-star hotels, DHA Phase 8, and Clifton residences.',
+      'Everything you need to know about VIP escorts in Karachi and companion arrangements across 5-star hotels, DHA Phase 8, and Clifton residences.',
     category: 'Hotel Outcalls',
     date: 'November 15, 2026',
     readTime: '4 min read',
@@ -43,9 +43,9 @@ const blogPosts: BlogPost[] = [
   },
   {
     slug: 'vip-companionship-dha-clifton-bahria-town',
-    title: 'Navigating VIP Companionship Across DHA, Clifton & Bahria Town',
+    title: 'Navigating VIP escorts Across DHA, Clifton & Bahria Town',
     excerpt:
-      'A curated overview for clients seeking elite independent models, young university companions, and 24/7 outcall service in Karachi.',
+      'A curated overview for clients seeking elite independent models, young university escorts, and 24/7 outcall service in Karachi.',
     category: 'VIP Lifestyle',
     date: 'November 06, 2026',
     readTime: '5 min read',
