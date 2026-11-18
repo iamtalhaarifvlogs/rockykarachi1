@@ -1,5 +1,3 @@
-
-
 "use client";
 
 import { useState } from "react";
@@ -68,6 +66,7 @@ export default function Header() {
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={social.name}
                   className="w-9 h-9 flex items-center justify-center rounded-full border border-yellow-500/60 text-yellow-500 hover:bg-yellow-500 hover:text-black transition-all duration-300"
                 >
                   {social.icon}
@@ -81,13 +80,13 @@ export default function Header() {
             <Link href="/" className="hover:text-yellow-400 transition">
               Home
             </Link>
-<Link href="/blogs" ="hover:text-yellow-400 transition">
-              Must read
-            </Link>
 
             {/* Services Dropdown */}
             <div className="relative group">
-              <button className="hover:text-yellow-400 transition flex items-center gap-1">
+              <button
+                type="button"
+                className="hover:text-yellow-400 transition flex items-center gap-1"
+              >
                 Services
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -119,7 +118,6 @@ export default function Header() {
               </div>
             </div>
 
-            {/* Models - Separate */}
             <Link href="/models" className="hover:text-yellow-400 transition">
               Models
             </Link>
@@ -127,15 +125,13 @@ export default function Header() {
             <Link href="/companions" className="hover:text-yellow-400 transition">
               Companions
             </Link>
-<Link href="/blogs" ="hover:text-yellow-400 transition">
-              Must read
+
+            <Link href="/blogs" className="hover:text-yellow-400 transition">
+              Must Read
             </Link>
 
             <Link href="/about-us" className="hover:text-yellow-400 transition">
               About Us
-            </Link>
- <Link href="/blogs" className="hover:text-yellow-400 transition">
-              Must read
             </Link>
 
             <Link href="/contact" className="hover:text-yellow-400 transition">
@@ -145,6 +141,8 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
+            type="button"
+            aria-label="Open menu"
             className="md:hidden text-yellow-500"
             onClick={() => setMenuOpen(true)}
           >
@@ -162,16 +160,24 @@ export default function Header() {
         }`}
       >
         <div className="p-6 flex flex-col space-y-5 text-yellow-500">
-          <button className="self-end" onClick={() => setMenuOpen(false)}>
+          <button
+            type="button"
+            aria-label="Close menu"
+            className="self-end"
+            onClick={() => setMenuOpen(false)}
+          >
             <svg className="w-7 h-7" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
             </svg>
           </button>
 
-          <Link href="/" onClick={() => setMenuOpen(false)} className="text-lg">Home</Link>
+          <Link href="/" onClick={() => setMenuOpen(false)} className="text-lg">
+            Home
+          </Link>
 
           <div>
             <button
+              type="button"
               onClick={() => setServicesOpen(!servicesOpen)}
               className="flex justify-between w-full text-lg"
             >
@@ -181,23 +187,46 @@ export default function Header() {
 
             {servicesOpen && (
               <div className="mt-3 ml-4 flex flex-col space-y-3 text-sm">
-                <Link href="/portfolio/vip-escorts-dha-karachi" onClick={() => setMenuOpen(false)}>Escorts in DHA</Link>
-                <Link href="/portfolio/escorts-clifton-karachi" onClick={() => setMenuOpen(false)}>Escorts in Clifton</Link>
-                <Link href="/portfolio/escorts-bahria-town-karachi" onClick={() => setMenuOpen(false)}>Escorts in Bahria Town</Link>
-                <Link href="/portfolio/escorts-pechs-karachi" onClick={() => setMenuOpen(false)}>Escorts in PECHS</Link>
-                <Link href="/portfolio/escorts-gulshan-e-iqbal-karachi" onClick={() => setMenuOpen(false)}>Escorts in Gulshan-e-Iqbal</Link>
-                <Link href="/escorts-in-al-harmain-hotel" onClick={() => setMenuOpen(false)}>Al Harmain Hotel</Link>
-                <Link href="/escorts-in-bahadurabad" onClick={() => setMenuOpen(false)}>Bahadurabad</Link>
+                <Link href="/portfolio/vip-escorts-dha-karachi" onClick={() => setMenuOpen(false)}>
+                  Escorts in DHA
+                </Link>
+                <Link href="/portfolio/escorts-clifton-karachi" onClick={() => setMenuOpen(false)}>
+                  Escorts in Clifton
+                </Link>
+                <Link href="/portfolio/escorts-bahria-town-karachi" onClick={() => setMenuOpen(false)}>
+                  Escorts in Bahria Town
+                </Link>
+                <Link href="/portfolio/escorts-pechs-karachi" onClick={() => setMenuOpen(false)}>
+                  Escorts in PECHS
+                </Link>
+                <Link href="/portfolio/escorts-gulshan-e-iqbal-karachi" onClick={() => setMenuOpen(false)}>
+                  Escorts in Gulshan-e-Iqbal
+                </Link>
+                <Link href="/escorts-in-al-harmain-hotel" onClick={() => setMenuOpen(false)}>
+                  Al Harmain Hotel
+                </Link>
+                <Link href="/escorts-in-bahadurabad" onClick={() => setMenuOpen(false)}>
+                  Bahadurabad
+                </Link>
               </div>
             )}
           </div>
 
-          <Link href="/models" onClick={() => setMenuOpen(false)} className="text-lg">Models</Link>
-          <Link href="/companions" onClick={() => setMenuOpen(false)} className="text-lg">Companions</Link>
-          <Link href="/about-us" onClick={() => setMenuOpen(false)} className="text-lg">About Us</Link>
-   <Link href="/blogs" onClick={() => setMenuOpen(false)} className="text-lg">must read</Link>
-          <Link href="/contact" onClick={() => setMenuOpen(false)} className="text-lg">Contact</Link>
- <Link href="/blogs" onClick={() => setMenuOpen(false)} className="text-lg">Spicy</Link>
+          <Link href="/models" onClick={() => setMenuOpen(false)} className="text-lg">
+            Models
+          </Link>
+          <Link href="/companions" onClick={() => setMenuOpen(false)} className="text-lg">
+            Companions
+          </Link>
+          <Link href="/blogs" onClick={() => setMenuOpen(false)} className="text-lg">
+            Must Read
+          </Link>
+          <Link href="/about-us" onClick={() => setMenuOpen(false)} className="text-lg">
+            About Us
+          </Link>
+          <Link href="/contact" onClick={() => setMenuOpen(false)} className="text-lg">
+            Contact
+          </Link>
         </div>
       </div>
 
