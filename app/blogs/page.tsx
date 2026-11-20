@@ -2,11 +2,11 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Premium Karachi Escorts & VIP Lifestyle Blog | Elite Karachi Models',
+  title: 'Premium Karachi Escorts & VIP Lifestyle Blogs | Rocky Escorts Karachi',
   description:
     'Explore comprehensive vip karachi escorts guides, hotel outcall tips, VIP Karachi escorts etiquette, and high-ranking articles covering escort services in DHA, Clifton, Bahria Town, PECHS, and 5-star hotels across Karachi.',
   alternates: {
-    canonical: 'https://elitekarachimodels.online/blogs',
+    canonical: 'https://rockykarachi1.vercel.app/blogs',
   },
 };
 
@@ -28,7 +28,7 @@ export interface BlogArticle {
 
 // Expanded high-SEO keyword-targeted database (representative of core clusters scaling to 50+ topics)
 const blogPosts: BlogArticle[] = [
-{
+  {
     slug: 'why-vip-escorts-in-karachi-know-how-to-keep-you-coming-back-all-night',
     title: 'Why VIP escorts in Karachi know how to keep you coming back all night',
     excerpt:
@@ -767,7 +767,8 @@ const blogPosts: BlogArticle[] = [
         ],
       },
     ],
-  },(
+  },
+  {
     slug: 'guide-to-luxury-hotel-outcalls-karachi',
     title: 'A Gentleman’s Guide to Booking Discreet Hotel Escorts in Karachi',
     excerpt:
@@ -790,9 +791,9 @@ const blogPosts: BlogArticle[] = [
           'Elite Karachi Models focuses on privacy, discretion, and hygiene across our premium Karachi escorts for hotel outcalls and private visits.',
           'Confirming your hotel location, arrival window, and duration ahead of time helps ensure a smooth, low-profile experience.',
         ],
-      }, 
-],
-),
+      },
+    ],
+  },
   {
     slug: 'understanding-the-demand-for-call-girls-in-karachi',
     title: 'Understanding the Rising Demand for Call Girls in Karachi',
