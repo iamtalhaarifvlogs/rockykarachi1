@@ -790,9 +790,9 @@ const blogPosts: BlogArticle[] = [
           'Elite Karachi Models focuses on privacy, discretion, and hygiene across our premium Karachi escorts for hotel outcalls and private visits.',
           'Confirming your hotel location, arrival window, and duration ahead of time helps ensure a smooth, low-profile experience.',
         ],
-      },
-    ],
-  },
+      }, 
+],
+),
   {
     slug: 'understanding-the-demand-for-call-girls-in-karachi',
     title: 'Understanding the Rising Demand for Call Girls in Karachi',
